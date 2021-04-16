@@ -4,9 +4,9 @@ const siteConfig = {
   subTagline: "It will support your UI customization project.",
   // For Netlify hosting
   url: "",
-  baseUrl: "/",
-  projectName: "nmanhit.github.io",
-  organizationName: "docusaurus",
+  baseUrl: "/docusaurus/",
+  projectName: "docusaurus",
+  organizationName: "nmanhit",
   headerLinks: [
     { doc: "getting-started/quick-start", label: "Documentation" },
     { blog: true, label: "Releases" },
