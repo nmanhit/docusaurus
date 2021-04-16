@@ -13,26 +13,6 @@ const languages = [
   },
   {
     enabled: true,
-    name: '中文',
-    tag: 'zh-CN',
-  },
-  {
-    enabled: true,
-    name: '한국어',
-    tag: 'ko',
-  },
-  {
-    enabled: true,
-    name: 'Русский',
-    tag: 'ru',
-  },
-  {
-    enabled: true,
-    name: 'Français',
-    tag: 'fr',
-  },
-  {
-    enabled: true,
     name: '日本語',
     tag: 'ja',
   },

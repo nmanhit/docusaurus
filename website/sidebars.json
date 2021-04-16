@@ -1,59 +1,38 @@
 {
   "docs": {
-    "The Basics": [
-      "overview",
-      "get-started",
-      "how-it-works",
-      "tutorials"
+    "Getting Started": ["getting-started/quick-start"],
+    "Components": [
+      {
+        "type": "subcategory",
+        "label": "Desktop",
+        "ids": [
+          "components/desktop/button",
+          "components/desktop/checkbox",
+          "components/desktop/dropdown",
+          "components/desktop/multichoice",
+          "components/desktop/notification",
+          "components/desktop/radio-button",
+          "components/desktop/spinner",
+          "components/desktop/text",
+          "components/desktop/textarea"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Mobile",
+        "ids": [
+          "components/mobile/mobile-button",
+          "components/mobile/mobile-checkbox",
+          "components/mobile/mobile-notification",
+          "components/mobile/mobile-radio-button",
+          "components/mobile/mobile-text",
+          "components/mobile/mobile-textarea"
+        ]
+      }
     ],
-    "Model":[
-      "supported-models",
-      "syntax-for-models",
-      "function",
-      "rbac",
-      "rbac-with-domains",
-      "rbac-96",
-      "abac",
-      "priority-model"
-    ],
-    "Storage":[
-      "model-storage",
-      "policy-storage",
-      "policy-subset-loading"
-    ],
-    "Extensions":[
-      "adapters",
-      "watchers",
-      "dispatchers",
-      "role-managers",
-      "middlewares"
-    ],
-    "API": [
-      "api-tutorial",
-      "management-api",
-      "rbac-api",
-      "rolemanager-api",
-      "data-permissions"
-    ],
-    "Advanced Usage": [
-      "multi-threading",
-      "benchmark",
-      "performance"
-    ],
-    "Management":[
-      "admin-portal",
-      "service",
-      "log-error",
-      "frontend"
-    ],
-    "Editor": [
-      "online-editor",
-      "ide-plugins"
-    ],
-    "More":[
-      "adopters",
-      "privacy-policy",
-      "terms-of-service"
+    "Guides": [
+      "guides/comparison-v0-v1",
+      "guides/search-box-customization"
     ]
   }
 }

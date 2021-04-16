@@ -10,10 +10,7 @@ files:
     translation: '/website/translated_docs/%locale%/%original_file_name%'
     languages_mapping: &anchor
       locale:
-        'zh-CN': 'zh-CN'
-        'ko': 'ko'
-        'ru': 'ru'
-        'fr': 'fr'
+        'en': 'en'
         'ja': 'ja'
   -
     source: '/website/i18n/en.json'
