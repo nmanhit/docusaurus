@@ -5,7 +5,7 @@ const siteConfig = {
   // For Netlify hosting
   url: "",
   baseUrl: "/",
-  projectName: "nmanhit.github.io",
+  projectName: "nmanhit",
   organizationName: "docusaurus",
   headerLinks: [
     { doc: "getting-started/quick-start", label: "Documentation" },
