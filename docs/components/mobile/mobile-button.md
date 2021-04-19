@@ -6,7 +6,7 @@ sidebar_label: MobileButton
 
 ## Overview
 
-MobileButton show the buttons.
+MobileButton は、ボタンを表示します。
 
 <iframe src="https://kuc-storybook.netlify.app/iframe.html?id=mobile-button--document" title="mobile button image" width="300px" height="80px"></iframe>
 
@@ -16,41 +16,41 @@ MobileButton show the buttons.
 
 ### Property
 
-A list of available properties. You can update the value with the specified property.
+使用できるプロパティの一覧です。プロパティを指定して値を更新することができます。
 
 | Name | Type | Default | Description | Remark |
 | :--- | :--- | :--- | :--- | :--- |
-| className | string | ""  | Component Class name |  |
-| id | string | ""  | Component ID Name |  |
-| text | string | ""  | Text to be displayed in buttons | |
-| type | string | "normal"  | Button design Type | The following can be specified<br>"normal"  : White (#ffffff)<br>"submit"  : Blue (#206694) |
-| disabled | boolean | false | Edit/Disable component settings | |
-| visible | boolean | true | Show/Hide Components | |
+| className | string | "" | コンポーネントの class 名 |  |
+| id | string | "" | コンポーネントの id 名 |  |
+| text | string | "" | ボタンに表示するテキスト ||
+| type | string | "normal" | ボタンのデザインタイプ | 以下を指定できる<br>"normal" : White(#ffffff)<br>"submit" : Blue(#206694) |
+| disabled | boolean | false | コンポーネントの編集可/不可設定 ||
+| visible | boolean | true | コンポーネントの表示/非表示設定 ||
 
 ### Event
 
-A list of events that can be specified.
+指定できるイベントの一覧です。
 
 | Name | Type | Description | Remark |
 | :--- | :--- | :--- | :--- |
-| click | function | Event handler when Clicked | Arguments are Event Objects |
+| click | function | クリックされた時のイベントハンドラ | 引数には Event の event オブジェクトをとる |
 
 ### Constructor
 
 Button(options)
-A list of available constructors.
+使用できるコンストラクタの一覧です。
 
 #### Parameter
 
 | Name | Type | Default | Description | Remark |
 | :--- | :--- | :--- | :--- | :--- |
-| options | object | {} | JSON object with Component Properties | Values in options are optional |
+| options | object | {} | コンポーネントのプロパティを含む JSON オブジェクト | options 内の値は任意 |
 
 ---
 
 ## Sample Code
 
-Sample code when all parameters are specified.
+全てのパラメータを指定した場合のサンプルコードです。
 
 ```javascript
 const header = kintone.mobile.app.getHeaderMenuSpaceElement();

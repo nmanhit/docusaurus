@@ -3,6 +3,7 @@ id: search-box-customization
 title: 検索ボックスカスタマイズ
 sidebar_label: 検索ボックスカスタマイズ
 ---
+
 ## Overview
 This section describes how to create the search box by using the kintone UI component Text and the Button component, the Notification component.
 

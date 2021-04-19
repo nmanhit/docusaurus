@@ -58,7 +58,7 @@ const siteConfig = {
     apiKey: "df2e0c3351b9e7e24fd66f2e79e615d0",
     indexName: "kintone",
     algoliaOptions: {
-      facetFilters: ["language:LANGUAGE", "version:VERSION"],
+      facetFilters: ["language:LANGUAGE"],
     },
   },
 };

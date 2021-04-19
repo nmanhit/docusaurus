@@ -6,7 +6,7 @@ sidebar_label: Dropdown
 
 ## Overview
 
-Dropdown can select one of several options.
+Dropdown は複数選択肢の中から一つの値を選択することができます。
 
 <iframe src="https://kuc-storybook.netlify.app/iframe.html?id=dropdown--document" title="dropdown image" height="140px"></iframe>
 
@@ -16,45 +16,45 @@ Dropdown can select one of several options.
 
 ### Property
 
-A list of available properties. You can update the value with the specified property.
+使用できるプロパティの一覧です。プロパティを指定して値を更新することができます。
 
-| Name  | Type | Default | Description | Remark |
+| Name | Type | Default | Description | Remark |
 | :--- | :--- | :--- | :--- | :--- |
-| className | string | ""  | Component Class name | |
-| error | string | ""  | Text to be displayed in error | Unspecified or empty text: error is not displayed |
-| id | string | ""  | Component ID Name | |
-| label | string | ""  | Component Description Labels | Label is not displayed for unspecified or empty characters |
-| value | string | ""  | Selected value | If value is unspecified, nothing is updated |
-| disabled | boolean | false | Edit/Disable component settings | |
-| requiredIcon | boolean | false | Component required icon Display/Hide Settings | |
-| visible | boolean | true | Show/Hide Components | |
-| items | Array\<Item\> | []  | List of options to display | Output an error when items is not an array |
-| Item.label | string | null | Text for each option | If Item.label is unspecified, the value of Item.value is displayed on the UI |
-| Item.value | string | null | Value of each option | When the value of Item.value is duplicated, the error is output |
+| className | string | "" | コンポーネントの class 名 ||
+| error | string | "" | エラーに表示するテキスト | 未指定、あるいは空文字の場合、error は表示されない |
+| id | string | "" | コンポーネントの id 名 ||
+| label | string | "" | コンポーネントの説明ラベル | 未指定、あるいは空文字の場合、label は表示されない |
+| value | string | "" | 選択されている値 | value が未指定の場合、何も更新されない |
+| disabled | boolean | false | コンポーネントの編集可/不可設定 ||
+| requiredIcon | boolean | false | コンポーネントの必須アイコン表示/非表示設定 ||
+| visible | boolean | true | コンポーネントの表示/非表示設定 ||
+| items | Array\<Item\> | [] | 表示する選択肢一覧 | items が配列以外の場合、エラーを出力する |
+| Item.label | string | null | 各選択肢のテキスト | Item.label が未指定の場合、UI 上は Item.value の値が表示される |
+| Item.value | string | null | 各選択肢の値 | Item.value の値が重複した場合、エラーを出力する |
 
 ### Event
 
-A list of events that can be specified.
+指定できるイベントの一覧です。
 
 | Name | Type | Description | Remark |
 | :--- | :--- | :--- | :--- |
-| Change | Function | Event handler when the value has been changed | The argument must be an event object.<br><br>You can receive the following values in event.detail<br>event.detail.oldValue  : Value before the change<br>event.detail.value  : Value of values after changing |
+| change | function | 値が変更された時のイベントハンドラ | 引数には Event の event オブジェクトをとる<br><br>event.detail で以下の値を受け取ることができる<br>event.detail.oldValue : 変更前の value の値<br>event.detail.value : 変更後の value の値 |
 
 ### Constructor
 
 Dropdown(options)
-A list of available constructors.
+使用できるコンストラクタの一覧です。
 
 #### Parameter
 
 | Name | Type | Default | Description | Remark |
 | :--- | :--- | :--- | :--- | :--- |
-| options | object | {} | JSON object with Component Properties | Values in options are optional |
+| options | object | {} | コンポーネントのプロパティを含む JSON オブジェクト | options 内の値は任意 |
 
 ---
 ## Sample Code
 
-Sample code when all parameters are specified.
+全てのパラメータを指定した場合のサンプルコードです。
 
 ```javascript
 const space = kintone.app.record.getSpaceElement('space');

@@ -3,7 +3,6 @@ id: comparison-v0-v1
 title: v0 と v1 書き方の違い解説
 sidebar_label: v0 と v1 書き方の違い解説
 ---
-
 ## Overview
 **kintone UI Component**  In addition to the scrutiny and accessibility of the components provided by v1, the internal design has been reviewed to make it easier for developers to use.
 
