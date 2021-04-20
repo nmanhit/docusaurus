@@ -6,13 +6,7 @@ sidebar_label: Notification
 
 ## Overview
 
-Notification は、ポップアップの通知を表示します。
-
-<iframe src="https://kuc-storybook.netlify.app/iframe.html?id=notification--documentinfo" title="notification info image" height="70px"></iframe>
-
-<iframe src="https://kuc-storybook.netlify.app/iframe.html?id=notification--documentsuccess" title="notification success image" height="70px"></iframe>
-
-<iframe src="https://kuc-storybook.netlify.app/iframe.html?id=notification--documenterror" title="notification error image" height="70px"></iframe>
+Notification displays pop-up notifications. <iframe src="https://kuc-storybook.netlify.app/iframe.html?id=notification--documentinfo" title="notification info image" height="70px" mark="crwd-mark"></iframe> <iframe src="https://kuc-storybook.netlify.app/iframe.html?id=notification--documentsuccess" title="notification success image" height="70px" mark="crwd-mark"></iframe> <iframe src="https://kuc-storybook.netlify.app/iframe.html?id=notification--documenterror" title="notification error image" height="70px" mark="crwd-mark"></iframe>
 
 ---
 
@@ -20,30 +14,29 @@ Notification は、ポップアップの通知を表示します。
 
 ### Property
 
-使用できるプロパティの一覧です。プロパティを指定して値を更新することができます。
+A list of available properties. You can update the value with the specified property.
 
-| Name | Type | Default | Description | Remark |
-| :--- | :--- | :--- | :--- | :--- |
-| className | string | "" | コンポーネントの class 名 ||
-| text | string | "" | 表示するテキスト ||
-| type | string | "danger" | 背景色 | 以下を指定できる<br>"danger" : Red(#e74c3c)<br>"info" : Blue(#3498db)<br>"success" : Green(#91c36c) |
+| Name      | Type   | Default  | Description          | Remark                                                                                                                                    |
+|:--------- |:------ |:-------- |:-------------------- |:----------------------------------------------------------------------------------------------------------------------------------------- |
+| className | string | ""       | Component Class name |                                                                                                                                           |
+| text      | string | ""       | Text to be displayed |                                                                                                                                           |
+| type      | string | "danger" | Background Color     | The following can be specified<br>"danger"  : Red (#e74c3c)<br>"info"  : Blue (#3498db)<br>"success"  : Green (#91c36c) |
 
 ### Constructor
 
-Notification(options)
-使用できるコンストラクタの一覧です。
+Notification(options) A list of available constructors.
 
 #### Parameter
-| Name | Type | Default | Description | Remark |
-| :--- | :--- | :--- | :--- | :--- |
-| options | object | {} | コンポーネントのプロパティを含む JSON オブジェクト | options 内の値は任意 |
+| Name    | Type   | Default | Description                           | Remark                         |
+|:------- |:------ |:------- |:------------------------------------- |:------------------------------ |
+| options | object | {}      | JSON object with Component Properties | Values in options are optional |
 
 ### Method
 
-使用できるメソッドの一覧です。
+This is a list of available methods.
 
 #### open()
-Notification を表示する
+Show notifications
 
 ##### Parameter
 none
@@ -52,7 +45,7 @@ none
 none
 
 #### close()
-Notification を非表示にする
+Hiding notifications
 
 ##### Parameter
 none
@@ -63,7 +56,7 @@ none
 ---
 ## Sample Code
 
-全てのパラメータを指定した場合のサンプルコードです。
+Sample code when all parameters are specified.
 
 ```javascript
 const notification = new Kuc.Notification({

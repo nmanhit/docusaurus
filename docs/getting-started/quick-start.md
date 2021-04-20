@@ -2,9 +2,10 @@
 id: quick-start
 title: Quick Start
 sidebar_label: Quick Start
+original_id: quick-start
 ---
 
-## What is kintone UI Component?
+## What is kintone UI Component? next en
 
 kintone UI Component is a UI Component library to help you develop UI for Kintone customization and plug-ins.  
 The following kintone-like UI is easy to create so you can use it conveniently when you want to make a form part yourself.
