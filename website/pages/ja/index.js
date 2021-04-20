@@ -52,7 +52,7 @@ function imgUrl(img) {
 
 class Index extends React.PureComponent {
   render() {
-    const { config: siteConfig, language = "" } = this.props;
+    const { config: siteConfig, language = "ja" } = this.props;
     const { baseUrl, docsUrl } = siteConfig;
     const docsPart = `${docsUrl ? `${docsUrl}/` : ""}`;
     const langPart = `${language ? `${language}/` : ""}`;
