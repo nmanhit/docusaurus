@@ -106,7 +106,7 @@ class Index extends React.PureComponent {
         <div className="usecase_group">
           <h6>[ Button Component イメージ & サンプルコード ]</h6>
           <div className="usecase_image">
-            <img src="img/usecase_button.png" alt="button usecase" />
+            <img src={imgUrl('usecase_button.png')} alt="button usecase" />
           </div>
           <div className="usecase_code">
             <MarkdownBlock>{textContent.codeExample}</MarkdownBlock>
