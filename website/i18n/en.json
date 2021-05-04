@@ -164,6 +164,10 @@
       "version-1.0.0/guides/version-1.0.0-search-box-customization": {
         "title": "検索ボックスカスタマイズ",
         "sidebar_label": "検索ボックスカスタマイズ"
+      },
+      "version-1.0.4/getting-started/version-1.0.4-quick-start": {
+        "title": "Quick Start",
+        "sidebar_label": "Quick Start"
       }
     },
     "links": {
