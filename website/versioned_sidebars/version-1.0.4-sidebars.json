@@ -1,0 +1,16 @@
+{
+  "version-1.0.4-docs": {
+    "Getting Started": [
+      "version-1.0.4-getting-started/quick-start"
+    ],
+    "Components": [
+      {
+        "type": "subcategory",
+        "label": "Desktop",
+        "ids": [
+          "version-1.0.4-components/desktop/dialog"
+        ]
+      }
+    ]
+  }
+}

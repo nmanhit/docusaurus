@@ -165,6 +165,10 @@
         "title": "検索ボックスカスタマイズ",
         "sidebar_label": "検索ボックスカスタマイズ"
       },
+      "version-1.0.4/components/desktop/version-1.0.4-dialog": {
+        "title": "Dialog",
+        "sidebar_label": "Dialog"
+      },
       "version-1.0.4/getting-started/version-1.0.4-quick-start": {
         "title": "Quick Start",
         "sidebar_label": "Quick Start"
