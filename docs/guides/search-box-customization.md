@@ -3,104 +3,105 @@ id: search-box-customization
 title: 検索ボックスカスタマイズ
 sidebar_label: 検索ボックスカスタマイズ
 ---
-## Overview
-This section describes how to create the search box by using the kintone UI component Text and the Button component, the Notification component.
 
-## Completed image
-The complete image of the search box is as follows:
+## 概要
+検索ボックスの作り方を kintone UI Component の Text コンポーネントと Button コンポーネント、Notification コンポーネントを使って説明します。
 
-#### Desktop version
-![Search box (Desktop)](assets/desktop_search_box.png) 
+## 完成イメージ
+検索ボックスの完成イメージは、次の通りです。
 
-#### Mobile version
-![Search box (MOBILE)](assets/mobile_search_box.png) 
+#### デスクトップ版
+![検索ボックス(デスクトップ)](assets/desktop_search_box.png) 
 
-## JavaScript and CSS Customization
+#### モバイル版
+![検索ボックス(モバイル)](assets/mobile_search_box.png) 
 
-When you import the UMD file of kintone UI Component to the app, you can upload the JavaScript files that are implemented as follows:  
-How to upload a file [Quick Start](../getting-started/quick-start.md)  For details.
+## JavaScript/CSS カスタマイズ
 
-### Show Search Box
+kintone UI Component の UMD ファイルをアプリに読み込んだ上で、以下のような実装をした JavaScript ファイルをアップロードします。  
+ファイルのアップロード方法などは、 [Quick Start](../getting-started/quick-start.md) をご覧ください。
 
-Use the Text component and the Button component to display the search box.  
-You can use the placeholder property of the Text component to describe the contents of the entry.  
-If you want to support mobile, you can implement the same way as when you call the MobileButton component for mobile.  
+### 検索ボックスの表示
+
+検索ボックスを表示するために、Text コンポーネントと Button コンポーネントを使います。  
+Text コンポーネントの placeholder プロパティを使うと、入力内容を説明することができます。  
+モバイル対応をしたい場合は、モバイル用のコンポーネント MobileButton を呼び出すと同じように実装できます。  
 
 ```javascript
 const header = kintone.app.getHeaderMenuSpaceElement();
 
-// Show entry fields and buttons in the search box
+// 検索ボックスの入力欄とボタンの表示
 const text = new Kuc.Text({
-  placeholder: 'Enter keywords',
+  placeholder: 'キーワードを入力してください',
   id: 'kuc_text'
 });
   
 const button = new Kuc.Button({
   type: 'submit',
-  text: 'Search',
+  text: '検索',
   id: 'kuc_button'
 });
 header.appendChild(text);
 header.appendChild(button);    
 ```
 
-### Search character Check
+### 検索文字のチェック
 
-The Button component can specify a click event.  
-In this case, the following process is added.
+Button コンポーネントは、click イベントを指定することができます。  
+ここでは以下のような処理を入れています。
 
-- When you click a button, the characters entered are full-width characters.
-- When the input value is not full-width, the error message is assigned to display
-- Initialize the display message by substituting an empty character in the error property
+- ボタンをクリックした時に、入力された文字が全角文字か判定
+- 入力値が全角以外の場合、error プロパティにエラーメッセージを代入して表示
+- error プロパティに空文字を代入して、表示メッセージを初期化
 
 ```javascript
 const button = new Kuc.Button({
   type: 'submit',
-  text: 'Search',
+  text: '検索',
   id: 'kuc_button'
 });
 
-// Add the process of click events to the displayed buttons
+// 表示したボタンに click イベントの処理を追加
 button.addEventListener('click', event => {      
   const keyword = text.value;
-  const errorMessage = 'Only full-width can be entered';
-  // Initialize displayed messages
+  const errorMessage = '全角のみ入力できます';
+  // 表示したメッセージの初期化
   text.error = ''; 
   
-  // Determining full-width characters
+  // 全角文字の判定
   if (!keyword.match(/^[^\x01-\x7E\xA1-\xDF]+$/)) {
-    // Interrupt the process by displaying an error message except for EM
+    // 全角以外ならエラーメッセージを表示して処理を中断する
     text.error = errorMessage;
     return;
   }
 });
 ```
 
-### Component Proliferation bug countermeasures
+### コンポーネントの増殖バグ対策
 
-The ID property is used to determine whether the component is already displayed and to prevent the proliferation bug.
+id プロパティを付与して、既にコンポーネントが表示されているかどうかを判定し、増殖バグを防ぐ対応をしています。
 
 ```javascript
-// Prevent growth bug with ID granted by property
+// プロパティで付与した id を利用して増殖バグを防ぐ
 if (document.getElementById('kuc_text') !== null) {
   return event;
 }
 
 const header = kintone.app.getHeaderMenuSpaceElement();
 const text = new Kuc.Text({
-  placeholder: 'Enter keywords',
-  id: 'kuc_text' // Add ID
+  placeholder: 'キーワードを入力してください',
+  id: 'kuc_text' // id を付与
 });
 ```
 
-### Show results in notifications
+### 実行結果を Notification で表示
 
-Displays the message of success or failure in the REST API runtime using the Notification component.  
-The Notification is invoked using the Open method and the Type property to set the background color.  
-This time, it is implemented to be displayed in the following cases.  
+REST API 実行時の成功や失敗のメッセージを Notification コンポーネントを使って表示します。  
+Notification の呼び出しには open メソッド、背景色の設定には type プロパティを使っています。  
+今回は、以下のケースで表示するように実装しています。  
 
-- If no record is found
-- When the REST API fails to execute
+- レコードの結果がない場合
+- REST API の実行が失敗した場合
 
 ```javascript
 const app = kintone.app.getId();
@@ -111,35 +112,35 @@ const params = {
 
 kintone.api(kintone.api.url('/k/v1/records', true), 'GET', params).then(resp => {
   if (resp.records.length !== 0) {
-    // Process of displaying record retrieval results
+    // レコード取得結果を表示する処理
     const url = '?view=' + id + '&q=f6054049%20like%20' + '"' + keyword + '"';
     window.location.replace(url);
   } else if (resp.records.length === 0) {
-    // Process when no record result is found
+    // レコード結果がない場合の処理
     const info = new Kuc.Notification({
-      text: 'No records',
-      type: 'info' // Blue background color is set
+      text: 'レコードがありません',
+      type: 'info' // blue の背景色が設定される
     });
-    info.open();　// Show info
+    info.open();　// info の表示
   }
 }).catch(error => {
-  // Process when REST API error occurs
-  const errmsg = 'An error occurred while retrieving the record.';
+  // REST API のエラー発生時の処理
+  let errmsg = 'レコード取得時にエラーが発生しました。';
   if (error.message !== undefined) {
-    errmsg += '\n' + error.message;
+    errmsg += ' ' + error.message;
   }
   const alert = new Kuc.Notification({
     text: errmsg
-    // If the type property is not specified, the red background color is set
+    // type プロパティを指定しない場合、red の背景色が設定される
   });
-  alert.open();　// Show alert
+  alert.open();　// alert の表示
 });
 ```
 
-## Conclusion
+## おわりに
 
-How did it work? This section explains how to create a search box using the kintone UI Component.  
-We hope you can develop kintone customization with Kintone UI Component for convenience.
+いかがでしたでしょうか。kintone UI Component を使って、検索ボックスの作り方を紹介しました。  
+kintone UI Component を使って、便利に kintone カスタマイズを開発していただければ幸いです。
 
-> This article will be reviewed by kintone and Google Chrome as of February, 2021.  
-> In addition, the version of kintone UI Component that is used for customization is v1.0.0.
+> 本記事は、 2021 年 2 月時点の kintone と Google Chrome で確認したものになります。  
+> また、カスタマイズに使用した kintone UI Component のバージョンは、v1.0.0 です。

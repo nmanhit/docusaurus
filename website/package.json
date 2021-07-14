@@ -7,14 +7,10 @@
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version",
-    "crowdin-upload": "crowdin upload sources --config ../crowdin.yaml",
-    "crowdin-download": "crowdin download --config ../crowdin.yaml"
+    "crowdin-upload": "crowdin --config ../crowdin.yaml upload sources --auto-update -b master",
+    "crowdin-download": "crowdin --config ../crowdin.yaml download -b master"
   },
   "devDependencies": {
-    "docusaurus": "^1.14.7"
-  },
-  "dependencies": {
-    "remarkable-admonitions": "^0.2.1",
-    "@crowdin/cli": "^3.5.5"
+    "docusaurus": "^1.14.5"
   }
 }
