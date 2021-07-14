@@ -16,14 +16,14 @@ const siteConfig = {
   organizationName: "nmanhit",
   headerLinks: [
     { doc: "getting-started/quick-start", label: "Documentation" },
-    // { doc: "releases/release-notes", label: "Releases" },
+    { doc: "releases/release-notes", label: "Releases" },
     {
       href: "https://github.com/nmanhit/docusaurus",
       label: "GitHub",
       external: true,
     },
     { search: true },
-    { languages: true },
+    { languages: true }
   ],
   headerIcon: "img/kuc_logo_white.png",
   footerIcon: "img/kuc_box_white.png",

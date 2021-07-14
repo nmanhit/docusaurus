@@ -78,12 +78,12 @@
         "sidebar_label": "Quick Start"
       },
       "guides/comparison-v0-v1": {
-        "title": "v0 と v1 書き方の違い解説",
-        "sidebar_label": "v0 と v1 書き方の違い解説"
+        "title": "A commentary on the difference between v0 and v1",
+        "sidebar_label": "A commentary on the difference between v0 and v1"
       },
       "guides/search-box-customization": {
-        "title": "検索ボックスカスタマイズ",
-        "sidebar_label": "検索ボックスカスタマイズ"
+        "title": "Search box customization",
+        "sidebar_label": "Search box customization"
       },
       "releases/release-notes-v1.0.0": {
         "title": "v1.0.0 Release Notes",
@@ -178,28 +178,68 @@
         "sidebar_label": "Quick Start"
       },
       "version-1.0.0/guides/version-1.0.0-comparison-v0-v1": {
-        "title": "v0 と v1 書き方の違い解説",
-        "sidebar_label": "v0 と v1 書き方の違い解説"
+        "title": "A commentary on the difference between v0 and v1",
+        "sidebar_label": "A commentary on the difference between v0 and v1"
       },
       "version-1.0.0/guides/version-1.0.0-search-box-customization": {
-        "title": "検索ボックスカスタマイズ",
-        "sidebar_label": "検索ボックスカスタマイズ"
+        "title": "Search box customization",
+        "sidebar_label": "Search box customization"
+      },
+      "version-1.0.0/releases/version-1.0.0-release-notes-v1.0.0": {
+        "title": "v1.0.0 Release Notes",
+        "sidebar_label": "v1.0.0 Release Notes"
+      },
+      "version-1.0.0/releases/version-1.0.0-release-notes-v1.0.1": {
+        "title": "v1.0.1 Release Notes",
+        "sidebar_label": "v1.0.1 Release Notes"
+      },
+      "version-1.0.0/releases/version-1.0.0-release-notes-v1.0.2": {
+        "title": "v1.0.2 Release Notes",
+        "sidebar_label": "v1.0.2 Release Notes"
+      },
+      "version-1.0.0/releases/version-1.0.0-release-notes-v1.0.3": {
+        "title": "v1.0.3 Release Notes",
+        "sidebar_label": "v1.0.3 Release Notes"
+      },
+      "version-1.0.0/releases/version-1.0.0-release-notes-v1.0.4": {
+        "title": "v1.0.4 Release Notes",
+        "sidebar_label": "v1.0.4 Release Notes"
+      },
+      "version-1.0.0/releases/version-1.0.0-release-notes": {
+        "title": "v1.0.0 Release Notes",
+        "sidebar_label": "v1.0.0 Release Notes"
       },
       "version-1.0.1/getting-started/version-1.0.1-quick-start": {
         "title": "Quick Start",
         "sidebar_label": "Quick Start"
       },
+      "version-1.0.1/releases/version-1.0.1-release-notes": {
+        "title": "v1.0.1 Release Notes",
+        "sidebar_label": "v1.0.1 Release Notes"
+      },
+      "version-1.0.2/releases/version-1.0.2-release-notes": {
+        "title": "v1.0.2 Release Notes",
+        "sidebar_label": "v1.0.2 Release Notes"
+      },
       "version-1.0.3/guides/version-1.0.3-search-box-customization": {
-        "title": "検索ボックスカスタマイズ",
-        "sidebar_label": "検索ボックスカスタマイズ"
+        "title": "Search box customization",
+        "sidebar_label": "Search box customization"
+      },
+      "version-1.0.3/releases/version-1.0.3-release-notes": {
+        "title": "v1.0.3 Release Notes",
+        "sidebar_label": "v1.0.3 Release Notes"
       },
       "version-1.0.4/getting-started/version-1.0.4-quick-start": {
         "title": "Quick Start",
         "sidebar_label": "Quick Start"
       },
       "version-1.0.4/guides/version-1.0.4-search-box-customization": {
-        "title": "検索ボックスカスタマイズ",
-        "sidebar_label": "検索ボックスカスタマイズ"
+        "title": "Search box customization",
+        "sidebar_label": "Search box customization"
+      },
+      "version-1.0.4/releases/version-1.0.4-release-notes": {
+        "title": "v1.0.4 Release Notes",
+        "sidebar_label": "v1.0.4 Release Notes"
       }
     },
     "links": {
@@ -210,7 +250,8 @@
     "categories": {
       "Getting Started": "Getting Started",
       "Components": "Components",
-      "Guides": "Guides"
+      "Guides": "Guides",
+      "Releases": "Releases"
     }
   },
   "pages-strings": {
