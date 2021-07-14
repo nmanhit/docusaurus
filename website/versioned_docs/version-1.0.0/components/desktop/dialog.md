@@ -7,7 +7,7 @@ original_id: dialog
 
 ## Overview
 
-Dialog box is displayed.
+Dialog は、ダイアログボックスを表示します。
 
 <iframe src="https://kuc-storybook.netlify.app/iframe.html?id=dialog--document" title="dialog image" width="700px" height="300px"></iframe>
 
@@ -17,30 +17,30 @@ Dialog box is displayed.
 
 ### Property
 
-A list of available properties. You can update the value with the specified property.
+使用できるプロパティの一覧です。プロパティを指定して値を更新することができます。
 
 | Name | Type | Default | Description | Remark |
 | :--- | :--- | :--- | :--- | :--- |
-| title | string | ""  | Header Title | |
-| content | string \|   HTMLElement | ""  | Content Internal DOM | When a string with HTML is assigned, it is automatically converted to HTML and output.<br>The value of the Content property is automatically sanitize internally to prevent XSS attacks.
-| footer | string \| HTMLElement | ""  | DOM Inside Footer | When a string with HTML is assigned, it is automatically converted to HTML and output.<br>The value of the Footer property is automatically sanitize internally to prevent XSS attacks |
+| title | string | "" | Header のタイトル ||
+| content | string \| HTMLElement | "" | Content 内部の DOM | HTML が記載された string が代入された場合、自動で HTML に変換して出力されます<br>content プロパティの値は、XSS 攻撃を防ぐために内部で自動的に sanitize されます。 |
+| footer | string \| HTMLElement | "" | Footer 内部の DOM | HTML が記載された string が代入された場合、自動で HTML に変換して出力されます<br>footer プロパティの値は、XSS 攻撃を防ぐために内部で自動的に sanitize されます |
 
 ### Constructor
 
 Dialog(options)
-A list of available constructors.
+使用できるコンストラクタの一覧です。
 
 #### Parameter
 | Name | Type | Default | Description | Remark |
 | :--- | :--- | :--- | :--- | :--- |
-| options | object | {} | JSON object with Component Properties | Values in options are optional |
+| options | object | {} | コンポーネントのプロパティを含む JSON オブジェクト | options 内の値は任意 |
 
 ### Method
 
-This is a list of available methods.
+使用できるメソッドの一覧です。
 
 #### open()
-Show Dialog
+Dialog を表示する
 
 ##### Parameter
 none
@@ -49,7 +49,7 @@ none
 none
 
 #### close()
-Hide Dialog
+Dialog を非表示にする
 
 ##### Parameter
 none
@@ -60,7 +60,7 @@ none
 ---
 ## Sample Code
 
-Sample code when all parameters are specified.
+全てのパラメータを指定した場合のサンプルコードです。
 
 ```javascript
 const dialog = new Kuc.Dialog({

@@ -85,6 +85,26 @@
         "title": "検索ボックスカスタマイズ",
         "sidebar_label": "検索ボックスカスタマイズ"
       },
+      "releases/release-notes-v1.0.0": {
+        "title": "v1.0.0 Release Notes",
+        "sidebar_label": "v1.0.0 Release Notes"
+      },
+      "releases/release-notes-v1.0.1": {
+        "title": "v1.0.1 Release Notes",
+        "sidebar_label": "v1.0.1 Release Notes"
+      },
+      "releases/release-notes-v1.0.2": {
+        "title": "v1.0.2 Release Notes",
+        "sidebar_label": "v1.0.2 Release Notes"
+      },
+      "releases/release-notes-v1.0.3": {
+        "title": "v1.0.3 Release Notes",
+        "sidebar_label": "v1.0.3 Release Notes"
+      },
+      "releases/release-notes": {
+        "title": "v1.0.4 Release Notes",
+        "sidebar_label": "v1.0.4 Release Notes"
+      },
       "version-1.0.0/components/desktop/version-1.0.0-button": {
         "title": "Button",
         "sidebar_label": "Button"
@@ -165,13 +185,21 @@
         "title": "検索ボックスカスタマイズ",
         "sidebar_label": "検索ボックスカスタマイズ"
       },
-      "version-1.0.4/components/desktop/version-1.0.4-dialog": {
-        "title": "Dialog",
-        "sidebar_label": "Dialog"
+      "version-1.0.1/getting-started/version-1.0.1-quick-start": {
+        "title": "Quick Start",
+        "sidebar_label": "Quick Start"
+      },
+      "version-1.0.3/guides/version-1.0.3-search-box-customization": {
+        "title": "検索ボックスカスタマイズ",
+        "sidebar_label": "検索ボックスカスタマイズ"
       },
       "version-1.0.4/getting-started/version-1.0.4-quick-start": {
         "title": "Quick Start",
         "sidebar_label": "Quick Start"
+      },
+      "version-1.0.4/guides/version-1.0.4-search-box-customization": {
+        "title": "検索ボックスカスタマイズ",
+        "sidebar_label": "検索ボックスカスタマイズ"
       }
     },
     "links": {
