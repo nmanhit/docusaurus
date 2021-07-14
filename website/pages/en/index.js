@@ -93,6 +93,7 @@ class Index extends React.PureComponent {
         <h2 align="center">Use Case</h2>
         <div className="usecase_sentense" align="center">
           <span>
+            {language}
             Kintone UI Component allows you to create Kintone-like components
             easily. This library is useful to build Kintone customization and
             plug-in.
