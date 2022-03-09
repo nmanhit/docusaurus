@@ -1,0 +1,283 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Cleaning check list customization · kintone UI Component</title><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Overview"/><meta name="docsearch:version" content="1.1.1"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Cleaning check list customization · kintone UI Component"/><meta property="og:type" content="website"/><meta property="og:url" content="/docusaurus/"/><meta property="og:description" content="## Overview"/><meta property="og:image" content="/docusaurus/img/kuc_box_yellow.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="/docusaurus/img/kuc_box_yellow_twitter.png"/><link rel="shortcut icon" href="/docusaurus/img/kuc_box_yellow.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"/><script type="text/javascript" src="/js/gtmHeader.js"></script><script type="text/javascript" src="/js/extra.js"></script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/js/code-block-button.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100}
+          )
+        });
+        </script><script src="/docusaurus/js/scrollSpy.js"></script><link rel="stylesheet" href="/docusaurus/css/main.css"/><script src="/docusaurus/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/docusaurus/en"><img class="logo" src="/docusaurus/img/kuc_logo_white.png" alt="kintone UI Component"/></a><a href="/docusaurus/en/versions"><h3>1.1.1</h3></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docusaurus/docs/en/1.1.1/getting-started/quick-start" target="_self">Documentation</a></li><li class=""><a href="/docusaurus/docs/en/1.1.1/releases/release-notes" target="_self">Releases</a></li><li class=""><a href="https://github.com/nmanhit/docusaurus" target="_blank">GitHub</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/docusaurus/img/language.svg" alt="Languages icon"/>English</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/docusaurus/docs/ja/1.1.1/guides/cleaning-check-list-customization">日本語</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Guides</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Getting Started<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/getting-started/quick-start">Quick Start</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Components<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Desktop</h4><ul><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/components/desktop/button">Button</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/components/desktop/checkbox">Checkbox</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/components/desktop/dropdown">Dropdown</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/components/desktop/multichoice">MultiChoice</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/components/desktop/notification">Notification</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/components/desktop/radio-button">RadioButton</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/components/desktop/spinner">Spinner</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/components/desktop/text">Text</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/components/desktop/textarea">TextArea</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Mobile</h4><ul><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/components/mobile/mobile-button">MobileButton</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/components/mobile/mobile-checkbox">MobileCheckbox</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/components/mobile/mobile-dropdown">MobileDropdown</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/components/mobile/mobile-multichoice">MobileMultiChoice</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/components/mobile/mobile-notification">MobileNotification</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/components/mobile/mobile-radio-button">MobileRadioButton</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/components/mobile/mobile-text">MobileText</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/components/mobile/mobile-textarea">MobileTextArea</a></li></ul></div></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Guides<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/guides/comparison-v0-v1">A commentary on the difference between v0 and v1</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/guides/search-box-customization">Search box customization</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/en/1.1.1/guides/mobile-timecard-customization">Mobile timecard customization</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docusaurus/docs/en/1.1.1/guides/cleaning-check-list-customization">Cleaning check list customization</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Cleaning check list customization</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="overview"></a><a href="#overview" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overview</h2>
+<p>This section describes how to customize an app to display components in the Record List page and let the user create a record without opening the Record Create page. It is described using a cleaning check list as an example.<br>
+You can also learn how to transfer values from components to Kintone fields.</p>
+<h3><a class="anchor" aria-hidden="true" id="components-to-use"></a><a href="#components-to-use" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Components to use</h3>
+<ul>
+<li><a href="/docusaurus/docs/en/1.1.1/components/desktop/radio-button">RadioButton</a></li>
+<li><a href="/docusaurus/docs/en/1.1.1/components/desktop/checkbox">Checkbox</a></li>
+<li><a href="/docusaurus/docs/en/1.1.1/components/desktop/dropdown">Dropdown</a></li>
+<li><a href="/docusaurus/docs/en/1.1.1/components/desktop/button">Button</a></li>
+<li><a href="/docusaurus/docs/en/1.1.1/components/desktop/notification">Notification</a></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="completed-image"></a><a href="#completed-image" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Completed image</h2>
+<p>The completed image of the customized page is as follows:</p>
+<p><img src="/docusaurus/docs/assets/cleaning_check_list.png" alt="Cleaning Check List"></p>
+<h2><a class="anchor" aria-hidden="true" id="javascript-and-css-customization"></a><a href="#javascript-and-css-customization" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>JavaScript and CSS customization</h2>
+<p>Import the UMD file of Kintone UI Component to the app and upload the JavaScript file with the implementation described below.<br>
+See <a href="/docusaurus/docs/en/1.1.1/getting-started/quick-start">Quick Start</a> for how to upload a file.</p>
+<h3><a class="anchor" aria-hidden="true" id="display-check-list-items"></a><a href="#display-check-list-items" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Display check list items</h3>
+<p>Display the check list items labeled as Check Status, Replenishment Item and Cleaning Status on the Record List page of the app.<br></p>
+<p>Notes:</p>
+<ul>
+<li>The Checkbox and Dropdown components display the value of Item.value if Item.label is not specified.</li>
+<li>Set the requiredIcon property to true if you want to display the &quot;required item&quot; icon in each component.</li>
+<li>If you want to set an initial value to the RadioButton or Dropdown component, specify a value for their value property.
+<ul>
+<li>For this customization, specify 'Done' for value of the RadioButton component and '-----' for value of the Dropdown component as their initial values.</li>
+</ul></li>
+</ul>
+<pre><code class="hljs css language-javascript">kintone.events.on(<span class="hljs-string">'app.record.index.show'</span>, (event) =&gt; {
+
+  <span class="hljs-comment">// Prevent components duplication bug</span>
+  <span class="hljs-keyword">if</span> (<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'kuc_radiobutton'</span>) || <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'kuc_checkbox'</span>) || <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'kuc_dropdown'</span>)
+    || <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'kuc_button'</span>)) {
+    <span class="hljs-keyword">return</span> event;
+  }
+
+  <span class="hljs-keyword">const</span> app = kintone.app.getId();
+  <span class="hljs-keyword">const</span> header = kintone.app.getHeaderSpaceElement();
+
+  <span class="hljs-comment">// Display RadioButton</span>
+  <span class="hljs-keyword">const</span> radiobutton = <span class="hljs-keyword">new</span> Kuc.RadioButton({
+    <span class="hljs-attr">id</span>: <span class="hljs-string">'kuc_radiobutton'</span>,
+    <span class="hljs-attr">label</span>: <span class="hljs-string">'Check Status'</span>,
+    <span class="hljs-attr">items</span>: [
+      {
+        <span class="hljs-attr">value</span>: <span class="hljs-string">'Done'</span>
+      },
+      {
+        <span class="hljs-attr">value</span>: <span class="hljs-string">'Not Yet'</span>
+      }
+    ],
+    <span class="hljs-attr">value</span>: <span class="hljs-string">'Done'</span>,
+    <span class="hljs-attr">requiredIcon</span>: <span class="hljs-literal">true</span>
+  });
+
+  <span class="hljs-comment">// Display Checkbox</span>
+  <span class="hljs-keyword">const</span> checkbox = <span class="hljs-keyword">new</span> Kuc.Checkbox({
+    <span class="hljs-attr">id</span>: <span class="hljs-string">'kuc_checkbox'</span>,
+    <span class="hljs-attr">label</span>: <span class="hljs-string">'Replenishment Item'</span>,
+    <span class="hljs-attr">items</span>: [
+      {
+        <span class="hljs-attr">value</span>: <span class="hljs-string">'Toilet Paper'</span>
+      },
+      {
+        <span class="hljs-attr">value</span>: <span class="hljs-string">'Hand Soap'</span>
+      },
+      {
+        <span class="hljs-attr">value</span>: <span class="hljs-string">'Hand Paper'</span>
+      }
+    ],
+    <span class="hljs-attr">requiredIcon</span>: <span class="hljs-literal">true</span>
+  });
+
+  <span class="hljs-comment">// Display Dropdown</span>
+  <span class="hljs-keyword">const</span> dropdown = <span class="hljs-keyword">new</span> Kuc.Dropdown({
+    <span class="hljs-attr">id</span>: <span class="hljs-string">'kuc_dropdown'</span>,
+    <span class="hljs-attr">label</span>: <span class="hljs-string">'Cleaning Status'</span>,
+    <span class="hljs-attr">items</span>: [
+      {
+        <span class="hljs-attr">value</span>: <span class="hljs-string">'-----'</span>
+      },
+      {
+        <span class="hljs-attr">value</span>: <span class="hljs-string">'Done'</span>
+      },
+      {
+        <span class="hljs-attr">value</span>: <span class="hljs-string">'Not Yet'</span>
+      },
+      {
+        <span class="hljs-attr">value</span>: <span class="hljs-string">'Asking Cleaner'</span>
+      }
+    ],
+    <span class="hljs-attr">value</span>: <span class="hljs-string">'-----'</span>,
+    <span class="hljs-attr">requiredIcon</span>: <span class="hljs-literal">true</span>
+  });
+
+  <span class="hljs-comment">// Display Button</span>
+  <span class="hljs-keyword">const</span> button = <span class="hljs-keyword">new</span> Kuc.Button({
+    <span class="hljs-attr">id</span>: <span class="hljs-string">'kuc_button'</span>,
+    <span class="hljs-attr">text</span>: <span class="hljs-string">'Save'</span>,
+    <span class="hljs-attr">type</span>: <span class="hljs-string">'submit'</span>
+  });
+  header.appendChild(radiobutton);
+  header.appendChild(checkbox);
+  header.appendChild(dropdown);
+  header.appendChild(button);
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="adjust-the-spacing-of-buttons-using-css"></a><a href="#adjust-the-spacing-of-buttons-using-css" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adjust the spacing of buttons using CSS</h3>
+<p>Assign a value to the id property of the Button component and adjust the spacing of the buttons using CSS.</p>
+<pre><code class="hljs css language-css"><span class="hljs-keyword">@charset</span> <span class="hljs-string">"UTF-8"</span>;
+<span class="hljs-selector-id">#kuc_button</span> {
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">25px</span> <span class="hljs-number">0px</span> <span class="hljs-number">0px</span> <span class="hljs-number">5px</span>;
+}
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="what-happens-when-the-save-button-is-clicked"></a><a href="#what-happens-when-the-save-button-is-clicked" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What happens when the Save button is clicked?</h3>
+<p>You can specify a click event for the Button component.<br>
+The required items are checked for whether they have values when the Save button is clicked.</p>
+<p>If a value is missing for an item, the component should display an error message.<br>
+*The error message should be first initialized with an empty string.</p>
+<pre><code class="hljs css language-javascript">button.addEventListener(<span class="hljs-string">'click'</span>, () =&gt; {
+  <span class="hljs-comment">// Reset error messages</span>
+  checkbox.error = <span class="hljs-string">''</span>;
+  dropdown.error = <span class="hljs-string">''</span>;
+
+  <span class="hljs-comment">// Check required itmes</span>
+  <span class="hljs-keyword">let</span> erorrFlag = <span class="hljs-literal">false</span>;
+
+  <span class="hljs-keyword">if</span> (!checkbox.value.length) {
+    checkbox.error = <span class="hljs-string">'Please check'</span>;
+    erorrFlag = <span class="hljs-literal">true</span>;
+  }
+  <span class="hljs-keyword">if</span> (dropdown.value === <span class="hljs-string">'-----'</span>) {
+    dropdown.error = <span class="hljs-string">'Please select'</span>;
+    erorrFlag = <span class="hljs-literal">true</span>;
+  }
+
+  <span class="hljs-keyword">if</span> (erorrFlag) {
+    <span class="hljs-keyword">return</span>;
+  }
+</code></pre>
+<p>The record should be created after it is verified that the required items have values.<br></p>
+<p>The values of the required items entered on the page can be retrieved using <Component variable name.value>.<br>
+For this customization, the value entered in each component is retrieved using radiobutton.value, checkbox.value and dropdown.value.</p>
+<p>The Notification component displays a message if the record is successfully created and registered.</p>
+<pre><code class="hljs css language-javascript"><span class="hljs-comment">// Create request paramerter</span>
+<span class="hljs-keyword">const</span> postParam = {
+  app,
+  <span class="hljs-attr">record</span>: {
+    <span class="hljs-string">'status'</span>: {
+      <span class="hljs-attr">value</span>: radiobutton.value
+      },
+    <span class="hljs-string">'item'</span>: {
+      <span class="hljs-attr">value</span>: checkbox.value
+    },
+    <span class="hljs-string">'cleaning'</span>: {
+      <span class="hljs-attr">value</span>: dropdown.value
+    }
+  }
+};
+
+<span class="hljs-comment">// Register record</span>
+kintone.api(kintone.api.url(<span class="hljs-string">'/k/v1/record'</span>, <span class="hljs-literal">true</span>), <span class="hljs-string">'POST'</span>, postParam).then(<span class="hljs-function">(<span class="hljs-params">resp</span>) =&gt;</span> {
+  <span class="hljs-comment">// Display success message</span>
+  <span class="hljs-keyword">const</span> success = <span class="hljs-keyword">new</span> Kuc.Notification({
+    <span class="hljs-attr">text</span>: <span class="hljs-string">'Registered check items'</span>,
+    <span class="hljs-attr">type</span>: <span class="hljs-string">'success'</span>
+  });
+  success.open();
+})
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="display-error-message"></a><a href="#display-error-message" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Display error message</h3>
+<p>The Notification component displays an error message when an error occurs during the process.</p>
+<pre><code class="hljs css language-javascript">}).catch(<span class="hljs-function">(<span class="hljs-params">error</span>) =&gt;</span> {
+  <span class="hljs-built_in">console</span>.log(error);
+
+  <span class="hljs-comment">// Display error message</span>
+  <span class="hljs-keyword">let</span> errmsg = <span class="hljs-string">'An error occurred.'</span>;
+  <span class="hljs-keyword">if</span> (error.message) {
+    errmsg += <span class="hljs-string">' '</span> + error.message;
+  }
+  <span class="hljs-keyword">const</span> alert = <span class="hljs-keyword">new</span> Kuc.Notification({
+    <span class="hljs-attr">text</span>: errmsg
+  });
+  alert.open();
+});
+</code></pre>
+<blockquote>
+<p>This article was reviewed using Kintone and Google Chrome as of September, 2021.<br>
+The version of Kintone UI Component used in this customization is v1.1.0.</p>
+</blockquote>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 3/9/2022</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docusaurus/docs/en/1.1.1/guides/mobile-timecard-customization"><span class="arrow-prev">← </span><span>Mobile timecard customization</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#overview">Overview</a><ul class="toc-headings"><li><a href="#components-to-use">Components to use</a></li></ul></li><li><a href="#completed-image">Completed image</a></li><li><a href="#javascript-and-css-customization">JavaScript and CSS customization</a><ul class="toc-headings"><li><a href="#display-check-list-items">Display check list items</a></li><li><a href="#adjust-the-spacing-of-buttons-using-css">Adjust the spacing of buttons using CSS</a></li><li><a href="#what-happens-when-the-save-button-is-clicked">What happens when the Save button is clicked?</a></li><li><a href="#display-error-message">Display error message</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><noscript><iframe title="googletagmanager" src="https://www.googletagmanager.com/ns.html?id=GTM-5N49D3" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><section class="sitemap"><a href="/docusaurus/" class="nav-home"><img src="/docusaurus/img/kuc_box_white.png" alt="kintone UI Component" width="66" height="58"/></a><div><h5>Documentation</h5><a href="/docusaurus/docs/en/getting-started/quick-start.html">Quick Start</a><a href="/docusaurus/docs/en/components/desktop/button.html">Components</a></div><div><h5>Community</h5><a href="https://github.com/kintone-labs/kintone-ui-component/issues" target="_blank" rel="noreferrer noopener">GitHub issue</a></div><div><h5>Other</h5><a href="https://cybozu.co.jp/privacy/" target="_blank" rel="noreferrer noopener">Privacy Policy</a></div></section><section class="copyright">Copyright © 2022 Cybozu Inc.</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'df2e0c3351b9e7e24fd66f2e79e615d0',
+                indexName: 'kintone',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {"facetFilters":["language:en","version:1.1.1"]}
+              });
+            </script></body></html>

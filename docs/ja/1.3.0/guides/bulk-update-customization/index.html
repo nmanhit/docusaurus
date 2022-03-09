@@ -1,0 +1,259 @@
+<!DOCTYPE html><html lang="ja"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Bulk update customization · kintone UI Component</title><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## 概要"/><meta name="docsearch:version" content="1.3.0"/><meta name="docsearch:language" content="ja"/><meta property="og:title" content="Bulk update customization · kintone UI Component"/><meta property="og:type" content="website"/><meta property="og:url" content="/docusaurus/"/><meta property="og:description" content="## 概要"/><meta property="og:image" content="/docusaurus/img/kuc_box_yellow.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="/docusaurus/img/kuc_box_yellow_twitter.png"/><link rel="shortcut icon" href="/docusaurus/img/kuc_box_yellow.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"/><script type="text/javascript" src="/js/gtmHeader.js"></script><script type="text/javascript" src="/js/extra.js"></script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/js/code-block-button.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100}
+          )
+        });
+        </script><script src="/docusaurus/js/scrollSpy.js"></script><link rel="stylesheet" href="/docusaurus/css/main.css"/><script src="/docusaurus/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/docusaurus/ja"><img class="logo" src="/docusaurus/img/kuc_logo_white.png" alt="kintone UI Component"/></a><a href="/docusaurus/ja/versions"><h3>1.3.0</h3></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docusaurus/docs/ja/1.3.0/getting-started/quick-start" target="_self">Documentation</a></li><li class=""><a href="/docusaurus/docs/ja/1.3.0/releases/release-notes" target="_self">Releases</a></li><li class=""><a href="https://github.com/nmanhit/docusaurus" target="_blank">GitHub</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/docusaurus/img/language.svg" alt="Languages icon"/>日本語</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/docusaurus/docs/en/1.3.0/guides/bulk-update-customization">English</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Guides</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Getting Started<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/getting-started/quick-start">Quick Start</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Components<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Desktop</h4><ul><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/desktop/button">Button</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/desktop/checkbox">Checkbox</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/desktop/date-picker">DatePicker</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/desktop/datetime-picker">DateTimePicker</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/desktop/dialog">Dialog</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/desktop/dropdown">Dropdown</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/desktop/multichoice">MultiChoice</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/desktop/notification">Notification</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/desktop/radio-button">RadioButton</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/desktop/spinner">Spinner</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/desktop/text">Text</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/desktop/textarea">TextArea</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/desktop/time-picker">TimePicker</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Mobile</h4><ul><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/mobile/mobile-button">MobileButton</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/mobile/mobile-checkbox">MobileCheckbox</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/mobile/mobile-dropdown">MobileDropdown</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/mobile/mobile-multichoice">MobileMultiChoice</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/mobile/mobile-notification">MobileNotification</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/mobile/mobile-radio-button">MobileRadioButton</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/mobile/mobile-text">MobileText</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/components/mobile/mobile-textarea">MobileTextArea</a></li></ul></div></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Utilities<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/utilities/version">version</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Guides<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/guides/comparison-v0-v1">A commentary on the difference between v0 and v1</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/guides/search-box-customization">Search box customization</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/guides/mobile-timecard-customization">Mobile timecard customization</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/guides/cleaning-check-list-customization">Cleaning check list customization</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docusaurus/docs/ja/1.3.0/guides/bulk-update-customization">Bulk update customization</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Bulk update customization</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="概要"></a><a href="#概要" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>概要</h2>
+<p>プロセス管理利用時、ステータス承認が必要なレコードが溜まってきたケースを想定します。<br>
+複数レコードの個別承認は手間がかかるので、レコード一覧画面から一括で承認ができるようにカスタマイズします。<br>
+UI 周りに kintone UI Component を使用することで、kintone にマッチする画面をスピーディーに作成できます。</p>
+<h3><a class="anchor" aria-hidden="true" id="使用するコンポーネント"></a><a href="#使用するコンポーネント" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>使用するコンポーネント</h3>
+<ul>
+<li><a href="/docusaurus/docs/ja/1.3.0/components/desktop/button">Button</a></li>
+<li><a href="/docusaurus/docs/ja/1.3.0/components/desktop/notification">Notification</a></li>
+<li><a href="/docusaurus/docs/ja/1.3.0/components/desktop/spinner">Spinner</a></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="完成イメージ"></a><a href="#完成イメージ" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>完成イメージ</h2>
+<p>以下が、画面の完成イメージです。</p>
+<p><img src="/docusaurus/docs/assets/bulk_update.gif" alt="Bulk Update"></p>
+<h2><a class="anchor" aria-hidden="true" id="事前準備"></a><a href="#事前準備" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>事前準備</h2>
+<p>一括承認専用のレコード一覧を作成します。「（作業者が自分）」の一覧を使用することもできますが、今回はわかりやすい一覧を別途作成します。<br>
+例として、ステータスが「In progress」、作業者がログインユーザーのレコードのみが表示される一覧を作成します。</p>
+<h2><a class="anchor" aria-hidden="true" id="javascriptcss-カスタマイズ"></a><a href="#javascriptcss-カスタマイズ" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>JavaScript/CSS カスタマイズ</h2>
+<p>kintone UI Component の UMD ファイルをアプリに読み込んだ上で、以下のような実装をした JavaScript ファイル（bulkUpdate.js）をアップロードします。<br>
+ファイルのアップロード方法などは、<a href="/docusaurus/docs/ja/1.3.0/getting-started/quick-start">Quick Start</a> をご覧ください。<br></p>
+<p>今回は、確認画面の作成に SweetAlert2 を使用するので、別途以下ファイルを読み込みます。</p>
+<ul>
+<li><a href="https://cdn.jsdelivr.net/npm/sweetalert2@11">https://cdn.jsdelivr.net/npm/sweetalert2@11</a></li>
+</ul>
+<p>今後のバージョンアップデートで Dialog コンポーネントの提供を予定しているので、確認画面の実装は将来的にはそちらで置き換えることも可能です。</p>
+<p><strong><em>bulkUpdate.js</em></strong></p>
+<pre><code class="hljs css language-javascript">kintone.events.on(<span class="hljs-string">'app.record.index.show'</span>, (event) =&gt; {
+
+  <span class="hljs-comment">// Write the process here</span>
+
+});
+</code></pre>
+<hr>
+<h3><a class="anchor" aria-hidden="true" id="一覧画面にボタンを設置"></a><a href="#一覧画面にボタンを設置" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>一覧画面にボタンを設置</h3>
+<hr>
+<p>Button コンポーネントを利用して、レコード一覧画面に Bulk approval ボタンを設置します。<br>
+ここでは、各一覧が持つ view ID を利用して、一括承認専用の一覧にのみボタンを表示させています。<br>
+※ view ID はレコード一覧画面の URL から取得できます。</p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">if</span> (event.viewId !== <span class="hljs-number">6342505</span>) {
+  <span class="hljs-keyword">return</span> event;
+}
+
+<span class="hljs-comment">// Prevent duplication bug with ID granted by property</span>
+<span class="hljs-keyword">if</span> (<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'kuc_button'</span>) !== <span class="hljs-literal">null</span>) {
+  <span class="hljs-keyword">return</span> event;
+}
+
+<span class="hljs-keyword">const</span> header = kintone.app.getHeaderMenuSpaceElement();
+<span class="hljs-keyword">const</span> button = <span class="hljs-keyword">new</span> Kuc.Button({
+  <span class="hljs-attr">type</span>: <span class="hljs-string">'submit'</span>,
+  <span class="hljs-attr">text</span>: <span class="hljs-string">'Bulk approval'</span>,
+  <span class="hljs-attr">id</span>: <span class="hljs-string">'kuc_button'</span>
+});
+header.appendChild(button);
+</code></pre>
+<hr>
+<h3><a class="anchor" aria-hidden="true" id="bulk-approval-ボタンクリック時の処理"></a><a href="#bulk-approval-ボタンクリック時の処理" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bulk approval ボタンクリック時の処理</h3>
+<hr>
+<p>Bulk approval ボタンをクリックした時の動作です。<br>
+対象のレコードがない場合は、確認ダイアログを表示させる前に処理を中断します。<br>
+確認ダイアログでキャンセルを押した時も、処理を中断します。<br>
+メッセージの表示には Notification コンポーネントを使用しています。</p>
+<pre><code class="hljs css language-javascript">button.addEventListener(<span class="hljs-string">'click'</span>, () =&gt; {
+
+  <span class="hljs-comment">// When there is no records being processed</span>
+  <span class="hljs-keyword">if</span> (event.records.length === <span class="hljs-number">0</span>) {
+    <span class="hljs-keyword">const</span> updateAlert = <span class="hljs-keyword">new</span> Kuc.Notification({
+      <span class="hljs-attr">text</span>: <span class="hljs-string">'There are no records being processed.'</span>
+    });
+    updateAlert.open();
+    <span class="hljs-keyword">return</span> event;
+  }
+
+  Swal.fire({
+    <span class="hljs-attr">title</span>: <span class="hljs-string">'Are you sure to approve the displayed records in bulk?'</span>,
+    <span class="hljs-attr">icon</span>: <span class="hljs-string">'question'</span>,
+    <span class="hljs-attr">showCancelButton</span>: <span class="hljs-literal">true</span>,
+  }).then(<span class="hljs-function">(<span class="hljs-params">resp</span>) =&gt;</span> {
+
+    <span class="hljs-comment">// When Cancel is pressed</span>
+    <span class="hljs-keyword">if</span> (!resp.isConfirmed) {
+      <span class="hljs-keyword">const</span> cancelInfo = <span class="hljs-keyword">new</span> Kuc.Notification({
+        <span class="hljs-attr">text</span>: <span class="hljs-string">'Canceled.'</span>,
+        <span class="hljs-attr">type</span>: <span class="hljs-string">'info'</span>
+      });
+      cancelInfo.open();
+      <span class="hljs-keyword">return</span> event;
+    }
+
+    <span class="hljs-comment">// Write subsequent process</span>
+
+  });
+});
+</code></pre>
+<p>今回は複数レコードの一括処理なので、更新に時間がかかる場合があります。<br>
+そのため、更新中に表示するローディング画面を実装してみます。<br>
+ローディング画面の実装には、 Spinner コンポーネントを使います。<br></p>
+<p>open() メソッドで、ローディングが始まります。</p>
+<pre><code class="hljs css language-javascript"><span class="hljs-comment">// Start bulk approval</span>
+<span class="hljs-keyword">const</span> spinner = <span class="hljs-keyword">new</span> Kuc.Spinner({
+  <span class="hljs-attr">text</span>: <span class="hljs-string">'now loading...'</span>
+});
+spinner.open();
+</code></pre>
+<p>一括更新処理に使うパラメーターを作成します。</p>
+<p>一覧画面で表示中のレコードをループさせて、レコード ID とプロセス管理で設定されたアクション名を持ったオブジェクトを含む配列データを作成します。<br>
+obj.action には、プロセス管理で設定されたアクション名を記述します。<br>
+更新対象は、一覧画面で表示中のレコードのみであることにご注意ください。</p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">const</span> records =  event.records.map(<span class="hljs-function"><span class="hljs-params">record</span> =&gt;</span> {
+  <span class="hljs-keyword">let</span> obj = {};
+  obj.id = record.$id.value;
+  obj.action = <span class="hljs-string">'Approve'</span>;
+  <span class="hljs-keyword">return</span> obj;
+});
+
+<span class="hljs-keyword">const</span> appId = kintone.app.getId();
+<span class="hljs-keyword">const</span> param = {
+  <span class="hljs-string">'app'</span>: appId,
+  <span class="hljs-string">'records'</span>: records
+};
+</code></pre>
+<p>更新に成功したら、 Notification でメッセージを表示させます。<br>
+Spinner の close() メソッドを使って、ローディング画面を終了させることを忘れないでください。<br>
+v1.2.0 で追加された close イベントを使って、Notification の閉じるボタンを押したタイミングで画面をリロードさせることもできます。</p>
+<pre><code class="hljs css language-javascript">kintone.api(kintone.api.url(<span class="hljs-string">'/k/v1/records/status'</span>, <span class="hljs-literal">true</span>), <span class="hljs-string">'PUT'</span>, param).then(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+
+  <span class="hljs-keyword">const</span> successInfo = <span class="hljs-keyword">new</span> Kuc.Notification({
+    <span class="hljs-attr">text</span>: <span class="hljs-string">'Bulk approval was successful!'</span>,
+    <span class="hljs-attr">type</span>: <span class="hljs-string">'info'</span>
+  });
+  successInfo.open();
+
+  <span class="hljs-comment">// Finish bulk approval</span>
+  spinner.close();
+
+  <span class="hljs-comment">// When close button is pressed</span>
+  successInfo.addEventListener(<span class="hljs-string">'close'</span>, () =&gt; {
+    location.reload();
+  });
+
+}).catch(<span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> {
+  <span class="hljs-comment">// Process when REST API error occurs</span>
+
+});
+</code></pre>
+<hr>
+<h3><a class="anchor" aria-hidden="true" id="エラーメッセージの表示"></a><a href="#エラーメッセージの表示" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>エラーメッセージの表示</h3>
+<hr>
+<p>処理中にエラーが発生した場合、 Notification を使ってメッセージを表示しています。</p>
+<pre><code class="hljs css language-javascript">}).catch(<span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> {
+  <span class="hljs-comment">// Process when REST API error occurs</span>
+  <span class="hljs-keyword">let</span> errmsg = <span class="hljs-string">'An error occurred while retrieving the record.'</span>;
+  <span class="hljs-keyword">if</span> (error.message) {
+    errmsg += <span class="hljs-string">' '</span> + error.message;
+  }
+  <span class="hljs-keyword">const</span> updateError = <span class="hljs-keyword">new</span> Kuc.Notification({
+    <span class="hljs-attr">text</span>: errmsg
+  });
+  updateError.open();
+  spinner.close();
+});
+</code></pre>
+<blockquote>
+<p>本記事は、 2022 年 1 月時点の kintone と Google Chrome で確認したものになります。<br>
+また、カスタマイズに使用した kintone UI Component のバージョンは、v1.3.0 です。</p>
+</blockquote>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 3/9/2022</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docusaurus/docs/ja/1.3.0/guides/cleaning-check-list-customization"><span class="arrow-prev">← </span><span>Cleaning check list customization</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#概要">概要</a><ul class="toc-headings"><li><a href="#使用するコンポーネント">使用するコンポーネント</a></li></ul></li><li><a href="#完成イメージ">完成イメージ</a></li><li><a href="#事前準備">事前準備</a></li><li><a href="#javascriptcss-カスタマイズ">JavaScript/CSS カスタマイズ</a><ul class="toc-headings"><li><a href="#一覧画面にボタンを設置">一覧画面にボタンを設置</a></li><li><a href="#bulk-approval-ボタンクリック時の処理">Bulk approval ボタンクリック時の処理</a></li><li><a href="#エラーメッセージの表示">エラーメッセージの表示</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><noscript><iframe title="googletagmanager" src="https://www.googletagmanager.com/ns.html?id=GTM-5N49D3" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><section class="sitemap"><a href="/docusaurus/" class="nav-home"><img src="/docusaurus/img/kuc_box_white.png" alt="kintone UI Component" width="66" height="58"/></a><div><h5>Documentation</h5><a href="/docusaurus/docs/ja/getting-started/quick-start.html">Quick Start</a><a href="/docusaurus/docs/ja/components/desktop/button.html">Components</a></div><div><h5>Community</h5><a href="https://github.com/kintone-labs/kintone-ui-component/issues" target="_blank" rel="noreferrer noopener">GitHub issue</a></div><div><h5>Other</h5><a href="https://cybozu.co.jp/privacy/" target="_blank" rel="noreferrer noopener">Privacy Policy</a></div></section><section class="copyright">Copyright © 2022 Cybozu Inc.</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'df2e0c3351b9e7e24fd66f2e79e615d0',
+                indexName: 'kintone',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {"facetFilters":["language:ja","version:1.3.0"]}
+              });
+            </script></body></html>

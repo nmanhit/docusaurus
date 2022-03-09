@@ -1,0 +1,240 @@
+<!DOCTYPE html><html lang="ja"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Mobile timecard customization · kintone UI Component</title><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## 概要"/><meta name="docsearch:version" content="1.3.1"/><meta name="docsearch:language" content="ja"/><meta property="og:title" content="Mobile timecard customization · kintone UI Component"/><meta property="og:type" content="website"/><meta property="og:url" content="/docusaurus/"/><meta property="og:description" content="## 概要"/><meta property="og:image" content="/docusaurus/img/kuc_box_yellow.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="/docusaurus/img/kuc_box_yellow_twitter.png"/><link rel="shortcut icon" href="/docusaurus/img/kuc_box_yellow.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"/><script type="text/javascript" src="/js/gtmHeader.js"></script><script type="text/javascript" src="/js/extra.js"></script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/js/code-block-button.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100}
+          )
+        });
+        </script><script src="/docusaurus/js/scrollSpy.js"></script><link rel="stylesheet" href="/docusaurus/css/main.css"/><script src="/docusaurus/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/docusaurus/ja"><img class="logo" src="/docusaurus/img/kuc_logo_white.png" alt="kintone UI Component"/></a><a href="/docusaurus/ja/versions"><h3>1.3.1</h3></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docusaurus/docs/ja/getting-started/quick-start" target="_self">Documentation</a></li><li class=""><a href="/docusaurus/docs/ja/releases/release-notes" target="_self">Releases</a></li><li class=""><a href="https://github.com/nmanhit/docusaurus" target="_blank">GitHub</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/docusaurus/img/language.svg" alt="Languages icon"/>日本語</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/docusaurus/docs/en/guides/mobile-timecard-customization">English</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Guides</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Getting Started<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/getting-started/quick-start">Quick Start</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Components<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Desktop</h4><ul><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/desktop/button">Button</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/desktop/checkbox">Checkbox</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/desktop/date-picker">DatePicker</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/desktop/datetime-picker">DateTimePicker</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/desktop/dialog">Dialog</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/desktop/dropdown">Dropdown</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/desktop/multichoice">MultiChoice</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/desktop/notification">Notification</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/desktop/radio-button">RadioButton</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/desktop/spinner">Spinner</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/desktop/text">Text</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/desktop/textarea">TextArea</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/desktop/time-picker">TimePicker</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Mobile</h4><ul><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/mobile/mobile-button">MobileButton</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/mobile/mobile-checkbox">MobileCheckbox</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/mobile/mobile-dropdown">MobileDropdown</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/mobile/mobile-multichoice">MobileMultiChoice</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/mobile/mobile-notification">MobileNotification</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/mobile/mobile-radio-button">MobileRadioButton</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/mobile/mobile-text">MobileText</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/components/mobile/mobile-textarea">MobileTextArea</a></li></ul></div></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Utilities<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/utilities/version">version</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Guides<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/guides/comparison-v0-v1">A commentary on the difference between v0 and v1</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/guides/search-box-customization">Search box customization</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docusaurus/docs/ja/guides/mobile-timecard-customization">Mobile timecard customization</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/guides/cleaning-check-list-customization">Cleaning check list customization</a></li><li class="navListItem"><a class="navItem" href="/docusaurus/docs/ja/guides/bulk-update-customization">Bulk update customization</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Mobile timecard customization</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="概要"></a><a href="#概要" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>概要</h2>
+<p>出勤と退勤の時間を記録するモバイル版タイムカードの作り方を kintone UI Component の MobileButton コンポーネント と MobileNotification コンポーネントを使って説明します。</p>
+<h2><a class="anchor" aria-hidden="true" id="完成イメージ"></a><a href="#完成イメージ" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>完成イメージ</h2>
+<p>以下が、画面の完成イメージです。</p>
+<p><img src="/docusaurus/docs/assets/timecard.png" alt="タイムカード">
+<br>
+<img src="/docusaurus/docs/assets/timecard_notification.png" alt="打刻メッセージ"></p>
+<h2><a class="anchor" aria-hidden="true" id="javascriptcss-カスタマイズ"></a><a href="#javascriptcss-カスタマイズ" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>JavaScript/CSS カスタマイズ</h2>
+<p>kintone UI Component の UMD ファイルをアプリに読み込んだ上で、以下のような実装をした JavaScript ファイルをアップロードします。<br>
+ファイルのアップロード方法などは、<a href="/docusaurus/docs/ja/getting-started/quick-start">Quick Start</a> をご覧ください。</p>
+<h3><a class="anchor" aria-hidden="true" id="出勤punch-inと退勤punch-outのボタンを表示"></a><a href="#出勤punch-inと退勤punch-outのボタンを表示" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>出勤（Punch-in）と退勤（Punch-out）のボタンを表示</h3>
+<p>出勤と退勤のボタンを表示するために、MobileButton コンポーネントを使います。</p>
+<pre><code class="hljs css language-javascript">kintone.events.on(<span class="hljs-string">'mobile.app.record.index.show'</span>, (event) =&gt; {
+
+  <span class="hljs-comment">// Prevent button duplication bug</span>
+  <span class="hljs-keyword">if</span> (<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'kuc_punch_in_button'</span>) || <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'kuc_punch_out_button'</span>)) {
+    <span class="hljs-keyword">return</span> event;
+  }
+
+  <span class="hljs-keyword">const</span> app = kintone.mobile.app.getId();
+
+  <span class="hljs-comment">// Display MobileButtons</span>
+  <span class="hljs-keyword">const</span> header = kintone.mobile.app.getHeaderSpaceElement();
+  <span class="hljs-keyword">const</span> punchInButton = <span class="hljs-keyword">new</span> Kuc.MobileButton({
+    <span class="hljs-attr">text</span>: <span class="hljs-string">'Punch-in'</span>,
+    <span class="hljs-attr">type</span>: <span class="hljs-string">'submit'</span>,
+    <span class="hljs-attr">id</span>: <span class="hljs-string">'kuc_punch_in_button'</span>
+  });
+  <span class="hljs-keyword">const</span> punchOutButton = <span class="hljs-keyword">new</span> Kuc.MobileButton({
+    <span class="hljs-attr">text</span>: <span class="hljs-string">'Punch-out'</span>,
+    <span class="hljs-attr">type</span>: <span class="hljs-string">'normal'</span>,
+    <span class="hljs-attr">id</span>: <span class="hljs-string">'kuc_punch_out_button'</span>
+  });
+  header.appendChild(punchInButton);
+  header.appendChild(punchOutButton);
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="css-を使ったボタンの間隔の調整"></a><a href="#css-を使ったボタンの間隔の調整" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSS を使ったボタンの間隔の調整</h3>
+<p>MobileButton コンポーネントの <code>id</code> プロパティに値を付与して、CSS でボタンの間隔を調整します。</p>
+<pre><code class="hljs css language-css"><span class="hljs-keyword">@charset</span> <span class="hljs-string">"UTF-8"</span>;
+<span class="hljs-selector-id">#kuc_punch_in_button</span> {
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">5px</span> <span class="hljs-number">5px</span> <span class="hljs-number">5px</span> <span class="hljs-number">5px</span>;
+}
+<span class="hljs-selector-id">#kuc_punch_out_button</span> {
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">5px</span> <span class="hljs-number">0px</span> <span class="hljs-number">5px</span> <span class="hljs-number">0px</span>;
+}
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="打刻する時刻の作成"></a><a href="#打刻する時刻の作成" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>打刻する時刻の作成</h3>
+<p>出勤ボタンと退勤ボタンをクリックしたときに、次の関数を実行して現在時刻を取得します。<br>
+時刻フィールドの形式 (HH:MM) の値を作成します。</p>
+<pre><code class="hljs css language-javascript"><span class="hljs-comment">// Create time stamp</span>
+<span class="hljs-keyword">const</span> getTime = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+  <span class="hljs-keyword">const</span> time = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>();
+  <span class="hljs-keyword">const</span> formatedTime = time.getHours() + <span class="hljs-string">':'</span> + time.getMinutes();
+  <span class="hljs-keyword">return</span> formatedTime;
+};
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="打刻した後のリロード処理"></a><a href="#打刻した後のリロード処理" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>打刻した後のリロード処理</h3>
+<p>タイムカードの打刻が終わったあと、画面を更新する処理を行っています。</p>
+<pre><code class="hljs css language-javascript"><span class="hljs-comment">// Reload function</span>
+<span class="hljs-keyword">const</span> reload = <span class="hljs-function">(<span class="hljs-params">waitSeconds</span>) =&gt;</span> {
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-params">resolve</span> =&gt;</span> {
+    setTimeout(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+      resolve(<span class="hljs-built_in">document</span>.location.reload());
+    }, waitSeconds * <span class="hljs-number">1000</span>);
+  });
+};
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="出勤ボタンクリック時の処理"></a><a href="#出勤ボタンクリック時の処理" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>出勤ボタンクリック時の処理</h3>
+<p>MobileButton コンポーネントは、click イベントを指定することができます。<br>
+出勤ボタンをクリックしたときに、以下のような処理を入れています。</p>
+<ul>
+<li>当日のログインユーザーのレコード有無の判定</li>
+<li>レコードがある場合のメッセージ表示</li>
+</ul>
+<pre><code class="hljs css language-javascript"><span class="hljs-comment">// Process of punchInButton</span>
+punchInButton.addEventListener(<span class="hljs-string">'click'</span>, <span class="hljs-keyword">async</span> () =&gt; {
+  <span class="hljs-keyword">try</span> {
+    <span class="hljs-comment">// Check for records on the day</span>
+    <span class="hljs-keyword">const</span> getParams = {
+      app,
+      <span class="hljs-attr">query</span>: <span class="hljs-string">'date = TODAY() and creator in (LOGINUSER()) order by $id desc limit 1 offset 0'</span>
+    };
+    <span class="hljs-keyword">const</span> resp = <span class="hljs-keyword">await</span> kintone.api(kintone.api.url(<span class="hljs-string">'/k/v1/records'</span>, <span class="hljs-literal">true</span>), <span class="hljs-string">'GET'</span>, getParams);
+
+    <span class="hljs-comment">// Display the message if there are any records on the day</span>
+    <span class="hljs-keyword">if</span> (resp.records.length) {
+      <span class="hljs-keyword">const</span> info = <span class="hljs-keyword">new</span> Kuc.MobileNotification({
+        <span class="hljs-attr">text</span>: <span class="hljs-string">'You have already punched-in!'</span>
+      });
+      info.open();
+      <span class="hljs-keyword">return</span>;
+    }
+</code></pre>
+<p>レコードの有無をチェックしたあと、以下のような処理を入れています。</p>
+<ul>
+<li>レコードがない場合、出勤時間を打刻</li>
+<li>出勤時刻の打刻が完了したときのメッセージ表示</li>
+</ul>
+<pre><code class="hljs css language-javascript"><span class="hljs-comment">// If there is no record on the day, punch-in</span>
+<span class="hljs-keyword">if</span> (!resp.records.length) {
+  <span class="hljs-keyword">const</span> postParams = {
+    app,
+    <span class="hljs-string">'record'</span>: {
+    　<span class="hljs-string">'start'</span>: {
+        <span class="hljs-string">'value'</span>: getTime()
+      }
+    }
+  };
+  <span class="hljs-keyword">await</span> kintone.api(kintone.api.url(<span class="hljs-string">'/k/v1/record'</span>, <span class="hljs-literal">true</span>), <span class="hljs-string">'POST'</span>, postParams);
+
+  <span class="hljs-comment">// Display the message when punch-in</span>
+  <span class="hljs-keyword">const</span> info = <span class="hljs-keyword">new</span> Kuc.MobileNotification({
+      <span class="hljs-attr">text</span>: <span class="hljs-string">'Registered a punch-in time!'</span>
+  });
+  info.open();
+  <span class="hljs-keyword">await</span> reload(<span class="hljs-number">5</span>);
+}
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="退勤ボタンクリック時の処理"></a><a href="#退勤ボタンクリック時の処理" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>退勤ボタンクリック時の処理</h3>
+<p>退勤ボタンをクリックしたときも、出勤ボタンをクリックしたときと同じように、次の処理を行なっています。</p>
+<ul>
+<li>当日のログインユーザーのレコード有無の判定</li>
+<li>レコードがない場合のメッセージ表示</li>
+<li>レコードがある場合、退勤時間を打刻</li>
+<li>退勤時刻の打刻が完了したときのメッセージ表示</li>
+</ul>
+<p>※ 出勤時の処理と類似している部分が多いので、コードは省略します。<br>
+※ エラーメッセージの表示も同様の処理を行います。</p>
+<h3><a class="anchor" aria-hidden="true" id="エラーメッセージの表示"></a><a href="#エラーメッセージの表示" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>エラーメッセージの表示</h3>
+<p>処理中にエラーが発生した場合、MobileNotification コンポーネントを使って、メッセージを表示しています。</p>
+<pre><code class="hljs css language-javascript">} <span class="hljs-keyword">catch</span> (error) {
+  <span class="hljs-built_in">console</span>.log(error);
+  <span class="hljs-keyword">let</span> errmsg = <span class="hljs-string">'An error occurred.'</span>;
+  <span class="hljs-keyword">if</span> (error.message) {
+    errmsg += <span class="hljs-string">' '</span> + error.message;
+  }
+  <span class="hljs-keyword">const</span> alert = <span class="hljs-keyword">new</span> Kuc.MobileNotification({
+    <span class="hljs-attr">text</span>: errmsg
+  });
+  alert.open();
+}
+</code></pre>
+<blockquote>
+<p>本記事は、 2021 年 8 月時点の kintone と Google Chrome で確認したものになります。<br>
+また、カスタマイズに使用した kintone UI Component のバージョンは、v1.0.5 です。</p>
+</blockquote>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 3/9/2022</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docusaurus/docs/ja/guides/search-box-customization"><span class="arrow-prev">← </span><span>Search box customization</span></a><a class="docs-next button" href="/docusaurus/docs/ja/guides/cleaning-check-list-customization"><span>Cleaning check list customization</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#概要">概要</a></li><li><a href="#完成イメージ">完成イメージ</a></li><li><a href="#javascriptcss-カスタマイズ">JavaScript/CSS カスタマイズ</a><ul class="toc-headings"><li><a href="#出勤punch-inと退勤punch-outのボタンを表示">出勤（Punch-in）と退勤（Punch-out）のボタンを表示</a></li><li><a href="#css-を使ったボタンの間隔の調整">CSS を使ったボタンの間隔の調整</a></li><li><a href="#打刻する時刻の作成">打刻する時刻の作成</a></li><li><a href="#打刻した後のリロード処理">打刻した後のリロード処理</a></li><li><a href="#出勤ボタンクリック時の処理">出勤ボタンクリック時の処理</a></li><li><a href="#退勤ボタンクリック時の処理">退勤ボタンクリック時の処理</a></li><li><a href="#エラーメッセージの表示">エラーメッセージの表示</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><noscript><iframe title="googletagmanager" src="https://www.googletagmanager.com/ns.html?id=GTM-5N49D3" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><section class="sitemap"><a href="/docusaurus/" class="nav-home"><img src="/docusaurus/img/kuc_box_white.png" alt="kintone UI Component" width="66" height="58"/></a><div><h5>Documentation</h5><a href="/docusaurus/docs/ja/getting-started/quick-start.html">Quick Start</a><a href="/docusaurus/docs/ja/components/desktop/button.html">Components</a></div><div><h5>Community</h5><a href="https://github.com/kintone-labs/kintone-ui-component/issues" target="_blank" rel="noreferrer noopener">GitHub issue</a></div><div><h5>Other</h5><a href="https://cybozu.co.jp/privacy/" target="_blank" rel="noreferrer noopener">Privacy Policy</a></div></section><section class="copyright">Copyright © 2022 Cybozu Inc.</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'df2e0c3351b9e7e24fd66f2e79e615d0',
+                indexName: 'kintone',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {"facetFilters":["language:ja","version:1.3.1"]}
+              });
+            </script></body></html>
