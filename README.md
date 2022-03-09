@@ -12,6 +12,6 @@ npm run publish-gh-pages
 ```
 
 # Site online
-```
-https://nmanhit.github.io/docusaurus/
-```
+
+[https://nmanhit.github.io/docusaurus/](https://nmanhit.github.io/docusaurus/)
+
