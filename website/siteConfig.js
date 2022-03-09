@@ -52,12 +52,12 @@ const siteConfig = {
   blogSidebarCount: "ALL",
   blogSidebarTitle: { default: "Recent posts", all: "All posts" },
   scripts: [
-    "/js/gtmHeader.js",
-    "/js/extra.js",
+    "/docusaurus/js/gtmHeader.js",
+    "/docusaurus/js/extra.js",
     "https://buttons.github.io/buttons.js",
     "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js",
-    "/js/code-block-button.js",
-    "/js/kuc-loader.js"
+    "/docusaurus/js/code-block-button.js",
+    "/docusaurus/js/kuc-loader.js"
   ],
   // For Algolia DocSearch
   algolia: {
