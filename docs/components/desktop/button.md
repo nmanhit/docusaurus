@@ -11,7 +11,7 @@ The Button component allows the user to create and display buttons.
 <div class='sample-container'>
   <div id='sample-container__components'></div>
 </div>
-<script src="/js/samples/button.js"></script>
+<script src="/docusaurus/js/samples/button.js"></script>
 
 ---
 

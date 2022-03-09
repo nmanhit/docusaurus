@@ -11,7 +11,7 @@ The Notification component allows the user to display pop-up notifications.
 <div class='sample-container'>
   <div id='sample-container__components'></div>
 </div>
-<script src="/js/samples/notification.js"></script>
+<script src="/docusaurus/js/samples/notification.js"></script>
 
 ---
 

@@ -12,7 +12,7 @@ Spinner は、ローディングスピナーを表示します。
 <div class='sample-container'>
   <div id='sample-container__components'></div>
 </div>
-<script src="/js/samples/spinner.js"></script>
+<script src="/docusaurus/js/samples/spinner.js"></script>
 
 ---
 
