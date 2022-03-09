@@ -11,7 +11,7 @@ USE_SSH=true \
 npm run publish-gh-pages
 ```
 
-# Site online
+# Website is live at
 
 [https://nmanhit.github.io/docusaurus/](https://nmanhit.github.io/docusaurus/)
 
