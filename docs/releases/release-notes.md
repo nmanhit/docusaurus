@@ -1,29 +1,27 @@
 ---
 id: release-notes
-title: v1.0.4 Release Notes
-sidebar_label: v1.0.4 Release Notes
+title: v1.3.1 Release Notes
+sidebar_label: v1.3.1 Release Notes
 ---
 
 ## Overview
 
-Here are the [kintone UI Component v1.0.4](https://github.com/kintone-labs/kintone-ui-component/releases/tag/v1.0.4) Release Notes.<br>
-English document support, bug fix, maintenances, and security updates have been made.
+Here are the [kintone UI Component v1.3.1](https://github.com/kintone-labs/kintone-ui-component/releases/tag/v1.3.1) Release Notes.<br>
+Maintenances, document updates, and security updates have been made.
 
 ## Update details
-### Bug Fixes
-- The issue "Dropdown display collapses on group field" [#512](https://github.com/kintone-labs/kintone-ui-component/issues/512). @juridon<br>
-  Fixed the desktop components to be displayed correctly in the group field.
-- Added "background-color: #ffffff;" for TextArea component.
-
 ### Maintenance
-- Improved source code coverage and quality of the Unit Tests.
+- Added padding setting for content and footer parts on Dialog component.
+  - We did this for better appearance as default.
+- Changed checkmark color of selected item when disabled on MultiChoice component.
+  - We did this to make it easier to see it.
+- Improved displayed position and added scroll behavior of Dropdown menu part.
+- Fixed the line-height issue when setting on app's HeaderMenuSpaceElement on desktop components.
 
 ### Security Updates
-- Updated dependent libraries: webpack, ws, browserslist, postcss, hosted-git-info, xmlhttprequest-ssl, y18n.
+- Updated dependent libraries: karma, engine.io, follow-redirects.
 
 ### Document
-- Supported English document.
-- Updated the Quick Start webpack instructions.
-- Wrote the status about the React version provided in v0: we haven't supported it in v1 now.
-- Unsupported the Internet Explorer 11. (The Internet Explorer 11 will be retired on June 15, 2022.)<br>
-  https://blogs.windows.com/windowsexperience/2021/05/19/the-future-of-internet-explorer-on-windows-10-is-in-microsoft-edge/
+- Published Contributing Guideline and Pull Request template, and updated issue template.
+- Published roadmap for 2022 and linked it on README.
+- Added the explanation of date format depending on language property setting on DatePicker and DateTimePicker document.

@@ -9,7 +9,10 @@ original_id: mobile-textarea
 
 MobileTextArea は、複数行のテキストを表示します。
 
-<iframe src="https://kuc-storybook.netlify.app/iframe.html?id=mobile-textarea--document" title="mobile textarea image" height="160px" width="100%"></iframe>
+<div class='sample-container'>
+  <div id='sample-container__components'></div>
+</div>
+<script src="/js/samples/mobile-textarea.js"></script>
 
 ---
 
@@ -42,7 +45,7 @@ MobileTextArea は、複数行のテキストを表示します。
 
 ### Constructor
 
-TextArea(options)<br>
+MobileTextArea(options)<br>
 使用できるコンストラクタの一覧です。
 
 #### Parameter

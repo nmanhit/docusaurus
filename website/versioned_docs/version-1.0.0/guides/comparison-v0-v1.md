@@ -11,7 +11,7 @@ original_id: comparison-v0-v1
 This section explains the differences between the code written in v0 and v1, as well as the key advantages when using v1 for customizing the Kintone app.
 
 ## Completed image
-For example, you can use the Kintone UI Component to create a search button on the "Record List" view.<br>
+For example, you can use the Kintone UI Component to create a search button on the Record List page.<br>
 Here is the image for example:
 
 ![Search box](assets/v1_search_box.png)
@@ -90,6 +90,7 @@ The main difference is as follows:
 - Improved DOM positioning
 - Restructured the component property
 - Included additional properties for Alert and Label
+- Auto-completion of Item.label
 
 The following section will explain in further detail.
 
@@ -262,6 +263,24 @@ When you initialize the message (hide the error message), you will only need to 
 
 ![search_box_error](assets/v1_search_box_error.png)
 
+---
+#### Auto-completion of Item.label
+---
+When creating multiple choice components in v0, the developer had to specify both `Item.label` and `Item.value`.
+
+However, when using v1, only `Item.value` is required. If `Item.label` is not specified, only the value of `Item.value` will be set.<br>
+This means that the coding will be more concise when the backend value and the label displayed in the UI are the same.
+
+You can abbreviate the coding as follows:
+```
+const checkbox = new Kuc.Checkbox({
+  items: [
+    {
+      value: "orange"
+    }
+  ],
+});
+```
 
 ## Conclusion
 

@@ -9,11 +9,10 @@ original_id: notification
 
 The Notification component allows the user to display pop-up notifications.
 
-<iframe src="https://kuc-storybook.netlify.app/iframe.html?id=notification--documentinfo" title="notification info image" height="70px"></iframe>
-
-<iframe src="https://kuc-storybook.netlify.app/iframe.html?id=notification--documentsuccess" title="notification success image" height="70px"></iframe>
-
-<iframe src="https://kuc-storybook.netlify.app/iframe.html?id=notification--documenterror" title="notification error image" height="70px"></iframe>
+<div class='sample-container'>
+  <div id='sample-container__components'></div>
+</div>
+<script src="/js/samples/notification.js"></script>
 
 ---
 

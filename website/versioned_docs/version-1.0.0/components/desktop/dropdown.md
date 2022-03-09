@@ -9,7 +9,10 @@ original_id: dropdown
 
 The Dropdown component allows the user to select one out of several options.
 
-<iframe src="https://kuc-storybook.netlify.app/iframe.html?id=dropdown--document" title="dropdown image" height="140px"></iframe>
+<div class='sample-container'>
+  <div id='sample-container__components'></div>
+</div>
+<script src="/js/samples/dropdown.js"></script>
 
 ---
 
@@ -25,7 +28,7 @@ Here is a list of properties that can be used for modifying the component:
 | error | string | ""  | Text to be displayed in error | Error will not be displayed if unspecified or empty |
 | id | string | ""  | Component id name | |
 | label | string | ""  | Label for the component | Label is not displayed if unspecified or empty |
-| value | string | ""  | Selected value | Nothing is updated if the value is unspecified |
+| value | string | ""  | Selected value | No option will be selected if the value is unspecified |
 | disabled | boolean | false | Enable/Disable the component | |
 | requiredIcon | boolean | false | Show/Hide the required icon | |
 | visible | boolean | true | Show/Hide the component | |

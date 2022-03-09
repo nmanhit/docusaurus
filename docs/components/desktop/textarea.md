@@ -8,7 +8,10 @@ sidebar_label: TextArea
 
 The TextArea component allows the user to display multiple lines of text element.
 
-<iframe src="https://kuc-storybook.netlify.app/iframe.html?id=textarea--document" title="textarea image" height="170px" width="100%" style="padding-left: 25%"></iframe>
+<div class='sample-container'>
+  <div id='sample-container__components'></div>
+</div>
+<script src="/js/samples/textarea.js"></script>
 
 ---
 
@@ -38,6 +41,7 @@ Here is a list of events that can be specified:
 | :--- | :--- | :--- | :--- |
 | change | function | Event handler when the value has been changed | It will pass the event object as the argument<br><br>You can receive the following values in event.detail<br>event.detail.oldValue : Value before the change<br>event.detail.value : Value after the change |
 | focus | function | Event handler for the focused time | It will pass the event object as the argument<br><br>You can receive the following values in event.detail<br>event.detail.value : Value at the time of focus |
+| input | function | Event handler when the value has been inputting | It will pass the event object as the argument<br><br>You can receive the following values in event.detail<br>event.detail.data : Value of inserted characters<br>event.detail.value : Value of target element<br><br>*Notes on the value of "event.detail.data"<br>It is inserted characters when inserting text<br>It will be "null" when inserting by "Paste" or "Drag and Drop" or pressing "Enter", "Delete", or "Backspace" |
 
 ### Constructor
 
@@ -74,6 +78,10 @@ textarea.addEventListener('change', event => {
 });
 
 textarea.addEventListener('focus', event => {
+  console.log(event);
+});
+
+textarea.addEventListener('input', event => {
   console.log(event);
 });
 ```

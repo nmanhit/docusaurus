@@ -9,7 +9,10 @@ original_id: radio-button
 
 The RadioButton component allows the user to select one out of several options.
 
-<iframe src="https://kuc-storybook.netlify.app/iframe.html?id=radio-button--document" title="radio-button image" height="80px"></iframe>
+<div class='sample-container'>
+  <div id='sample-container__components'></div>
+</div>
+<script src="/js/samples/radio-button.js"></script>
 
 ---
 
@@ -26,7 +29,7 @@ Here is a list of properties that can be used for modifying the component:
 | id | string | ""  | Component id name | |
 | itemLayout | string | "horizontal"  | Orientation for displaying the options | Available options:<br>"horizontal" : Horizontal<br>"vertical" : Vertical |
 | label | string | ""  | Label for the component | Label will not be displayed if unspecified or left empty |
-| value | string | ""  | Selected value | Nothing will be updated if value is unspecified |
+| value | string | ""  | Selected value | No option will be selected if the value is unspecified |
 | BorderVisible | Boolean | False | Show/Hide the border | |
 | disabled | boolean | false | Enable/Disable the component | |
 | requiredIcon | boolean | false | Show/Hide the required icon | |

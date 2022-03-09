@@ -9,7 +9,10 @@ original_id: mobile-text
 
 The MobileText component allows the user to display a single line text element.
 
-<iframe src="https://kuc-storybook.netlify.app/iframe.html?id=mobile-text--document" title="mobile text image" height="60px"></iframe>
+<div class='sample-container'>
+  <div id='sample-container__components'></div>
+</div>
+<script src="/js/samples/mobile-text.js"></script>
 
 ---
 
@@ -45,7 +48,7 @@ Here is a list of events that can be specified:
 
 ### Constructor
 
-Text(options)<br>
+MobileText(options)<br>
 Here is a list of available constructors:
 
 #### Parameter

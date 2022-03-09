@@ -14,32 +14,28 @@ const translate = require("../../server/translate.js").translate;
 const textContent = {
   codeExample: `
 \`\`\`javascript
-(() => {
-  'use strict';
+kintone.events.on('app.record.index.show', event => {
+  const header = kintone.app.getHeaderMenuSpaceElement();
 
-  kintone.events.on('app.record.index.show', event => {
-    const header = kintone.app.getHeaderMenuSpaceElement();
-
-    const buttonSubmit = new Kuc.Button({
-      text: 'Submit',
-      type: 'submit'
-    });
-    buttonSubmit.addEventListener('click', event => {
-      console.log(event);
-    });
-
-    const buttonAlert = new Kuc.Button({
-      text: 'Alert',
-      type: 'alert'
-    });
-    buttonAlert.addEventListener('click', event => {
-      console.log(event);
-    });
-
-    header.appendChild(buttonSubmit);
-    header.appendChild(buttonAlert);
+  const buttonSubmit = new Kuc.Button({
+    text: 'Submit',
+    type: 'submit'
   });
-})();
+  buttonSubmit.addEventListener('click', event => {
+    console.log(event);
+  });
+
+  const buttonAlert = new Kuc.Button({
+    text: 'Alert',
+    type: 'alert'
+  });
+  buttonAlert.addEventListener('click', event => {
+    console.log(event);
+  });
+
+  header.appendChild(buttonSubmit);
+  header.appendChild(buttonAlert);
+});
 
 \`\`\`
   `,
@@ -63,13 +59,30 @@ class Index extends React.PureComponent {
     );
 
     const ProjectTitle = (props) => (
-      <h2 className="projectTitle">
-        {props.tagline}
-        <span> with </span>
-        <span className="titleText">{props.title}</span>
-        <span>.</span>
-        <small>{props.subTagline}</small>
-      </h2>
+      <div>
+        {(() => {
+          if (language === "ja") {
+            return (
+              <h2 className="projectTitle">
+                Be a smart kintone developer
+                <span> with </span>
+                <span className="titleText">kintone UI Component</span>
+                <span>.</span>
+                <small>{props.subTagline}</small>
+              </h2>
+            );
+          }
+          return (
+            <h2 className="projectTitle">
+              Be a smart Kintone developer
+              <span> with </span>
+              <span className="titleText">Kintone UI Component</span>
+              <span>.</span>
+              <small>{props.subTagline}</small>
+            </h2>
+          );
+        })()}
+      </div>
     );
 
     const PromoSection = (props) => (
@@ -166,8 +179,7 @@ class Index extends React.PureComponent {
                     <br />
                     ソースコードの変更、再配布および商用利用等は、ライセンスに従ってご利用可能です。
                     <br />
-                    ライセンスの種別はクライアントライブラリのページまたは
-                    GitHub のリポジトリでご確認ください。
+                    ライセンスの種別は GitHub のリポジトリでご確認ください。
                   </p>
                 );
               }
@@ -192,7 +204,7 @@ class Index extends React.PureComponent {
                   and use it in accordance with the license.
                   <br />
                   For more details of the license type please refer to the
-                  library page or the GitHub repository.
+                  GitHub repository.
                 </p>
               );
             })()}
@@ -205,11 +217,7 @@ class Index extends React.PureComponent {
       <div>
         <SplashContainer>
           <div className="inner">
-            <ProjectTitle
-              tagline={siteConfig.tagline}
-              title={siteConfig.title}
-              subTagline={siteConfig.subTagline}
-            />
+            <ProjectTitle subTagline={siteConfig.subTagline} />
             <PromoSection>
               <Button href={docUrl("getting-started/quick-start.html")}>
                 Getting Started

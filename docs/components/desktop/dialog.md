@@ -8,7 +8,10 @@ sidebar_label: Dialog
 
 The Dialog component displays a dialog box.
 
-<iframe src="https://kuc-storybook.netlify.app/iframe.html?id=dialog--document" title="dialog image" width="700px" height="300px"></iframe>
+<div class='sample-container'>
+  <div id='sample-container__components'></div>
+</div>
+<script src="/js/samples/dialog.js"></script>
 
 ---
 
@@ -21,8 +24,18 @@ Here is a list of properties that can be used for modifying the component:
 | Name | Type | Default | Description | Remark |
 | :--- | :--- | :--- | :--- | :--- |
 | title | string | ""  | Header Title | |
-| content | string \|   HTMLElement | ""  | DOM inside content | When a string with HTML is assigned, it is automatically converted to HTML and output.<br>The value of the content property is automatically sanitized internally to prevent XSS attacks.
-| footer | string \| HTMLElement | ""  | DOM inside footer | When a string with HTML is assigned, it is automatically converted to HTML and output.<br>The value of the Footer property is automatically sanitized internally to prevent XSS attacks |
+| content *1 | string/HTMLElement | ""  | DOM inside content | If a string with HTML is set, it will be automatically converted to HTML and displayed as it is |
+| footer *1 | string/HTMLElement | ""  | DOM inside footer | If a string with HTML is set, it will be automatically converted to HTML and displayed as it is |
+
+> *1: [Security] Kintone UI Component does NOT sanitize this property value. It is the developer's responsibility to escape any user input when using this option so that XSS attacks would be prevented.
+
+### Event
+
+Here is a list of events that can be specified:
+
+| Name | Type | Description | Remark |
+| :--- | :--- | :--- | :--- |
+| close | function | Event handler when the component has been closed | It will pass the event object as the argument |
 
 ### Constructor
 
@@ -34,6 +47,7 @@ Here is a list of available constructors:
 | :--- | :--- | :--- | :--- | :--- |
 | options | object | {} | Object that includes component properties | |
 
+---
 ### Method
 
 Here is a list of available methods:
@@ -67,6 +81,11 @@ const dialog = new Kuc.Dialog({
   content: '<div>This is Content</div>',
   footer: 'Footer'
 });
+
+dialog.addEventListener('close', event => {
+  console.log(event);
+});
+
 dialog.open();
 dialog.close();
 ```

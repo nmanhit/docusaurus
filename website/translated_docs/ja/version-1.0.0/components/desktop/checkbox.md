@@ -9,7 +9,10 @@ original_id: checkbox
 
 Checkbox は、複数選択のチェックボックスを表示します。
 
-<iframe src="https://kuc-storybook.netlify.app/iframe.html?id=checkbox--document" title="checkbox image" height="80px"></iframe>
+<div class='sample-container'>
+  <div id='sample-container__components'></div>
+</div>
+<script src="/js/samples/checkbox.js"></script>
 
 ---
 
@@ -33,7 +36,7 @@ Checkbox は、複数選択のチェックボックスを表示します。
 | items | Array\<Item\> | [] | 表示する選択肢一覧 | items が配列以外の場合、エラーを出力する |
 | Item.label | string | null | 各選択肢のテキスト | Item.label が未指定の場合、UI 上は Item.value の値が表示される |
 | Item.value | string | null | 各選択肢の値 | Item.value の値が重複した場合、エラーを出力する |
-| value | Array\<string\> | "" | 選択されている値 | value が配列以外の場合、エラーを出力する<br>配列内の値が重複した場合、エラーを出力する |
+| value | Array\<string\> | [] | 選択されている値 | value が配列以外の場合、エラーを出力する<br>配列内の値が重複した場合、エラーを出力する<br>value が未指定の場合、何も選択されない |
 
 ### Event
 

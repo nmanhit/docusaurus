@@ -9,7 +9,10 @@ original_id: mobile-radio-button
 
 MobileRadioButton は、複数選択肢の中から一つの値を選択することができます。
 
-<iframe src="https://kuc-storybook.netlify.app/iframe.html?id=mobile-radio-button--document" title="mobile radiobutton image" height="140px"></iframe>
+<div class='sample-container'>
+  <div id='sample-container__components'></div>
+</div>
+<script src="/js/samples/mobile-radio-button.js"></script>
 
 ---
 
@@ -25,7 +28,7 @@ MobileRadioButton は、複数選択肢の中から一つの値を選択する�
 | error | string | "" | エラーに表示するテキスト | 未指定、あるいは空文字の場合、error は表示されない |
 | id | string | "" | コンポーネントの id 名 ||
 | label | string | "" | コンポーネントの説明ラベル | 未指定、あるいは空文字の場合、label は表示されない |
-| value | string | "" | 選択されている値 | value が未指定の場合、何も更新されない |
+| value | string | "" | 選択されている値 | value が未指定の場合、何も選択されない |
 | borderVisible | boolean | false | コンポーネントの境界線表示/非表示設定 ||
 | disabled | boolean | false | コンポーネントの編集可/不可設定 ||
 | requiredIcon | boolean | false | コンポーネントの必須アイコン表示/非表示設定 ||
@@ -43,7 +46,7 @@ MobileRadioButton は、複数選択肢の中から一つの値を選択する�
 
 ### Constructor
 
-RadioButton(options)<br>
+MobileRadioButton(options)<br>
 使用できるコンストラクタの一覧です。
 
 #### Parameter

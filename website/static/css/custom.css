@@ -104,10 +104,45 @@ a:hover {
 }
 
 /* css for doc page */
+td[class^="kuc"] {
+    background-color: #ffffff;
+}
+.sample-container {
+    display: flex;
+    justify-content: space-around;
+}
+.sample-container .kuc-datetime-picker__group__error {
+    max-width: 185px;
+}
+.sample-container .kuc-time-picker__group__error {
+    max-width: 185px;
+}
+.sample-container .kuc-dropdown__group {
+    max-width: 180px;
+}
 .kuc-preview {
     background-color: #F5F5F5;
     padding: 20px 40px;
     margin-top: 10px;
+}
+.sample-container kuc-checkbox .kuc-checkbox__group__select-menu__item,
+.sample-container kuc-radio-button .kuc-radio-button__group__select-menu__item {
+    height: auto;
+}
+.sample-container kuc-mobile-checkbox {
+    min-width: 235px;
+}
+.sample-container kuc-mobile-checkbox .kuc-mobile-checkbox__group__select-menu__item {
+    height: 40px;
+}
+.sample-container kuc-mobile-radio-button .kuc-mobile-radio-button__group__select-menu__item {
+    min-width: 253px;
+}
+.sample-container kuc-mobile-text {
+    min-width: 250px;
+}
+.sample-container kuc-mobile-textarea {
+    min-width: 750px;
 }
 .sandbox-button {
     position: absolute;
