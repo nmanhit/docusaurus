@@ -12,7 +12,7 @@ MobileText は、単一行のテキストを表示します。
 <div class='sample-container'>
   <div id='sample-container__components'></div>
 </div>
-<script src="/docusaurus/js/samples/mobile-text.js"></script>
+<script src="/js/samples/mobile-text.js"></script>
 
 ---
 

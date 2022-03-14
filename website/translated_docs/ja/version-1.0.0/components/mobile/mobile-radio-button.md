@@ -12,7 +12,7 @@ MobileRadioButton は、複数選択肢の中から一つの値を選択する�
 <div class='sample-container'>
   <div id='sample-container__components'></div>
 </div>
-<script src="/docusaurus/js/samples/mobile-radio-button.js"></script>
+<script src="/js/samples/mobile-radio-button.js"></script>
 
 ---
 

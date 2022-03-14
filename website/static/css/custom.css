@@ -103,13 +103,16 @@ a:hover {
     border-top: solid 1px #ffffff;
 }
 
-/* css for doc page */
+/* css for doc page 1*/
 td[class^="kuc"] {
     background-color: #ffffff;
 }
 .sample-container {
     display: flex;
     justify-content: space-around;
+}
+.sample-container.block{
+    display: block !important;
 }
 .sample-container .kuc-datetime-picker__group__error {
     max-width: 185px;

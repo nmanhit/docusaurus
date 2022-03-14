@@ -11,7 +11,7 @@ The DatePicker component allows the user to display a input area and date select
 <div class='sample-container'>
   <div id='sample-container__components'></div>
 </div>
-<script src="/docusaurus/js/samples/date-picker.js"></script>
+<script src="/js/samples/date-picker.js"></script>
 
 ---
 

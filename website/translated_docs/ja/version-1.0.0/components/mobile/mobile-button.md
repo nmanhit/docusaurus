@@ -12,7 +12,7 @@ MobileButton は、ボタンを表示します。
 <div class='sample-container'>
   <div id='sample-container__components'></div>
 </div>
-<script src="/docusaurus/js/samples/mobile-button.js"></script>
+<script src="/js/samples/mobile-button.js"></script>
 
 ---
 

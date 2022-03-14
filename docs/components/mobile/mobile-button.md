@@ -11,7 +11,7 @@ The MobileButton component allows the user to create and displays buttons.
 <div class='sample-container'>
   <div id='sample-container__components'></div>
 </div>
-<script src="/docusaurus/js/samples/mobile-button.js"></script>
+<script src="/js/samples/mobile-button.js"></script>
 
 ---
 

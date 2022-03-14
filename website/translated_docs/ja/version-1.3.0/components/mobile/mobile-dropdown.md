@@ -12,7 +12,7 @@ MobileDropdown は複数選択肢の中から一つの値を選択すること�
 <div class='sample-container'>
   <div id='sample-container__components'></div>
 </div>
-<script src="/docusaurus/js/samples/mobile-dropdown.js"></script>
+<script src="/js/samples/mobile-dropdown.js"></script>
 
 ---
 

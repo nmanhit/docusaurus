@@ -9,9 +9,11 @@ sidebar_label: Spinner
 The Spinner component allows the user to display a rolling spinner.
 
 <div class='sample-container'>
-  <div id='sample-container__components'></div>
+  <div id='sample-container__components'>
+    <iframe id="iframe" title="spinner image" width="300px" height="200px"></iframe>
+  </div>
 </div>
-<script src="/docusaurus/js/samples/spinner.js"></script>
+<script src="/js/samples/spinner.js"></script>
 
 ---
 

@@ -11,7 +11,7 @@ The MobileText component allows the user to display a single line text element.
 <div class='sample-container'>
   <div id='sample-container__components'></div>
 </div>
-<script src="/docusaurus/js/samples/mobile-text.js"></script>
+<script src="/js/samples/mobile-text.js"></script>
 
 ---
 

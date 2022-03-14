@@ -8,10 +8,10 @@ sidebar_label: MobileTextArea
 
 The MobileTextArea component allows the user to display multiple lines of text element.
 
-<div class='sample-container'>
+<div class='sample-container block-mobile'>
   <div id='sample-container__components'></div>
 </div>
-<script src="/docusaurus/js/samples/mobile-textarea.js"></script>
+<script src="/js/samples/mobile-textarea.js"></script>
 
 ---
 
