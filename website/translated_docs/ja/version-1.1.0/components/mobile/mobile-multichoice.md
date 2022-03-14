@@ -12,7 +12,7 @@ MobileMultiChoice は、複数選択肢の中から複数の値を選択する�
 <div class='sample-container'>
   <div id='sample-container__components'></div>
 </div>
-<script src="/js/samples/mobile-multichoice.js"></script>
+<script src="/docusaurus/js/samples/mobile-multichoice.js"></script>
 
 ---
 

@@ -10,7 +10,9 @@ original_id: notification
 The Notification component allows the user to display pop-up notifications.
 
 <div class='sample-container'>
-  <div id='sample-container__components'></div>
+  <div id='sample-container__components'>
+    <iframe id="iframe" title="notification" width="300px" height="250px"></iframe>
+  </div>
 </div>
 <script src="/docusaurus/js/samples/notification.js"></script>
 

@@ -11,7 +11,7 @@ The RadioButton component allows the user to select one out of several options.
 <div class='sample-container'>
   <div id='sample-container__components'></div>
 </div>
-<script src="/js/samples/radio-button.js"></script>
+<script src="/docusaurus/js/samples/radio-button.js"></script>
 
 ---
 

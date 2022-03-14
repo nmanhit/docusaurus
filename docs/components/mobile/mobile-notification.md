@@ -11,7 +11,7 @@ The MobileNotification component allows the user to display pop-up notifications
 <div class='sample-container'>
   <div id='sample-container__components'></div>
 </div>
-<script src="/js/samples/mobile-notification.js"></script>
+<script src="/docusaurus/js/samples/mobile-notification.js"></script>
 
 ---
 
