@@ -9,9 +9,9 @@ sidebar_label: MobileRadioButton
 The MobileRadioButton component allows the user to select one out of several options.
 
 <div class='sample-container'>
-  <div id='sample-container__components'></div>
+  <div id='sample-container__components' class="mobile"></div>
 </div>
-<script src="/docusaurus/js/samples/mobile-radio-button.js"></script>
+<script src="/js/samples/mobile-radio-button.js"></script>
 
 ---
 

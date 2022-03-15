@@ -12,7 +12,7 @@ The TextArea component allows the user to display multiple lines of text element
 <div class='sample-container block'>
   <div id='sample-container__components'></div>
 </div>
-<script src="/docusaurus/js/samples/textarea.js"></script>
+<script src="/js/samples/textarea.js"></script>
 
 ---
 
