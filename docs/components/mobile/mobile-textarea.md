@@ -11,7 +11,7 @@ The MobileTextArea component allows the user to display multiple lines of text e
 <div class='sample-container display-block-mobile'>
   <div id='sample-container__components' class="mobile"></div>
 </div>
-<script src="/js/samples/mobile-textarea.js"></script>
+<script src="/docusaurus/js/samples/mobile-textarea.js"></script>
 
 ---
 

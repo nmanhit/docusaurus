@@ -11,7 +11,7 @@ The DateTimePicker component allows the user to display a input area of time & d
 <div class='sample-container'>
   <div id='sample-container__components'></div>
 </div>
-<script src="/docusaurus/js/samples/datetime-picker.js"></script>
+<script src="/docusaurus/docusaurus/js/samples/datetime-picker.js"></script>
 
 ---
 

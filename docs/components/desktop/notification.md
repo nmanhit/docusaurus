@@ -13,7 +13,7 @@ The Notification component allows the user to display pop-up notifications.
     <iframe id="iframe" title="notification" width="300px" height="250px"></iframe>
   </div>
 </div>
-<script src="/docusaurus/js/samples/notification.js"></script>
+<script src="/docusaurus/docusaurus/js/samples/notification.js"></script>
 
 ---
 

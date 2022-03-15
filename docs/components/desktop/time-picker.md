@@ -11,7 +11,7 @@ The TimePicker component allows the user to display a input area and time select
 <div class='sample-container'>
   <div id='sample-container__components'></div>
 </div>
-<script src="/docusaurus/js/samples/time-picker.js"></script>
+<script src="/docusaurus/docusaurus/js/samples/time-picker.js"></script>
 
 ---
 
