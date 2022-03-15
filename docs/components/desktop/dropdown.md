@@ -11,7 +11,7 @@ The Dropdown component allows the user to select one out of several options.
 <div class='sample-container'>
   <div id='sample-container__components'></div>
 </div>
-<script src="/docusaurus/docusaurus/js/samples/dropdown.js"></script>
+<script src="/docusaurus/js/samples/dropdown.js"></script>
 
 ---
 
