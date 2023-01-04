@@ -19,7 +19,7 @@ The Checkbox component displays a checkbox element for multiple selections.
 ## Specification
 
 ### Property
-
+manual deploy
 Here is a list of properties that can be used for modifying the component:
 
 | Name   | Type | Default | Description | Remark |
