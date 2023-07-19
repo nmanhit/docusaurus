@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/textarea",
+  "id": "components/desktop/textarea",
+  "title": "TextArea",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/textarea.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/textarea",
+  "permalink": "/ja/docs/next/components/desktop/textarea",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "textarea",
+    "title": "TextArea",
+    "sidebar_label": "TextArea"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Text",
+    "permalink": "/ja/docs/next/components/desktop/text"
+  },
+  "next": {
+    "title": "TimePicker",
+    "permalink": "/ja/docs/next/components/desktop/time-picker"
+  }
+}

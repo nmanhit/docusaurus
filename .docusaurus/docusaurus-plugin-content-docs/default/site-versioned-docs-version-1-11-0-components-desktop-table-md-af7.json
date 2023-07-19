@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/table",
+  "id": "version-1.11.0/components/desktop/table",
+  "title": "Table",
+  "description": "Overview",
+  "source": "@site/versioned_docs/version-1.11.0/components/desktop/table.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/table",
+  "permalink": "/docs/components/desktop/table",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "table",
+    "title": "Table",
+    "sidebar_label": "Table"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Spinner",
+    "permalink": "/docs/components/desktop/spinner"
+  },
+  "next": {
+    "title": "Tabs",
+    "permalink": "/docs/components/desktop/tabs"
+  }
+}

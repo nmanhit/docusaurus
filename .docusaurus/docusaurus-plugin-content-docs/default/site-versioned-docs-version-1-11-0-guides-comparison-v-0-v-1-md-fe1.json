@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/comparison-v0-v1",
+  "id": "version-1.11.0/guides/comparison-v0-v1",
+  "title": "A commentary on the difference between v0 and v1",
+  "description": "Overview",
+  "source": "@site/versioned_docs/version-1.11.0/guides/comparison-v0-v1.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/comparison-v0-v1",
+  "permalink": "/docs/guides/comparison-v0-v1",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "comparison-v0-v1",
+    "title": "A commentary on the difference between v0 and v1",
+    "sidebar_label": "A commentary on the difference between v0 and v1"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "version",
+    "permalink": "/docs/utilities/version"
+  },
+  "next": {
+    "title": "Search box customization",
+    "permalink": "/docs/guides/search-box-customization"
+  }
+}

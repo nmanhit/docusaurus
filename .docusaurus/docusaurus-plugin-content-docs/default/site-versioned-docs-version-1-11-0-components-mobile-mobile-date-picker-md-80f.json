@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/mobile/mobile-date-picker",
+  "id": "version-1.11.0/components/mobile/mobile-date-picker",
+  "title": "MobileDatePicker",
+  "description": "Overview",
+  "source": "@site/versioned_docs/version-1.11.0/components/mobile/mobile-date-picker.md",
+  "sourceDirName": "components/mobile",
+  "slug": "/components/mobile/mobile-date-picker",
+  "permalink": "/docs/components/mobile/mobile-date-picker",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "mobile-date-picker",
+    "title": "MobileDatePicker",
+    "sidebar_label": "MobileDatePicker"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "MobileCheckbox",
+    "permalink": "/docs/components/mobile/mobile-checkbox"
+  },
+  "next": {
+    "title": "MobileDateTimePicker",
+    "permalink": "/docs/components/mobile/mobile-datetime-picker"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/tabs",
+  "id": "version-1.11.0/components/desktop/tabs",
+  "title": "Tabs",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/tabs.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/tabs",
+  "permalink": "/ja/docs/components/desktop/tabs",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "tabs",
+    "title": "Tabs",
+    "sidebar_label": "Tabs"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Table",
+    "permalink": "/ja/docs/components/desktop/table"
+  },
+  "next": {
+    "title": "Text",
+    "permalink": "/ja/docs/components/desktop/text"
+  }
+}

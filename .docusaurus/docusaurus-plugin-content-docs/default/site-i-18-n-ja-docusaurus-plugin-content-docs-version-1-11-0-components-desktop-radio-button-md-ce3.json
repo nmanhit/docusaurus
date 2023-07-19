@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/radio-button",
+  "id": "version-1.11.0/components/desktop/radio-button",
+  "title": "RadioButton",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/radio-button.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/radio-button",
+  "permalink": "/ja/docs/components/desktop/radio-button",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "radio-button",
+    "title": "RadioButton",
+    "sidebar_label": "RadioButton"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Notification",
+    "permalink": "/ja/docs/components/desktop/notification"
+  },
+  "next": {
+    "title": "ReadOnlyTable",
+    "permalink": "/ja/docs/components/desktop/readonly-table"
+  }
+}

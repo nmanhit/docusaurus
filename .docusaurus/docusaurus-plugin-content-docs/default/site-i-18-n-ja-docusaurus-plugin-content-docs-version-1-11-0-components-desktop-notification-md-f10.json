@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/notification",
+  "id": "version-1.11.0/components/desktop/notification",
+  "title": "Notification",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/notification.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/notification",
+  "permalink": "/ja/docs/components/desktop/notification",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "notification",
+    "title": "Notification",
+    "sidebar_label": "Notification"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "MultiChoice",
+    "permalink": "/ja/docs/components/desktop/multichoice"
+  },
+  "next": {
+    "title": "RadioButton",
+    "permalink": "/ja/docs/components/desktop/radio-button"
+  }
+}

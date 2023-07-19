@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/dropdown",
+  "id": "version-1.11.0/components/desktop/dropdown",
+  "title": "Dropdown",
+  "description": "Overview",
+  "source": "@site/versioned_docs/version-1.11.0/components/desktop/dropdown.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/dropdown",
+  "permalink": "/docs/components/desktop/dropdown",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "dropdown",
+    "title": "Dropdown",
+    "sidebar_label": "Dropdown"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Dialog",
+    "permalink": "/docs/components/desktop/dialog"
+  },
+  "next": {
+    "title": "FieldGroup",
+    "permalink": "/docs/components/desktop/field-group"
+  }
+}

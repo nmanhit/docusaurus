@@ -1,0 +1,644 @@
+{
+  "docusaurus-plugin-google-tag-manager": {
+    "default": {
+      "containerId": "GTM-5N49D3",
+      "id": "default"
+    }
+  },
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/ja/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": false,
+          "path": "/ja/docs/next",
+          "mainDocId": "getting-started/quick-start",
+          "docs": [
+            {
+              "id": "components/desktop/attachment",
+              "path": "/ja/docs/next/components/desktop/attachment",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/button",
+              "path": "/ja/docs/next/components/desktop/button",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/checkbox",
+              "path": "/ja/docs/next/components/desktop/checkbox",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/combobox",
+              "path": "/ja/docs/next/components/desktop/combobox",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/date-picker",
+              "path": "/ja/docs/next/components/desktop/date-picker",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/datetime-picker",
+              "path": "/ja/docs/next/components/desktop/datetime-picker",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/dialog",
+              "path": "/ja/docs/next/components/desktop/dialog",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/dropdown",
+              "path": "/ja/docs/next/components/desktop/dropdown",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/field-group",
+              "path": "/ja/docs/next/components/desktop/field-group",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/multichoice",
+              "path": "/ja/docs/next/components/desktop/multichoice",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/notification",
+              "path": "/ja/docs/next/components/desktop/notification",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/radio-button",
+              "path": "/ja/docs/next/components/desktop/radio-button",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/readonly-table",
+              "path": "/ja/docs/next/components/desktop/readonly-table",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/spinner",
+              "path": "/ja/docs/next/components/desktop/spinner",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/table",
+              "path": "/ja/docs/next/components/desktop/table",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/tabs",
+              "path": "/ja/docs/next/components/desktop/tabs",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/text",
+              "path": "/ja/docs/next/components/desktop/text",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/textarea",
+              "path": "/ja/docs/next/components/desktop/textarea",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/time-picker",
+              "path": "/ja/docs/next/components/desktop/time-picker",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-button",
+              "path": "/ja/docs/next/components/mobile/mobile-button",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-checkbox",
+              "path": "/ja/docs/next/components/mobile/mobile-checkbox",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-date-picker",
+              "path": "/ja/docs/next/components/mobile/mobile-date-picker",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-datetime-picker",
+              "path": "/ja/docs/next/components/mobile/mobile-datetime-picker",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-dropdown",
+              "path": "/ja/docs/next/components/mobile/mobile-dropdown",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-multichoice",
+              "path": "/ja/docs/next/components/mobile/mobile-multichoice",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-notification",
+              "path": "/ja/docs/next/components/mobile/mobile-notification",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-radio-button",
+              "path": "/ja/docs/next/components/mobile/mobile-radio-button",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-text",
+              "path": "/ja/docs/next/components/mobile/mobile-text",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-textarea",
+              "path": "/ja/docs/next/components/mobile/mobile-textarea",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-time-picker",
+              "path": "/ja/docs/next/components/mobile/mobile-time-picker",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting-started/custom-css",
+              "path": "/ja/docs/next/getting-started/custom-css",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting-started/quick-start",
+              "path": "/ja/docs/next/getting-started/quick-start",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting-started/usage-with-typescript",
+              "path": "/ja/docs/next/getting-started/usage-with-typescript",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/attachment-customization",
+              "path": "/ja/docs/next/guides/attachment-customization",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/bulk-update-customization",
+              "path": "/ja/docs/next/guides/bulk-update-customization",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/cleaning-check-list-customization",
+              "path": "/ja/docs/next/guides/cleaning-check-list-customization",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/comparison-v0-v1",
+              "path": "/ja/docs/next/guides/comparison-v0-v1",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/format-setting-plugin",
+              "path": "/ja/docs/next/guides/format-setting-plugin",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/mobile-timecard-customization",
+              "path": "/ja/docs/next/guides/mobile-timecard-customization",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/search-box-customization",
+              "path": "/ja/docs/next/guides/search-box-customization",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/table-readonly-table-customization",
+              "path": "/ja/docs/next/guides/table-readonly-table-customization",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/tabs-customization",
+              "path": "/ja/docs/next/guides/tabs-customization",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/version-conflicts-issue-solution",
+              "path": "/ja/docs/next/guides/version-conflicts-issue-solution",
+              "sidebar": "docs"
+            },
+            {
+              "id": "releases/release-notes",
+              "path": "/ja/docs/next/releases/release-notes",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.0.0",
+              "path": "/ja/docs/next/releases/release-notes-v1.0.0",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.0.1",
+              "path": "/ja/docs/next/releases/release-notes-v1.0.1",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.0.2",
+              "path": "/ja/docs/next/releases/release-notes-v1.0.2",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.0.3",
+              "path": "/ja/docs/next/releases/release-notes-v1.0.3",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.0.4",
+              "path": "/ja/docs/next/releases/release-notes-v1.0.4",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.0.5",
+              "path": "/ja/docs/next/releases/release-notes-v1.0.5",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.1.0",
+              "path": "/ja/docs/next/releases/release-notes-v1.1.0",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.1.1",
+              "path": "/ja/docs/next/releases/release-notes-v1.1.1",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.2.0",
+              "path": "/ja/docs/next/releases/release-notes-v1.2.0",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.3.0",
+              "path": "/ja/docs/next/releases/release-notes-v1.3.0",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.3.1",
+              "path": "/ja/docs/next/releases/release-notes-v1.3.1",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.3.2",
+              "path": "/ja/docs/next/releases/release-notes-v1.3.2",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.4.0",
+              "path": "/ja/docs/next/releases/release-notes-v1.4.0",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "utilities/version",
+              "path": "/ja/docs/next/utilities/version",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/ja/docs/next/getting-started/quick-start",
+                "label": "getting-started/quick-start"
+              }
+            },
+            "release-notes": {
+              "link": {
+                "path": "/ja/docs/next/releases/release-notes",
+                "label": "releases/release-notes"
+              }
+            }
+          }
+        },
+        {
+          "name": "1.11.0",
+          "label": "1.11.0",
+          "isLast": true,
+          "path": "/ja/docs",
+          "mainDocId": "getting-started/quick-start",
+          "docs": [
+            {
+              "id": "components/desktop/attachment",
+              "path": "/ja/docs/components/desktop/attachment",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/button",
+              "path": "/ja/docs/components/desktop/button",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/checkbox",
+              "path": "/ja/docs/components/desktop/checkbox",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/combobox",
+              "path": "/ja/docs/components/desktop/combobox",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/date-picker",
+              "path": "/ja/docs/components/desktop/date-picker",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/datetime-picker",
+              "path": "/ja/docs/components/desktop/datetime-picker",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/dialog",
+              "path": "/ja/docs/components/desktop/dialog",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/dropdown",
+              "path": "/ja/docs/components/desktop/dropdown",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/field-group",
+              "path": "/ja/docs/components/desktop/field-group",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/multichoice",
+              "path": "/ja/docs/components/desktop/multichoice",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/notification",
+              "path": "/ja/docs/components/desktop/notification",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/radio-button",
+              "path": "/ja/docs/components/desktop/radio-button",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/readonly-table",
+              "path": "/ja/docs/components/desktop/readonly-table",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/spinner",
+              "path": "/ja/docs/components/desktop/spinner",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/table",
+              "path": "/ja/docs/components/desktop/table",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/tabs",
+              "path": "/ja/docs/components/desktop/tabs",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/text",
+              "path": "/ja/docs/components/desktop/text",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/textarea",
+              "path": "/ja/docs/components/desktop/textarea",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/desktop/time-picker",
+              "path": "/ja/docs/components/desktop/time-picker",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-button",
+              "path": "/ja/docs/components/mobile/mobile-button",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-checkbox",
+              "path": "/ja/docs/components/mobile/mobile-checkbox",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-date-picker",
+              "path": "/ja/docs/components/mobile/mobile-date-picker",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-datetime-picker",
+              "path": "/ja/docs/components/mobile/mobile-datetime-picker",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-dropdown",
+              "path": "/ja/docs/components/mobile/mobile-dropdown",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-multichoice",
+              "path": "/ja/docs/components/mobile/mobile-multichoice",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-notification",
+              "path": "/ja/docs/components/mobile/mobile-notification",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-radio-button",
+              "path": "/ja/docs/components/mobile/mobile-radio-button",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-text",
+              "path": "/ja/docs/components/mobile/mobile-text",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-textarea",
+              "path": "/ja/docs/components/mobile/mobile-textarea",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/mobile/mobile-time-picker",
+              "path": "/ja/docs/components/mobile/mobile-time-picker",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting-started/custom-css",
+              "path": "/ja/docs/getting-started/custom-css",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting-started/quick-start",
+              "path": "/ja/docs/getting-started/quick-start",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting-started/usage-with-typescript",
+              "path": "/ja/docs/getting-started/usage-with-typescript",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/attachment-customization",
+              "path": "/ja/docs/guides/attachment-customization",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/bulk-update-customization",
+              "path": "/ja/docs/guides/bulk-update-customization",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/cleaning-check-list-customization",
+              "path": "/ja/docs/guides/cleaning-check-list-customization",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/comparison-v0-v1",
+              "path": "/ja/docs/guides/comparison-v0-v1",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/format-setting-plugin",
+              "path": "/ja/docs/guides/format-setting-plugin",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/mobile-timecard-customization",
+              "path": "/ja/docs/guides/mobile-timecard-customization",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/search-box-customization",
+              "path": "/ja/docs/guides/search-box-customization",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/table-readonly-table-customization",
+              "path": "/ja/docs/guides/table-readonly-table-customization",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/tabs-customization",
+              "path": "/ja/docs/guides/tabs-customization",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/version-conflicts-issue-solution",
+              "path": "/ja/docs/guides/version-conflicts-issue-solution",
+              "sidebar": "docs"
+            },
+            {
+              "id": "releases/release-notes",
+              "path": "/ja/docs/releases/release-notes",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.0.0",
+              "path": "/ja/docs/releases/release-notes-v1.0.0",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.0.1",
+              "path": "/ja/docs/releases/release-notes-v1.0.1",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.0.2",
+              "path": "/ja/docs/releases/release-notes-v1.0.2",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.0.3",
+              "path": "/ja/docs/releases/release-notes-v1.0.3",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.0.4",
+              "path": "/ja/docs/releases/release-notes-v1.0.4",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.0.5",
+              "path": "/ja/docs/releases/release-notes-v1.0.5",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.1.0",
+              "path": "/ja/docs/releases/release-notes-v1.1.0",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.1.1",
+              "path": "/ja/docs/releases/release-notes-v1.1.1",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.2.0",
+              "path": "/ja/docs/releases/release-notes-v1.2.0",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.3.0",
+              "path": "/ja/docs/releases/release-notes-v1.3.0",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.3.1",
+              "path": "/ja/docs/releases/release-notes-v1.3.1",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.3.2",
+              "path": "/ja/docs/releases/release-notes-v1.3.2",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "releases/release-notes-v1.4.0",
+              "path": "/ja/docs/releases/release-notes-v1.4.0",
+              "sidebar": "release-notes"
+            },
+            {
+              "id": "utilities/version",
+              "path": "/ja/docs/utilities/version",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/ja/docs/getting-started/quick-start",
+                "label": "getting-started/quick-start"
+              }
+            },
+            "release-notes": {
+              "link": {
+                "path": "/ja/docs/releases/release-notes",
+                "label": "releases/release-notes"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

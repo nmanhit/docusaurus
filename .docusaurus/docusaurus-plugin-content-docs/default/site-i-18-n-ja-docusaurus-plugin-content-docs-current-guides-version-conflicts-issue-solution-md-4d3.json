@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/version-conflicts-issue-solution",
+  "id": "guides/version-conflicts-issue-solution",
+  "title": "Version conflicts issue and solution",
+  "description": "概要",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/guides/version-conflicts-issue-solution.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/version-conflicts-issue-solution",
+  "permalink": "/ja/docs/next/guides/version-conflicts-issue-solution",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "version-conflicts-issue-solution",
+    "title": "Version conflicts issue and solution",
+    "sidebar_label": "Version conflicts issue and solution"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Format setting plug-in",
+    "permalink": "/ja/docs/next/guides/format-setting-plugin"
+  },
+  "next": {
+    "title": "Attachment customization",
+    "permalink": "/ja/docs/next/guides/attachment-customization"
+  }
+}

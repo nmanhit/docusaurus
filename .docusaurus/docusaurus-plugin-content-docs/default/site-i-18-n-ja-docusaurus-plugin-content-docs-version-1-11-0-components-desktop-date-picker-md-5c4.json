@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/date-picker",
+  "id": "version-1.11.0/components/desktop/date-picker",
+  "title": "DatePicker",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/date-picker.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/date-picker",
+  "permalink": "/ja/docs/components/desktop/date-picker",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "date-picker",
+    "title": "DatePicker",
+    "sidebar_label": "DatePicker"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Combobox",
+    "permalink": "/ja/docs/components/desktop/combobox"
+  },
+  "next": {
+    "title": "DateTimePicker",
+    "permalink": "/ja/docs/components/desktop/datetime-picker"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/table-readonly-table-customization",
+  "id": "version-1.11.0/guides/table-readonly-table-customization",
+  "title": "Table and ReadOnlyTable customization",
+  "description": "Overview",
+  "source": "@site/versioned_docs/version-1.11.0/guides/table-readonly-table-customization.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/table-readonly-table-customization",
+  "permalink": "/docs/guides/table-readonly-table-customization",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "table-readonly-table-customization",
+    "title": "Table and ReadOnlyTable customization",
+    "sidebar_label": "Table and ReadOnlyTable customization"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Attachment customization",
+    "permalink": "/docs/guides/attachment-customization"
+  },
+  "next": {
+    "title": "Tabs customization",
+    "permalink": "/docs/guides/tabs-customization"
+  }
+}

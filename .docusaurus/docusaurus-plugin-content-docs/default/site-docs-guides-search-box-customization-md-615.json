@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/search-box-customization",
+  "id": "guides/search-box-customization",
+  "title": "Search box customization",
+  "description": "Overview",
+  "source": "@site/docs/guides/search-box-customization.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/search-box-customization",
+  "permalink": "/docs/next/guides/search-box-customization",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "search-box-customization",
+    "title": "Search box customization",
+    "sidebar_label": "Search box customization"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "A commentary on the difference between v0 and v1",
+    "permalink": "/docs/next/guides/comparison-v0-v1"
+  },
+  "next": {
+    "title": "Mobile timecard customization",
+    "permalink": "/docs/next/guides/mobile-timecard-customization"
+  }
+}

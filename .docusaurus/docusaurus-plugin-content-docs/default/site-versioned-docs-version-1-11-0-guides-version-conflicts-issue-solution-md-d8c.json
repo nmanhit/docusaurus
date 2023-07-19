@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/version-conflicts-issue-solution",
+  "id": "version-1.11.0/guides/version-conflicts-issue-solution",
+  "title": "Version conflicts issue and solution",
+  "description": "Overview",
+  "source": "@site/versioned_docs/version-1.11.0/guides/version-conflicts-issue-solution.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/version-conflicts-issue-solution",
+  "permalink": "/docs/guides/version-conflicts-issue-solution",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "version-conflicts-issue-solution",
+    "title": "Version conflicts issue and solution",
+    "sidebar_label": "Version conflicts issue and solution"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Format setting plug-in",
+    "permalink": "/docs/guides/format-setting-plugin"
+  },
+  "next": {
+    "title": "Attachment customization",
+    "permalink": "/docs/guides/attachment-customization"
+  }
+}

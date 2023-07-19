@@ -5,10 +5,8 @@ npm i
 ```
 # Publish
 ```
-GIT_USER=nmanhit \
-CURRENT_BRANCH=main \
-USE_SSH=true \
-npm run publish-gh-pages
+GIT_USER=PERSONAL_TOKEN  \
+npm run deploy
 ```
 
 # Website is live at

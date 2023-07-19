@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/field-group",
+  "id": "version-1.11.0/components/desktop/field-group",
+  "title": "FieldGroup",
+  "description": "Overview",
+  "source": "@site/versioned_docs/version-1.11.0/components/desktop/field-group.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/field-group",
+  "permalink": "/docs/components/desktop/field-group",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "field-group",
+    "title": "FieldGroup",
+    "sidebar_label": "FieldGroup"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Dropdown",
+    "permalink": "/docs/components/desktop/dropdown"
+  },
+  "next": {
+    "title": "MultiChoice",
+    "permalink": "/docs/components/desktop/multichoice"
+  }
+}

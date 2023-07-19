@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/combobox",
+  "id": "components/desktop/combobox",
+  "title": "Combobox",
+  "description": "Overview",
+  "source": "@site/docs/components/desktop/combobox.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/combobox",
+  "permalink": "/docs/next/components/desktop/combobox",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "combobox",
+    "title": "Combobox",
+    "sidebar_label": "Combobox"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Checkbox",
+    "permalink": "/docs/next/components/desktop/checkbox"
+  },
+  "next": {
+    "title": "DatePicker",
+    "permalink": "/docs/next/components/desktop/date-picker"
+  }
+}

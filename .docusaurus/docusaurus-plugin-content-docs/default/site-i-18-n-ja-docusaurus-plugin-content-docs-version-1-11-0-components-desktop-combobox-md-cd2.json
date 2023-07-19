@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/combobox",
+  "id": "version-1.11.0/components/desktop/combobox",
+  "title": "Combobox",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/combobox.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/combobox",
+  "permalink": "/ja/docs/components/desktop/combobox",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "combobox",
+    "title": "Combobox",
+    "sidebar_label": "Combobox"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Checkbox",
+    "permalink": "/ja/docs/components/desktop/checkbox"
+  },
+  "next": {
+    "title": "DatePicker",
+    "permalink": "/ja/docs/components/desktop/date-picker"
+  }
+}

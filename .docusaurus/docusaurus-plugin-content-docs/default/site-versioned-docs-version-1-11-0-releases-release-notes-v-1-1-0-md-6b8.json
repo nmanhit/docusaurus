@@ -1,0 +1,27 @@
+{
+  "unversionedId": "releases/release-notes-v1.1.0",
+  "id": "version-1.11.0/releases/release-notes-v1.1.0",
+  "title": "v1.1.0 Release Notes",
+  "description": "Overview",
+  "source": "@site/versioned_docs/version-1.11.0/releases/release-notes-v1.1.0.md",
+  "sourceDirName": "releases",
+  "slug": "/releases/release-notes-v1.1.0",
+  "permalink": "/docs/releases/release-notes-v1.1.0",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "release-notes-v1.1.0",
+    "title": "v1.1.0 Release Notes",
+    "sidebar_label": "v1.1.0 Release Notes"
+  },
+  "sidebar": "release-notes",
+  "previous": {
+    "title": "v1.1.1 Release Notes",
+    "permalink": "/docs/releases/release-notes-v1.1.1"
+  },
+  "next": {
+    "title": "v1.0.5 Release Notes",
+    "permalink": "/docs/releases/release-notes-v1.0.5"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/mobile/mobile-time-picker",
+  "id": "components/mobile/mobile-time-picker",
+  "title": "MobileTimePicker",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/mobile/mobile-time-picker.md",
+  "sourceDirName": "components/mobile",
+  "slug": "/components/mobile/mobile-time-picker",
+  "permalink": "/ja/docs/next/components/mobile/mobile-time-picker",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "mobile-time-picker",
+    "title": "MobileTimePicker",
+    "sidebar_label": "MobileTimePicker"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "MobileTextArea",
+    "permalink": "/ja/docs/next/components/mobile/mobile-textarea"
+  },
+  "next": {
+    "title": "version",
+    "permalink": "/ja/docs/next/utilities/version"
+  }
+}

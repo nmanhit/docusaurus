@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/textarea",
+  "id": "components/desktop/textarea",
+  "title": "TextArea",
+  "description": "Overview",
+  "source": "@site/docs/components/desktop/textarea.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/textarea",
+  "permalink": "/docs/next/components/desktop/textarea",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "textarea",
+    "title": "TextArea",
+    "sidebar_label": "TextArea"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Text",
+    "permalink": "/docs/next/components/desktop/text"
+  },
+  "next": {
+    "title": "TimePicker",
+    "permalink": "/docs/next/components/desktop/time-picker"
+  }
+}

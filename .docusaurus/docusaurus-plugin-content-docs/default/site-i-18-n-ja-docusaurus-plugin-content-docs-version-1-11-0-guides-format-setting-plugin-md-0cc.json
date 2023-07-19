@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/format-setting-plugin",
+  "id": "version-1.11.0/guides/format-setting-plugin",
+  "title": "Format setting plug-in",
+  "description": "概要",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/guides/format-setting-plugin.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/format-setting-plugin",
+  "permalink": "/ja/docs/guides/format-setting-plugin",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "format-setting-plugin",
+    "title": "Format setting plug-in",
+    "sidebar_label": "Format setting plug-in"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Bulk update customization",
+    "permalink": "/ja/docs/guides/bulk-update-customization"
+  },
+  "next": {
+    "title": "Version conflicts issue and solution",
+    "permalink": "/ja/docs/guides/version-conflicts-issue-solution"
+  }
+}

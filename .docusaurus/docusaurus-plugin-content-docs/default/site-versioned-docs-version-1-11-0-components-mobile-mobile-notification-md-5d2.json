@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/mobile/mobile-notification",
+  "id": "version-1.11.0/components/mobile/mobile-notification",
+  "title": "MobileNotification",
+  "description": "Overview",
+  "source": "@site/versioned_docs/version-1.11.0/components/mobile/mobile-notification.md",
+  "sourceDirName": "components/mobile",
+  "slug": "/components/mobile/mobile-notification",
+  "permalink": "/docs/components/mobile/mobile-notification",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "mobile-notification",
+    "title": "MobileNotification",
+    "sidebar_label": "MobileNotification"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "MobileMultiChoice",
+    "permalink": "/docs/components/mobile/mobile-multichoice"
+  },
+  "next": {
+    "title": "MobileRadioButton",
+    "permalink": "/docs/components/mobile/mobile-radio-button"
+  }
+}

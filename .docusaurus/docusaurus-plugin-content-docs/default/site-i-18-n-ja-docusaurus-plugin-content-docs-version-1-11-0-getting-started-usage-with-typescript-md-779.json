@@ -1,0 +1,27 @@
+{
+  "unversionedId": "getting-started/usage-with-typescript",
+  "id": "version-1.11.0/getting-started/usage-with-typescript",
+  "title": "Usage with TypeScript",
+  "description": "概要",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/getting-started/usage-with-typescript.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/usage-with-typescript",
+  "permalink": "/ja/docs/getting-started/usage-with-typescript",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "usage-with-typescript",
+    "title": "Usage with TypeScript",
+    "sidebar_label": "Usage with TypeScript"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Custom CSS",
+    "permalink": "/ja/docs/getting-started/custom-css"
+  },
+  "next": {
+    "title": "Attachment",
+    "permalink": "/ja/docs/components/desktop/attachment"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/mobile/mobile-datetime-picker",
+  "id": "components/mobile/mobile-datetime-picker",
+  "title": "MobileDateTimePicker",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/mobile/mobile-datetime-picker.md",
+  "sourceDirName": "components/mobile",
+  "slug": "/components/mobile/mobile-datetime-picker",
+  "permalink": "/ja/docs/next/components/mobile/mobile-datetime-picker",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "mobile-datetime-picker",
+    "title": "MobileDateTimePicker",
+    "sidebar_label": "MobileDateTimePicker"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "MobileDatePicker",
+    "permalink": "/ja/docs/next/components/mobile/mobile-date-picker"
+  },
+  "next": {
+    "title": "MobileDropdown",
+    "permalink": "/ja/docs/next/components/mobile/mobile-dropdown"
+  }
+}

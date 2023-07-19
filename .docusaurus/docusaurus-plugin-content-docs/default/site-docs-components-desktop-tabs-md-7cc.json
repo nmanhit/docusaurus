@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/tabs",
+  "id": "components/desktop/tabs",
+  "title": "Tabs",
+  "description": "Overview",
+  "source": "@site/docs/components/desktop/tabs.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/tabs",
+  "permalink": "/docs/next/components/desktop/tabs",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "tabs",
+    "title": "Tabs",
+    "sidebar_label": "Tabs"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Table",
+    "permalink": "/docs/next/components/desktop/table"
+  },
+  "next": {
+    "title": "Text",
+    "permalink": "/docs/next/components/desktop/text"
+  }
+}

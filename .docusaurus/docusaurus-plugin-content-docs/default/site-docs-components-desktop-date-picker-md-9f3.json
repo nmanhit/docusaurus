@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/date-picker",
+  "id": "components/desktop/date-picker",
+  "title": "DatePicker",
+  "description": "Overview",
+  "source": "@site/docs/components/desktop/date-picker.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/date-picker",
+  "permalink": "/docs/next/components/desktop/date-picker",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "date-picker",
+    "title": "DatePicker",
+    "sidebar_label": "DatePicker"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Combobox",
+    "permalink": "/docs/next/components/desktop/combobox"
+  },
+  "next": {
+    "title": "DateTimePicker",
+    "permalink": "/docs/next/components/desktop/datetime-picker"
+  }
+}

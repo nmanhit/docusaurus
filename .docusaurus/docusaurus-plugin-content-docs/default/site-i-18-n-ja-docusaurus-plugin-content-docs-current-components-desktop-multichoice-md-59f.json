@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/multichoice",
+  "id": "components/desktop/multichoice",
+  "title": "MultiChoice",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/multichoice.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/multichoice",
+  "permalink": "/ja/docs/next/components/desktop/multichoice",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "multichoice",
+    "title": "MultiChoice",
+    "sidebar_label": "MultiChoice"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "FieldGroup",
+    "permalink": "/ja/docs/next/components/desktop/field-group"
+  },
+  "next": {
+    "title": "Notification",
+    "permalink": "/ja/docs/next/components/desktop/notification"
+  }
+}

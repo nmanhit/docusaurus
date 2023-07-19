@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/mobile/mobile-button",
+  "id": "version-1.11.0/components/mobile/mobile-button",
+  "title": "MobileButton",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/mobile/mobile-button.md",
+  "sourceDirName": "components/mobile",
+  "slug": "/components/mobile/mobile-button",
+  "permalink": "/ja/docs/components/mobile/mobile-button",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "mobile-button",
+    "title": "MobileButton",
+    "sidebar_label": "MobileButton"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "TimePicker",
+    "permalink": "/ja/docs/components/desktop/time-picker"
+  },
+  "next": {
+    "title": "MobileCheckbox",
+    "permalink": "/ja/docs/components/mobile/mobile-checkbox"
+  }
+}

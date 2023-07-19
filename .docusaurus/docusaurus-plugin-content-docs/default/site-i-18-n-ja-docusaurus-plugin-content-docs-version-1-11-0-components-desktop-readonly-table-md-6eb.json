@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/readonly-table",
+  "id": "version-1.11.0/components/desktop/readonly-table",
+  "title": "ReadOnlyTable",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/readonly-table.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/readonly-table",
+  "permalink": "/ja/docs/components/desktop/readonly-table",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "readonly-table",
+    "title": "ReadOnlyTable",
+    "sidebar_label": "ReadOnlyTable"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "RadioButton",
+    "permalink": "/ja/docs/components/desktop/radio-button"
+  },
+  "next": {
+    "title": "Spinner",
+    "permalink": "/ja/docs/components/desktop/spinner"
+  }
+}

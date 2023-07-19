@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/checkbox",
+  "id": "version-1.11.0/components/desktop/checkbox",
+  "title": "Checkbox",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/checkbox.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/checkbox",
+  "permalink": "/ja/docs/components/desktop/checkbox",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "checkbox",
+    "title": "Checkbox",
+    "sidebar_label": "Checkbox"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Button",
+    "permalink": "/ja/docs/components/desktop/button"
+  },
+  "next": {
+    "title": "Combobox",
+    "permalink": "/ja/docs/components/desktop/combobox"
+  }
+}

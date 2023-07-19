@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/table-readonly-table-customization",
+  "id": "guides/table-readonly-table-customization",
+  "title": "Table and ReadOnlyTable customization",
+  "description": "概要",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/guides/table-readonly-table-customization.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/table-readonly-table-customization",
+  "permalink": "/ja/docs/next/guides/table-readonly-table-customization",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "table-readonly-table-customization",
+    "title": "Table and ReadOnlyTable customization",
+    "sidebar_label": "Table and ReadOnlyTable customization"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Attachment customization",
+    "permalink": "/ja/docs/next/guides/attachment-customization"
+  },
+  "next": {
+    "title": "Tabs customization",
+    "permalink": "/ja/docs/next/guides/tabs-customization"
+  }
+}

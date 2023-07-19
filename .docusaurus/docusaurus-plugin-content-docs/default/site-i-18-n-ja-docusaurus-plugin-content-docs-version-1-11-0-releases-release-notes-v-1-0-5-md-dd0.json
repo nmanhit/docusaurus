@@ -1,0 +1,27 @@
+{
+  "unversionedId": "releases/release-notes-v1.0.5",
+  "id": "version-1.11.0/releases/release-notes-v1.0.5",
+  "title": "v1.0.5 Release Notes",
+  "description": "概要",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/releases/release-notes-v1.0.5.md",
+  "sourceDirName": "releases",
+  "slug": "/releases/release-notes-v1.0.5",
+  "permalink": "/ja/docs/releases/release-notes-v1.0.5",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "release-notes-v1.0.5",
+    "title": "v1.0.5 Release Notes",
+    "sidebar_label": "v1.0.5 Release Notes"
+  },
+  "sidebar": "release-notes",
+  "previous": {
+    "title": "v1.1.0 Release Notes",
+    "permalink": "/ja/docs/releases/release-notes-v1.1.0"
+  },
+  "next": {
+    "title": "v1.0.4 Release Notes",
+    "permalink": "/ja/docs/releases/release-notes-v1.0.4"
+  }
+}

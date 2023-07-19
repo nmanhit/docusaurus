@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/text",
+  "id": "version-1.11.0/components/desktop/text",
+  "title": "Text",
+  "description": "Overview",
+  "source": "@site/versioned_docs/version-1.11.0/components/desktop/text.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/text",
+  "permalink": "/docs/components/desktop/text",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "text",
+    "title": "Text",
+    "sidebar_label": "Text"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Tabs",
+    "permalink": "/docs/components/desktop/tabs"
+  },
+  "next": {
+    "title": "TextArea",
+    "permalink": "/docs/components/desktop/textarea"
+  }
+}

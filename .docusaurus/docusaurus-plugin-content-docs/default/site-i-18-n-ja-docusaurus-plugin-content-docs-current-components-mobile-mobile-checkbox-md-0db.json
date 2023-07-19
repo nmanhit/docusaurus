@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/mobile/mobile-checkbox",
+  "id": "components/mobile/mobile-checkbox",
+  "title": "MobileCheckbox",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/mobile/mobile-checkbox.md",
+  "sourceDirName": "components/mobile",
+  "slug": "/components/mobile/mobile-checkbox",
+  "permalink": "/ja/docs/next/components/mobile/mobile-checkbox",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "mobile-checkbox",
+    "title": "MobileCheckbox",
+    "sidebar_label": "MobileCheckbox"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "MobileButton",
+    "permalink": "/ja/docs/next/components/mobile/mobile-button"
+  },
+  "next": {
+    "title": "MobileDatePicker",
+    "permalink": "/ja/docs/next/components/mobile/mobile-date-picker"
+  }
+}

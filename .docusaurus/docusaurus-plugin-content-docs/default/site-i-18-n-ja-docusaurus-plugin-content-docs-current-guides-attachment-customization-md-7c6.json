@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/attachment-customization",
+  "id": "guides/attachment-customization",
+  "title": "Attachment customization",
+  "description": "概要",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/guides/attachment-customization.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/attachment-customization",
+  "permalink": "/ja/docs/next/guides/attachment-customization",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "attachment-customization",
+    "title": "Attachment customization",
+    "sidebar_label": "Attachment customization"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Version conflicts issue and solution",
+    "permalink": "/ja/docs/next/guides/version-conflicts-issue-solution"
+  },
+  "next": {
+    "title": "Table and ReadOnlyTable customization",
+    "permalink": "/ja/docs/next/guides/table-readonly-table-customization"
+  }
+}

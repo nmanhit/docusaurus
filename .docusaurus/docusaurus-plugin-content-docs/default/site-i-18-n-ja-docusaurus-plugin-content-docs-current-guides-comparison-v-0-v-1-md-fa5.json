@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/comparison-v0-v1",
+  "id": "guides/comparison-v0-v1",
+  "title": "A commentary on the difference between v0 and v1",
+  "description": "概要",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/guides/comparison-v0-v1.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/comparison-v0-v1",
+  "permalink": "/ja/docs/next/guides/comparison-v0-v1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "comparison-v0-v1",
+    "title": "A commentary on the difference between v0 and v1",
+    "sidebar_label": "A commentary on the difference between v0 and v1"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "version",
+    "permalink": "/ja/docs/next/utilities/version"
+  },
+  "next": {
+    "title": "Search box customization",
+    "permalink": "/ja/docs/next/guides/search-box-customization"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/mobile-timecard-customization",
+  "id": "guides/mobile-timecard-customization",
+  "title": "Mobile timecard customization",
+  "description": "概要",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/guides/mobile-timecard-customization.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/mobile-timecard-customization",
+  "permalink": "/ja/docs/next/guides/mobile-timecard-customization",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "mobile-timecard-customization",
+    "title": "Mobile timecard customization",
+    "sidebar_label": "Mobile timecard customization"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Search box customization",
+    "permalink": "/ja/docs/next/guides/search-box-customization"
+  },
+  "next": {
+    "title": "Cleaning check list customization",
+    "permalink": "/ja/docs/next/guides/cleaning-check-list-customization"
+  }
+}

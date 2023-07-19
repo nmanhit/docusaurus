@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/text",
+  "id": "components/desktop/text",
+  "title": "Text",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/text.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/text",
+  "permalink": "/ja/docs/next/components/desktop/text",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "text",
+    "title": "Text",
+    "sidebar_label": "Text"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Tabs",
+    "permalink": "/ja/docs/next/components/desktop/tabs"
+  },
+  "next": {
+    "title": "TextArea",
+    "permalink": "/ja/docs/next/components/desktop/textarea"
+  }
+}

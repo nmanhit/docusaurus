@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/checkbox",
+  "id": "version-1.11.0/components/desktop/checkbox",
+  "title": "Checkbox",
+  "description": "Overview",
+  "source": "@site/versioned_docs/version-1.11.0/components/desktop/checkbox.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/checkbox",
+  "permalink": "/docs/components/desktop/checkbox",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "checkbox",
+    "title": "Checkbox",
+    "sidebar_label": "Checkbox"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Button",
+    "permalink": "/docs/components/desktop/button"
+  },
+  "next": {
+    "title": "Combobox",
+    "permalink": "/docs/components/desktop/combobox"
+  }
+}

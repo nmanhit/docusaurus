@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/mobile-timecard-customization",
+  "id": "version-1.11.0/guides/mobile-timecard-customization",
+  "title": "Mobile timecard customization",
+  "description": "Overview",
+  "source": "@site/versioned_docs/version-1.11.0/guides/mobile-timecard-customization.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/mobile-timecard-customization",
+  "permalink": "/docs/guides/mobile-timecard-customization",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "mobile-timecard-customization",
+    "title": "Mobile timecard customization",
+    "sidebar_label": "Mobile timecard customization"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Search box customization",
+    "permalink": "/docs/guides/search-box-customization"
+  },
+  "next": {
+    "title": "Cleaning check list customization",
+    "permalink": "/docs/guides/cleaning-check-list-customization"
+  }
+}

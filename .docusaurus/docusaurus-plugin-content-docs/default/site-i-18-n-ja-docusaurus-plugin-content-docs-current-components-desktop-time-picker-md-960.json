@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/time-picker",
+  "id": "components/desktop/time-picker",
+  "title": "TimePicker",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/time-picker.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/time-picker",
+  "permalink": "/ja/docs/next/components/desktop/time-picker",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "time-picker",
+    "title": "TimePicker",
+    "sidebar_label": "TimePicker"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "TextArea",
+    "permalink": "/ja/docs/next/components/desktop/textarea"
+  },
+  "next": {
+    "title": "MobileButton",
+    "permalink": "/ja/docs/next/components/mobile/mobile-button"
+  }
+}

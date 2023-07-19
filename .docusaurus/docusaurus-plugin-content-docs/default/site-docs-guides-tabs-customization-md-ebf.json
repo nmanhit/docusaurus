@@ -1,0 +1,23 @@
+{
+  "unversionedId": "guides/tabs-customization",
+  "id": "guides/tabs-customization",
+  "title": "Tabs customization",
+  "description": "Overview",
+  "source": "@site/docs/guides/tabs-customization.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/tabs-customization",
+  "permalink": "/docs/next/guides/tabs-customization",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "tabs-customization",
+    "title": "Tabs customization",
+    "sidebar_label": "Tabs customization"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Table and ReadOnlyTable customization",
+    "permalink": "/docs/next/guides/table-readonly-table-customization"
+  }
+}

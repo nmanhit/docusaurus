@@ -1,0 +1,27 @@
+{
+  "unversionedId": "getting-started/custom-css",
+  "id": "version-1.11.0/getting-started/custom-css",
+  "title": "Custom CSS",
+  "description": "Overview",
+  "source": "@site/versioned_docs/version-1.11.0/getting-started/custom-css.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/custom-css",
+  "permalink": "/docs/getting-started/custom-css",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "custom-css",
+    "title": "Custom CSS",
+    "sidebar_label": "Custom CSS"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Quick Start",
+    "permalink": "/docs/getting-started/quick-start"
+  },
+  "next": {
+    "title": "Usage with TypeScript",
+    "permalink": "/docs/getting-started/usage-with-typescript"
+  }
+}

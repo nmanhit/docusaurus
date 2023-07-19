@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/notification",
+  "id": "components/desktop/notification",
+  "title": "Notification",
+  "description": "Overview",
+  "source": "@site/docs/components/desktop/notification.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/notification",
+  "permalink": "/docs/next/components/desktop/notification",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "notification",
+    "title": "Notification",
+    "sidebar_label": "Notification"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "MultiChoice",
+    "permalink": "/docs/next/components/desktop/multichoice"
+  },
+  "next": {
+    "title": "RadioButton",
+    "permalink": "/docs/next/components/desktop/radio-button"
+  }
+}

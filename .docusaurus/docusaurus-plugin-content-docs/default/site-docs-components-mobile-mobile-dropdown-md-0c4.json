@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/mobile/mobile-dropdown",
+  "id": "components/mobile/mobile-dropdown",
+  "title": "MobileDropdown",
+  "description": "Overview",
+  "source": "@site/docs/components/mobile/mobile-dropdown.md",
+  "sourceDirName": "components/mobile",
+  "slug": "/components/mobile/mobile-dropdown",
+  "permalink": "/docs/next/components/mobile/mobile-dropdown",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "mobile-dropdown",
+    "title": "MobileDropdown",
+    "sidebar_label": "MobileDropdown"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "MobileDateTimePicker",
+    "permalink": "/docs/next/components/mobile/mobile-datetime-picker"
+  },
+  "next": {
+    "title": "MobileMultiChoice",
+    "permalink": "/docs/next/components/mobile/mobile-multichoice"
+  }
+}

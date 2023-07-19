@@ -1,0 +1,27 @@
+{
+  "unversionedId": "utilities/version",
+  "id": "version-1.11.0/utilities/version",
+  "title": "version",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/utilities/version.md",
+  "sourceDirName": "utilities",
+  "slug": "/utilities/version",
+  "permalink": "/ja/docs/utilities/version",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "version",
+    "title": "version",
+    "sidebar_label": "version"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "MobileTimePicker",
+    "permalink": "/ja/docs/components/mobile/mobile-time-picker"
+  },
+  "next": {
+    "title": "A commentary on the difference between v0 and v1",
+    "permalink": "/ja/docs/guides/comparison-v0-v1"
+  }
+}

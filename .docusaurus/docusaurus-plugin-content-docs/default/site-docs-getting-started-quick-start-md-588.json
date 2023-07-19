@@ -1,0 +1,23 @@
+{
+  "unversionedId": "getting-started/quick-start",
+  "id": "getting-started/quick-start",
+  "title": "Quick Start",
+  "description": "What is Kintone UI Component?",
+  "source": "@site/docs/getting-started/quick-start.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/quick-start",
+  "permalink": "/docs/next/getting-started/quick-start",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "quick-start",
+    "title": "Quick Start",
+    "sidebar_label": "Quick Start"
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "Custom CSS",
+    "permalink": "/docs/next/getting-started/custom-css"
+  }
+}

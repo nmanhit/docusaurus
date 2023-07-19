@@ -1,0 +1,23 @@
+{
+  "unversionedId": "getting-started/quick-start",
+  "id": "getting-started/quick-start",
+  "title": "Quick Start",
+  "description": "kintone UI Component とは？",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/getting-started/quick-start.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/quick-start",
+  "permalink": "/ja/docs/next/getting-started/quick-start",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "quick-start",
+    "title": "Quick Start",
+    "sidebar_label": "Quick Start"
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "Custom CSS",
+    "permalink": "/ja/docs/next/getting-started/custom-css"
+  }
+}

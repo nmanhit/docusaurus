@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/attachment-customization",
+  "id": "version-1.11.0/guides/attachment-customization",
+  "title": "Attachment customization",
+  "description": "Overview",
+  "source": "@site/versioned_docs/version-1.11.0/guides/attachment-customization.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/attachment-customization",
+  "permalink": "/docs/guides/attachment-customization",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "attachment-customization",
+    "title": "Attachment customization",
+    "sidebar_label": "Attachment customization"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Version conflicts issue and solution",
+    "permalink": "/docs/guides/version-conflicts-issue-solution"
+  },
+  "next": {
+    "title": "Table and ReadOnlyTable customization",
+    "permalink": "/docs/guides/table-readonly-table-customization"
+  }
+}

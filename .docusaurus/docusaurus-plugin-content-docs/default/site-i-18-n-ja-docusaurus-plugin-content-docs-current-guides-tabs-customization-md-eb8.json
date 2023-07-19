@@ -1,0 +1,23 @@
+{
+  "unversionedId": "guides/tabs-customization",
+  "id": "guides/tabs-customization",
+  "title": "Tabs customization",
+  "description": "概要",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/guides/tabs-customization.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/tabs-customization",
+  "permalink": "/ja/docs/next/guides/tabs-customization",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "tabs-customization",
+    "title": "Tabs customization",
+    "sidebar_label": "Tabs customization"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Table and ReadOnlyTable customization",
+    "permalink": "/ja/docs/next/guides/table-readonly-table-customization"
+  }
+}

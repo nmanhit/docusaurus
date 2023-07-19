@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/cleaning-check-list-customization",
+  "id": "version-1.11.0/guides/cleaning-check-list-customization",
+  "title": "Cleaning check list customization",
+  "description": "Overview",
+  "source": "@site/versioned_docs/version-1.11.0/guides/cleaning-check-list-customization.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/cleaning-check-list-customization",
+  "permalink": "/docs/guides/cleaning-check-list-customization",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "cleaning-check-list-customization",
+    "title": "Cleaning check list customization",
+    "sidebar_label": "Cleaning check list customization"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Mobile timecard customization",
+    "permalink": "/docs/guides/mobile-timecard-customization"
+  },
+  "next": {
+    "title": "Bulk update customization",
+    "permalink": "/docs/guides/bulk-update-customization"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/mobile/mobile-textarea",
+  "id": "version-1.11.0/components/mobile/mobile-textarea",
+  "title": "MobileTextArea",
+  "description": "Overview",
+  "source": "@site/versioned_docs/version-1.11.0/components/mobile/mobile-textarea.md",
+  "sourceDirName": "components/mobile",
+  "slug": "/components/mobile/mobile-textarea",
+  "permalink": "/docs/components/mobile/mobile-textarea",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "mobile-textarea",
+    "title": "MobileTextArea",
+    "sidebar_label": "MobileTextArea"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "MobileText",
+    "permalink": "/docs/components/mobile/mobile-text"
+  },
+  "next": {
+    "title": "MobileTimePicker",
+    "permalink": "/docs/components/mobile/mobile-time-picker"
+  }
+}

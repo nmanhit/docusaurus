@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/button",
+  "id": "components/desktop/button",
+  "title": "Button",
+  "description": "Overview",
+  "source": "@site/docs/components/desktop/button.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/button",
+  "permalink": "/docs/next/components/desktop/button",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "button",
+    "title": "Button",
+    "sidebar_label": "Button"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Attachment",
+    "permalink": "/docs/next/components/desktop/attachment"
+  },
+  "next": {
+    "title": "Checkbox",
+    "permalink": "/docs/next/components/desktop/checkbox"
+  }
+}

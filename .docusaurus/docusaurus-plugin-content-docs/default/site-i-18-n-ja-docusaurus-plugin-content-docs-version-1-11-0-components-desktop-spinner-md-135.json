@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/spinner",
+  "id": "version-1.11.0/components/desktop/spinner",
+  "title": "Spinner",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/spinner.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/spinner",
+  "permalink": "/ja/docs/components/desktop/spinner",
+  "draft": false,
+  "tags": [],
+  "version": "1.11.0",
+  "frontMatter": {
+    "id": "spinner",
+    "title": "Spinner",
+    "sidebar_label": "Spinner"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "ReadOnlyTable",
+    "permalink": "/ja/docs/components/desktop/readonly-table"
+  },
+  "next": {
+    "title": "Table",
+    "permalink": "/ja/docs/components/desktop/table"
+  }
+}

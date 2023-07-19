@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/button",
+  "id": "components/desktop/button",
+  "title": "Button",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/button.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/button",
+  "permalink": "/ja/docs/next/components/desktop/button",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "button",
+    "title": "Button",
+    "sidebar_label": "Button"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Attachment",
+    "permalink": "/ja/docs/next/components/desktop/attachment"
+  },
+  "next": {
+    "title": "Checkbox",
+    "permalink": "/ja/docs/next/components/desktop/checkbox"
+  }
+}

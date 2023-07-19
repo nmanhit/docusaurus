@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/dropdown",
+  "id": "components/desktop/dropdown",
+  "title": "Dropdown",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/dropdown.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/dropdown",
+  "permalink": "/ja/docs/next/components/desktop/dropdown",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "dropdown",
+    "title": "Dropdown",
+    "sidebar_label": "Dropdown"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Dialog",
+    "permalink": "/ja/docs/next/components/desktop/dialog"
+  },
+  "next": {
+    "title": "FieldGroup",
+    "permalink": "/ja/docs/next/components/desktop/field-group"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/mobile/mobile-notification",
+  "id": "components/mobile/mobile-notification",
+  "title": "MobileNotification",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/mobile/mobile-notification.md",
+  "sourceDirName": "components/mobile",
+  "slug": "/components/mobile/mobile-notification",
+  "permalink": "/ja/docs/next/components/mobile/mobile-notification",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "mobile-notification",
+    "title": "MobileNotification",
+    "sidebar_label": "MobileNotification"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "MobileMultiChoice",
+    "permalink": "/ja/docs/next/components/mobile/mobile-multichoice"
+  },
+  "next": {
+    "title": "MobileRadioButton",
+    "permalink": "/ja/docs/next/components/mobile/mobile-radio-button"
+  }
+}

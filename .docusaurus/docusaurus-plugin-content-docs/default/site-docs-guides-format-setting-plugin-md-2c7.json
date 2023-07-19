@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/format-setting-plugin",
+  "id": "guides/format-setting-plugin",
+  "title": "Format setting plug-in",
+  "description": "Overview",
+  "source": "@site/docs/guides/format-setting-plugin.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/format-setting-plugin",
+  "permalink": "/docs/next/guides/format-setting-plugin",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "format-setting-plugin",
+    "title": "Format setting plug-in",
+    "sidebar_label": "Format setting plug-in"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Bulk update customization",
+    "permalink": "/docs/next/guides/bulk-update-customization"
+  },
+  "next": {
+    "title": "Version conflicts issue and solution",
+    "permalink": "/docs/next/guides/version-conflicts-issue-solution"
+  }
+}

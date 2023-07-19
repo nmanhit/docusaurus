@@ -1,0 +1,27 @@
+{
+  "unversionedId": "components/desktop/dialog",
+  "id": "components/desktop/dialog",
+  "title": "Dialog",
+  "description": "Overview",
+  "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/dialog.md",
+  "sourceDirName": "components/desktop",
+  "slug": "/components/desktop/dialog",
+  "permalink": "/ja/docs/next/components/desktop/dialog",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "dialog",
+    "title": "Dialog",
+    "sidebar_label": "Dialog"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "DateTimePicker",
+    "permalink": "/ja/docs/next/components/desktop/datetime-picker"
+  },
+  "next": {
+    "title": "Dropdown",
+    "permalink": "/ja/docs/next/components/desktop/dropdown"
+  }
+}
