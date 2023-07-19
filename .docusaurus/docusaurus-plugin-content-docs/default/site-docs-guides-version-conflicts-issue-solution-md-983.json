@@ -6,7 +6,7 @@
   "source": "@site/docs/guides/version-conflicts-issue-solution.md",
   "sourceDirName": "guides",
   "slug": "/guides/version-conflicts-issue-solution",
-  "permalink": "/docs/next/guides/version-conflicts-issue-solution",
+  "permalink": "/docusaurus/docs/next/guides/version-conflicts-issue-solution",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Format setting plug-in",
-    "permalink": "/docs/next/guides/format-setting-plugin"
+    "permalink": "/docusaurus/docs/next/guides/format-setting-plugin"
   },
   "next": {
     "title": "Attachment customization",
-    "permalink": "/docs/next/guides/attachment-customization"
+    "permalink": "/docusaurus/docs/next/guides/attachment-customization"
   }
 }

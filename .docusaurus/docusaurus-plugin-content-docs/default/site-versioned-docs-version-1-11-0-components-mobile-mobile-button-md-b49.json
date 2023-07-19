@@ -6,7 +6,7 @@
   "source": "@site/versioned_docs/version-1.11.0/components/mobile/mobile-button.md",
   "sourceDirName": "components/mobile",
   "slug": "/components/mobile/mobile-button",
-  "permalink": "/docs/components/mobile/mobile-button",
+  "permalink": "/docusaurus/docs/components/mobile/mobile-button",
   "draft": false,
   "tags": [],
   "version": "1.11.0",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "TimePicker",
-    "permalink": "/docs/components/desktop/time-picker"
+    "permalink": "/docusaurus/docs/components/desktop/time-picker"
   },
   "next": {
     "title": "MobileCheckbox",
-    "permalink": "/docs/components/mobile/mobile-checkbox"
+    "permalink": "/docusaurus/docs/components/mobile/mobile-checkbox"
   }
 }

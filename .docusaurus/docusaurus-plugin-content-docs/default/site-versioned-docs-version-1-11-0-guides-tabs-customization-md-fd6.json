@@ -6,7 +6,7 @@
   "source": "@site/versioned_docs/version-1.11.0/guides/tabs-customization.md",
   "sourceDirName": "guides",
   "slug": "/guides/tabs-customization",
-  "permalink": "/docs/guides/tabs-customization",
+  "permalink": "/docusaurus/docs/guides/tabs-customization",
   "draft": false,
   "tags": [],
   "version": "1.11.0",
@@ -18,6 +18,6 @@
   "sidebar": "docs",
   "previous": {
     "title": "Table and ReadOnlyTable customization",
-    "permalink": "/docs/guides/table-readonly-table-customization"
+    "permalink": "/docusaurus/docs/guides/table-readonly-table-customization"
   }
 }

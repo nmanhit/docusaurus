@@ -6,7 +6,7 @@
   "source": "@site/docs/components/desktop/datetime-picker.md",
   "sourceDirName": "components/desktop",
   "slug": "/components/desktop/datetime-picker",
-  "permalink": "/docs/next/components/desktop/datetime-picker",
+  "permalink": "/docusaurus/docs/next/components/desktop/datetime-picker",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "DatePicker",
-    "permalink": "/docs/next/components/desktop/date-picker"
+    "permalink": "/docusaurus/docs/next/components/desktop/date-picker"
   },
   "next": {
     "title": "Dialog",
-    "permalink": "/docs/next/components/desktop/dialog"
+    "permalink": "/docusaurus/docs/next/components/desktop/dialog"
   }
 }

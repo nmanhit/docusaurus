@@ -6,7 +6,7 @@
   "source": "@site/docs/components/desktop/time-picker.md",
   "sourceDirName": "components/desktop",
   "slug": "/components/desktop/time-picker",
-  "permalink": "/docs/next/components/desktop/time-picker",
+  "permalink": "/docusaurus/docs/next/components/desktop/time-picker",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "TextArea",
-    "permalink": "/docs/next/components/desktop/textarea"
+    "permalink": "/docusaurus/docs/next/components/desktop/textarea"
   },
   "next": {
     "title": "MobileButton",
-    "permalink": "/docs/next/components/mobile/mobile-button"
+    "permalink": "/docusaurus/docs/next/components/mobile/mobile-button"
   }
 }

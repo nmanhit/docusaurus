@@ -6,7 +6,7 @@
   "source": "@site/docs/getting-started/custom-css.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/custom-css",
-  "permalink": "/docs/next/getting-started/custom-css",
+  "permalink": "/docusaurus/docs/next/getting-started/custom-css",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Quick Start",
-    "permalink": "/docs/next/getting-started/quick-start"
+    "permalink": "/docusaurus/docs/next/getting-started/quick-start"
   },
   "next": {
     "title": "Usage with TypeScript",
-    "permalink": "/docs/next/getting-started/usage-with-typescript"
+    "permalink": "/docusaurus/docs/next/getting-started/usage-with-typescript"
   }
 }

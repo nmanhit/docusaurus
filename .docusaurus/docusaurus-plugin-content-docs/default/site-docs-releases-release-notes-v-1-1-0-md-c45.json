@@ -6,7 +6,7 @@
   "source": "@site/docs/releases/release-notes-v1.1.0.md",
   "sourceDirName": "releases",
   "slug": "/releases/release-notes-v1.1.0",
-  "permalink": "/docs/next/releases/release-notes-v1.1.0",
+  "permalink": "/docusaurus/docs/next/releases/release-notes-v1.1.0",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "release-notes",
   "previous": {
     "title": "v1.1.1 Release Notes",
-    "permalink": "/docs/next/releases/release-notes-v1.1.1"
+    "permalink": "/docusaurus/docs/next/releases/release-notes-v1.1.1"
   },
   "next": {
     "title": "v1.0.5 Release Notes",
-    "permalink": "/docs/next/releases/release-notes-v1.0.5"
+    "permalink": "/docusaurus/docs/next/releases/release-notes-v1.0.5"
   }
 }

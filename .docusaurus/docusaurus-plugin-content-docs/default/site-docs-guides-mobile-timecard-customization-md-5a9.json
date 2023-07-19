@@ -6,7 +6,7 @@
   "source": "@site/docs/guides/mobile-timecard-customization.md",
   "sourceDirName": "guides",
   "slug": "/guides/mobile-timecard-customization",
-  "permalink": "/docs/next/guides/mobile-timecard-customization",
+  "permalink": "/docusaurus/docs/next/guides/mobile-timecard-customization",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Search box customization",
-    "permalink": "/docs/next/guides/search-box-customization"
+    "permalink": "/docusaurus/docs/next/guides/search-box-customization"
   },
   "next": {
     "title": "Cleaning check list customization",
-    "permalink": "/docs/next/guides/cleaning-check-list-customization"
+    "permalink": "/docusaurus/docs/next/guides/cleaning-check-list-customization"
   }
 }

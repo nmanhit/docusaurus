@@ -6,7 +6,7 @@
   "source": "@site/versioned_docs/version-1.11.0/components/desktop/multichoice.md",
   "sourceDirName": "components/desktop",
   "slug": "/components/desktop/multichoice",
-  "permalink": "/docs/components/desktop/multichoice",
+  "permalink": "/docusaurus/docs/components/desktop/multichoice",
   "draft": false,
   "tags": [],
   "version": "1.11.0",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "FieldGroup",
-    "permalink": "/docs/components/desktop/field-group"
+    "permalink": "/docusaurus/docs/components/desktop/field-group"
   },
   "next": {
     "title": "Notification",
-    "permalink": "/docs/components/desktop/notification"
+    "permalink": "/docusaurus/docs/components/desktop/notification"
   }
 }

@@ -6,7 +6,7 @@
   "source": "@site/versioned_docs/version-1.11.0/components/desktop/notification.md",
   "sourceDirName": "components/desktop",
   "slug": "/components/desktop/notification",
-  "permalink": "/docs/components/desktop/notification",
+  "permalink": "/docusaurus/docs/components/desktop/notification",
   "draft": false,
   "tags": [],
   "version": "1.11.0",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "MultiChoice",
-    "permalink": "/docs/components/desktop/multichoice"
+    "permalink": "/docusaurus/docs/components/desktop/multichoice"
   },
   "next": {
     "title": "RadioButton",
-    "permalink": "/docs/components/desktop/radio-button"
+    "permalink": "/docusaurus/docs/components/desktop/radio-button"
   }
 }

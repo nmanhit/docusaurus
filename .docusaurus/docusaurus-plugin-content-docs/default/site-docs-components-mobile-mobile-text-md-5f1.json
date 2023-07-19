@@ -6,7 +6,7 @@
   "source": "@site/docs/components/mobile/mobile-text.md",
   "sourceDirName": "components/mobile",
   "slug": "/components/mobile/mobile-text",
-  "permalink": "/docs/next/components/mobile/mobile-text",
+  "permalink": "/docusaurus/docs/next/components/mobile/mobile-text",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "MobileRadioButton",
-    "permalink": "/docs/next/components/mobile/mobile-radio-button"
+    "permalink": "/docusaurus/docs/next/components/mobile/mobile-radio-button"
   },
   "next": {
     "title": "MobileTextArea",
-    "permalink": "/docs/next/components/mobile/mobile-textarea"
+    "permalink": "/docusaurus/docs/next/components/mobile/mobile-textarea"
   }
 }

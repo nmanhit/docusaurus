@@ -22,7 +22,7 @@ const config = {
     },
   ],
   tagline: 'It will support your UI customization project.',
-  url: 'https://nmanhit.github.io/',
+  url: 'https://nmanhit.github.io',
   baseUrl: '/docusaurus/',
   onBrokenLinks: 'warn', // throw
   onBrokenMarkdownLinks: 'warn',

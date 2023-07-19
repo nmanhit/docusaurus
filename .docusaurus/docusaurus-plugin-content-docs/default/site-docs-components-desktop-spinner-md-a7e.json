@@ -6,7 +6,7 @@
   "source": "@site/docs/components/desktop/spinner.md",
   "sourceDirName": "components/desktop",
   "slug": "/components/desktop/spinner",
-  "permalink": "/docs/next/components/desktop/spinner",
+  "permalink": "/docusaurus/docs/next/components/desktop/spinner",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "ReadOnlyTable",
-    "permalink": "/docs/next/components/desktop/readonly-table"
+    "permalink": "/docusaurus/docs/next/components/desktop/readonly-table"
   },
   "next": {
     "title": "Table",
-    "permalink": "/docs/next/components/desktop/table"
+    "permalink": "/docusaurus/docs/next/components/desktop/table"
   }
 }

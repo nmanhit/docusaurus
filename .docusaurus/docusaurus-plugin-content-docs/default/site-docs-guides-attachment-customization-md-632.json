@@ -6,7 +6,7 @@
   "source": "@site/docs/guides/attachment-customization.md",
   "sourceDirName": "guides",
   "slug": "/guides/attachment-customization",
-  "permalink": "/docs/next/guides/attachment-customization",
+  "permalink": "/docusaurus/docs/next/guides/attachment-customization",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Version conflicts issue and solution",
-    "permalink": "/docs/next/guides/version-conflicts-issue-solution"
+    "permalink": "/docusaurus/docs/next/guides/version-conflicts-issue-solution"
   },
   "next": {
     "title": "Table and ReadOnlyTable customization",
-    "permalink": "/docs/next/guides/table-readonly-table-customization"
+    "permalink": "/docusaurus/docs/next/guides/table-readonly-table-customization"
   }
 }

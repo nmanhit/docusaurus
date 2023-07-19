@@ -6,7 +6,7 @@
   "source": "@site/versioned_docs/version-1.11.0/components/desktop/button.md",
   "sourceDirName": "components/desktop",
   "slug": "/components/desktop/button",
-  "permalink": "/docs/components/desktop/button",
+  "permalink": "/docusaurus/docs/components/desktop/button",
   "draft": false,
   "tags": [],
   "version": "1.11.0",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Attachment",
-    "permalink": "/docs/components/desktop/attachment"
+    "permalink": "/docusaurus/docs/components/desktop/attachment"
   },
   "next": {
     "title": "Checkbox",
-    "permalink": "/docs/components/desktop/checkbox"
+    "permalink": "/docusaurus/docs/components/desktop/checkbox"
   }
 }

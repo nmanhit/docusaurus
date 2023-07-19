@@ -6,7 +6,7 @@
   "source": "@site/docs/getting-started/usage-with-typescript.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/usage-with-typescript",
-  "permalink": "/docs/next/getting-started/usage-with-typescript",
+  "permalink": "/docusaurus/docs/next/getting-started/usage-with-typescript",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Custom CSS",
-    "permalink": "/docs/next/getting-started/custom-css"
+    "permalink": "/docusaurus/docs/next/getting-started/custom-css"
   },
   "next": {
     "title": "Attachment",
-    "permalink": "/docs/next/components/desktop/attachment"
+    "permalink": "/docusaurus/docs/next/components/desktop/attachment"
   }
 }

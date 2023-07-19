@@ -6,7 +6,7 @@
   "source": "@site/docs/components/mobile/mobile-date-picker.md",
   "sourceDirName": "components/mobile",
   "slug": "/components/mobile/mobile-date-picker",
-  "permalink": "/docs/next/components/mobile/mobile-date-picker",
+  "permalink": "/docusaurus/docs/next/components/mobile/mobile-date-picker",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "MobileCheckbox",
-    "permalink": "/docs/next/components/mobile/mobile-checkbox"
+    "permalink": "/docusaurus/docs/next/components/mobile/mobile-checkbox"
   },
   "next": {
     "title": "MobileDateTimePicker",
-    "permalink": "/docs/next/components/mobile/mobile-datetime-picker"
+    "permalink": "/docusaurus/docs/next/components/mobile/mobile-datetime-picker"
   }
 }

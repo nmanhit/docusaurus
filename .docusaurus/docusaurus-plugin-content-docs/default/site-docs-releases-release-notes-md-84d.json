@@ -6,7 +6,7 @@
   "source": "@site/docs/releases/release-notes.md",
   "sourceDirName": "releases",
   "slug": "/releases/release-notes",
-  "permalink": "/docs/next/releases/release-notes",
+  "permalink": "/docusaurus/docs/next/releases/release-notes",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,6 +18,6 @@
   "sidebar": "release-notes",
   "next": {
     "title": "v1.4.0 Release Notes",
-    "permalink": "/docs/next/releases/release-notes-v1.4.0"
+    "permalink": "/docusaurus/docs/next/releases/release-notes-v1.4.0"
   }
 }

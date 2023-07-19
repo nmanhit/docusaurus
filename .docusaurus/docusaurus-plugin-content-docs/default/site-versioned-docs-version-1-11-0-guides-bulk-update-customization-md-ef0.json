@@ -6,7 +6,7 @@
   "source": "@site/versioned_docs/version-1.11.0/guides/bulk-update-customization.md",
   "sourceDirName": "guides",
   "slug": "/guides/bulk-update-customization",
-  "permalink": "/docs/guides/bulk-update-customization",
+  "permalink": "/docusaurus/docs/guides/bulk-update-customization",
   "draft": false,
   "tags": [],
   "version": "1.11.0",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Cleaning check list customization",
-    "permalink": "/docs/guides/cleaning-check-list-customization"
+    "permalink": "/docusaurus/docs/guides/cleaning-check-list-customization"
   },
   "next": {
     "title": "Format setting plug-in",
-    "permalink": "/docs/guides/format-setting-plugin"
+    "permalink": "/docusaurus/docs/guides/format-setting-plugin"
   }
 }

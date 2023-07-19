@@ -6,7 +6,7 @@
   "source": "@site/versioned_docs/version-1.11.0/components/desktop/table.md",
   "sourceDirName": "components/desktop",
   "slug": "/components/desktop/table",
-  "permalink": "/docs/components/desktop/table",
+  "permalink": "/docusaurus/docs/components/desktop/table",
   "draft": false,
   "tags": [],
   "version": "1.11.0",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Spinner",
-    "permalink": "/docs/components/desktop/spinner"
+    "permalink": "/docusaurus/docs/components/desktop/spinner"
   },
   "next": {
     "title": "Tabs",
-    "permalink": "/docs/components/desktop/tabs"
+    "permalink": "/docusaurus/docs/components/desktop/tabs"
   }
 }

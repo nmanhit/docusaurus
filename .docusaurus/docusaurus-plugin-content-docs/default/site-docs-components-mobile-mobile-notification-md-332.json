@@ -6,7 +6,7 @@
   "source": "@site/docs/components/mobile/mobile-notification.md",
   "sourceDirName": "components/mobile",
   "slug": "/components/mobile/mobile-notification",
-  "permalink": "/docs/next/components/mobile/mobile-notification",
+  "permalink": "/docusaurus/docs/next/components/mobile/mobile-notification",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "MobileMultiChoice",
-    "permalink": "/docs/next/components/mobile/mobile-multichoice"
+    "permalink": "/docusaurus/docs/next/components/mobile/mobile-multichoice"
   },
   "next": {
     "title": "MobileRadioButton",
-    "permalink": "/docs/next/components/mobile/mobile-radio-button"
+    "permalink": "/docusaurus/docs/next/components/mobile/mobile-radio-button"
   }
 }

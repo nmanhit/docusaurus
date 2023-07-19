@@ -6,7 +6,7 @@
   "source": "@site/docs/components/mobile/mobile-radio-button.md",
   "sourceDirName": "components/mobile",
   "slug": "/components/mobile/mobile-radio-button",
-  "permalink": "/docs/next/components/mobile/mobile-radio-button",
+  "permalink": "/docusaurus/docs/next/components/mobile/mobile-radio-button",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "MobileNotification",
-    "permalink": "/docs/next/components/mobile/mobile-notification"
+    "permalink": "/docusaurus/docs/next/components/mobile/mobile-notification"
   },
   "next": {
     "title": "MobileText",
-    "permalink": "/docs/next/components/mobile/mobile-text"
+    "permalink": "/docusaurus/docs/next/components/mobile/mobile-text"
   }
 }

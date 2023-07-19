@@ -6,7 +6,7 @@
   "source": "@site/versioned_docs/version-1.11.0/utilities/version.md",
   "sourceDirName": "utilities",
   "slug": "/utilities/version",
-  "permalink": "/docs/utilities/version",
+  "permalink": "/docusaurus/docs/utilities/version",
   "draft": false,
   "tags": [],
   "version": "1.11.0",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "MobileTimePicker",
-    "permalink": "/docs/components/mobile/mobile-time-picker"
+    "permalink": "/docusaurus/docs/components/mobile/mobile-time-picker"
   },
   "next": {
     "title": "A commentary on the difference between v0 and v1",
-    "permalink": "/docs/guides/comparison-v0-v1"
+    "permalink": "/docusaurus/docs/guides/comparison-v0-v1"
   }
 }

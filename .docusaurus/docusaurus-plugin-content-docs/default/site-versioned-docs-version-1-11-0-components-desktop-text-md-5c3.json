@@ -6,7 +6,7 @@
   "source": "@site/versioned_docs/version-1.11.0/components/desktop/text.md",
   "sourceDirName": "components/desktop",
   "slug": "/components/desktop/text",
-  "permalink": "/docs/components/desktop/text",
+  "permalink": "/docusaurus/docs/components/desktop/text",
   "draft": false,
   "tags": [],
   "version": "1.11.0",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Tabs",
-    "permalink": "/docs/components/desktop/tabs"
+    "permalink": "/docusaurus/docs/components/desktop/tabs"
   },
   "next": {
     "title": "TextArea",
-    "permalink": "/docs/components/desktop/textarea"
+    "permalink": "/docusaurus/docs/components/desktop/textarea"
   }
 }

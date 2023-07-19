@@ -6,7 +6,7 @@
   "source": "@site/docs/getting-started/quick-start.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/quick-start",
-  "permalink": "/docs/next/getting-started/quick-start",
+  "permalink": "/docusaurus/docs/next/getting-started/quick-start",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,6 +18,6 @@
   "sidebar": "docs",
   "next": {
     "title": "Custom CSS",
-    "permalink": "/docs/next/getting-started/custom-css"
+    "permalink": "/docusaurus/docs/next/getting-started/custom-css"
   }
 }

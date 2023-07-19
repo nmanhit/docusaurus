@@ -6,7 +6,7 @@
   "source": "@site/docs/components/desktop/dropdown.md",
   "sourceDirName": "components/desktop",
   "slug": "/components/desktop/dropdown",
-  "permalink": "/docs/next/components/desktop/dropdown",
+  "permalink": "/docusaurus/docs/next/components/desktop/dropdown",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Dialog",
-    "permalink": "/docs/next/components/desktop/dialog"
+    "permalink": "/docusaurus/docs/next/components/desktop/dialog"
   },
   "next": {
     "title": "FieldGroup",
-    "permalink": "/docs/next/components/desktop/field-group"
+    "permalink": "/docusaurus/docs/next/components/desktop/field-group"
   }
 }

@@ -6,7 +6,7 @@
   "source": "@site/docs/components/mobile/mobile-dropdown.md",
   "sourceDirName": "components/mobile",
   "slug": "/components/mobile/mobile-dropdown",
-  "permalink": "/docs/next/components/mobile/mobile-dropdown",
+  "permalink": "/docusaurus/docs/next/components/mobile/mobile-dropdown",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "MobileDateTimePicker",
-    "permalink": "/docs/next/components/mobile/mobile-datetime-picker"
+    "permalink": "/docusaurus/docs/next/components/mobile/mobile-datetime-picker"
   },
   "next": {
     "title": "MobileMultiChoice",
-    "permalink": "/docs/next/components/mobile/mobile-multichoice"
+    "permalink": "/docusaurus/docs/next/components/mobile/mobile-multichoice"
   }
 }

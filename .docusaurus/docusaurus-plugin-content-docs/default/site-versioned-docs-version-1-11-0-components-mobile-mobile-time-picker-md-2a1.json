@@ -6,7 +6,7 @@
   "source": "@site/versioned_docs/version-1.11.0/components/mobile/mobile-time-picker.md",
   "sourceDirName": "components/mobile",
   "slug": "/components/mobile/mobile-time-picker",
-  "permalink": "/docs/components/mobile/mobile-time-picker",
+  "permalink": "/docusaurus/docs/components/mobile/mobile-time-picker",
   "draft": false,
   "tags": [],
   "version": "1.11.0",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "MobileTextArea",
-    "permalink": "/docs/components/mobile/mobile-textarea"
+    "permalink": "/docusaurus/docs/components/mobile/mobile-textarea"
   },
   "next": {
     "title": "version",
-    "permalink": "/docs/utilities/version"
+    "permalink": "/docusaurus/docs/utilities/version"
   }
 }

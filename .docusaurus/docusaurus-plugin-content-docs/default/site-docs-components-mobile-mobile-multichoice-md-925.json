@@ -6,7 +6,7 @@
   "source": "@site/docs/components/mobile/mobile-multichoice.md",
   "sourceDirName": "components/mobile",
   "slug": "/components/mobile/mobile-multichoice",
-  "permalink": "/docs/next/components/mobile/mobile-multichoice",
+  "permalink": "/docusaurus/docs/next/components/mobile/mobile-multichoice",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "MobileDropdown",
-    "permalink": "/docs/next/components/mobile/mobile-dropdown"
+    "permalink": "/docusaurus/docs/next/components/mobile/mobile-dropdown"
   },
   "next": {
     "title": "MobileNotification",
-    "permalink": "/docs/next/components/mobile/mobile-notification"
+    "permalink": "/docusaurus/docs/next/components/mobile/mobile-notification"
   }
 }

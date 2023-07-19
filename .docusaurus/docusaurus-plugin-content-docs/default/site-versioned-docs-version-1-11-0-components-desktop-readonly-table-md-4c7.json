@@ -6,7 +6,7 @@
   "source": "@site/versioned_docs/version-1.11.0/components/desktop/readonly-table.md",
   "sourceDirName": "components/desktop",
   "slug": "/components/desktop/readonly-table",
-  "permalink": "/docs/components/desktop/readonly-table",
+  "permalink": "/docusaurus/docs/components/desktop/readonly-table",
   "draft": false,
   "tags": [],
   "version": "1.11.0",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "RadioButton",
-    "permalink": "/docs/components/desktop/radio-button"
+    "permalink": "/docusaurus/docs/components/desktop/radio-button"
   },
   "next": {
     "title": "Spinner",
-    "permalink": "/docs/components/desktop/spinner"
+    "permalink": "/docusaurus/docs/components/desktop/spinner"
   }
 }
