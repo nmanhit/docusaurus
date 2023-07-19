@@ -22,8 +22,8 @@ const config = {
     },
   ],
   tagline: 'It will support your UI customization project.',
-  url: 'https://kintone-ui-component.netlify.app',
-  baseUrl: '/',
+  url: 'https://nmanhit.github.io/',
+  baseUrl: '/docusaurus/',
   onBrokenLinks: 'warn', // throw
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/kuc_box_yellow.png',
@@ -31,8 +31,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'kintone-labs', // Usually your GitHub org/user name.
-  projectName: 'kintone-ui-component', // Usually your repo name.
+  organizationName: 'nmanhit', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want

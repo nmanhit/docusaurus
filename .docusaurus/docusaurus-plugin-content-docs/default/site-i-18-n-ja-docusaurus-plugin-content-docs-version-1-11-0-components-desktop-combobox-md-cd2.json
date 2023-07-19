@@ -6,7 +6,7 @@
   "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/combobox.md",
   "sourceDirName": "components/desktop",
   "slug": "/components/desktop/combobox",
-  "permalink": "/ja/docs/components/desktop/combobox",
+  "permalink": "/docusaurus/ja/docs/components/desktop/combobox",
   "draft": false,
   "tags": [],
   "version": "1.11.0",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Checkbox",
-    "permalink": "/ja/docs/components/desktop/checkbox"
+    "permalink": "/docusaurus/ja/docs/components/desktop/checkbox"
   },
   "next": {
     "title": "DatePicker",
-    "permalink": "/ja/docs/components/desktop/date-picker"
+    "permalink": "/docusaurus/ja/docs/components/desktop/date-picker"
   }
 }

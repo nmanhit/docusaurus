@@ -6,7 +6,7 @@
   "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/mobile/mobile-textarea.md",
   "sourceDirName": "components/mobile",
   "slug": "/components/mobile/mobile-textarea",
-  "permalink": "/ja/docs/components/mobile/mobile-textarea",
+  "permalink": "/docusaurus/ja/docs/components/mobile/mobile-textarea",
   "draft": false,
   "tags": [],
   "version": "1.11.0",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "MobileText",
-    "permalink": "/ja/docs/components/mobile/mobile-text"
+    "permalink": "/docusaurus/ja/docs/components/mobile/mobile-text"
   },
   "next": {
     "title": "MobileTimePicker",
-    "permalink": "/ja/docs/components/mobile/mobile-time-picker"
+    "permalink": "/docusaurus/ja/docs/components/mobile/mobile-time-picker"
   }
 }

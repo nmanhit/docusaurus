@@ -6,7 +6,7 @@
   "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/guides/comparison-v0-v1.md",
   "sourceDirName": "guides",
   "slug": "/guides/comparison-v0-v1",
-  "permalink": "/ja/docs/guides/comparison-v0-v1",
+  "permalink": "/docusaurus/ja/docs/guides/comparison-v0-v1",
   "draft": false,
   "tags": [],
   "version": "1.11.0",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "version",
-    "permalink": "/ja/docs/utilities/version"
+    "permalink": "/docusaurus/ja/docs/utilities/version"
   },
   "next": {
     "title": "Search box customization",
-    "permalink": "/ja/docs/guides/search-box-customization"
+    "permalink": "/docusaurus/ja/docs/guides/search-box-customization"
   }
 }

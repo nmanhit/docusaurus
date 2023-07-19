@@ -6,7 +6,7 @@
   "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/dialog.md",
   "sourceDirName": "components/desktop",
   "slug": "/components/desktop/dialog",
-  "permalink": "/ja/docs/next/components/desktop/dialog",
+  "permalink": "/docusaurus/ja/docs/next/components/desktop/dialog",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "DateTimePicker",
-    "permalink": "/ja/docs/next/components/desktop/datetime-picker"
+    "permalink": "/docusaurus/ja/docs/next/components/desktop/datetime-picker"
   },
   "next": {
     "title": "Dropdown",
-    "permalink": "/ja/docs/next/components/desktop/dropdown"
+    "permalink": "/docusaurus/ja/docs/next/components/desktop/dropdown"
   }
 }

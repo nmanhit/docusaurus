@@ -16,19 +16,19 @@
           {
             "type": "link",
             "label": "Quick Start",
-            "href": "/ja/docs/getting-started/quick-start",
+            "href": "/docusaurus/ja/docs/getting-started/quick-start",
             "docId": "getting-started/quick-start"
           },
           {
             "type": "link",
             "label": "Custom CSS",
-            "href": "/ja/docs/getting-started/custom-css",
+            "href": "/docusaurus/ja/docs/getting-started/custom-css",
             "docId": "getting-started/custom-css"
           },
           {
             "type": "link",
             "label": "Usage with TypeScript",
-            "href": "/ja/docs/getting-started/usage-with-typescript",
+            "href": "/docusaurus/ja/docs/getting-started/usage-with-typescript",
             "docId": "getting-started/usage-with-typescript"
           }
         ],
@@ -48,115 +48,115 @@
               {
                 "type": "link",
                 "label": "Attachment",
-                "href": "/ja/docs/components/desktop/attachment",
+                "href": "/docusaurus/ja/docs/components/desktop/attachment",
                 "docId": "components/desktop/attachment"
               },
               {
                 "type": "link",
                 "label": "Button",
-                "href": "/ja/docs/components/desktop/button",
+                "href": "/docusaurus/ja/docs/components/desktop/button",
                 "docId": "components/desktop/button"
               },
               {
                 "type": "link",
                 "label": "Checkbox",
-                "href": "/ja/docs/components/desktop/checkbox",
+                "href": "/docusaurus/ja/docs/components/desktop/checkbox",
                 "docId": "components/desktop/checkbox"
               },
               {
                 "type": "link",
                 "label": "Combobox",
-                "href": "/ja/docs/components/desktop/combobox",
+                "href": "/docusaurus/ja/docs/components/desktop/combobox",
                 "docId": "components/desktop/combobox"
               },
               {
                 "type": "link",
                 "label": "DatePicker",
-                "href": "/ja/docs/components/desktop/date-picker",
+                "href": "/docusaurus/ja/docs/components/desktop/date-picker",
                 "docId": "components/desktop/date-picker"
               },
               {
                 "type": "link",
                 "label": "DateTimePicker",
-                "href": "/ja/docs/components/desktop/datetime-picker",
+                "href": "/docusaurus/ja/docs/components/desktop/datetime-picker",
                 "docId": "components/desktop/datetime-picker"
               },
               {
                 "type": "link",
                 "label": "Dialog",
-                "href": "/ja/docs/components/desktop/dialog",
+                "href": "/docusaurus/ja/docs/components/desktop/dialog",
                 "docId": "components/desktop/dialog"
               },
               {
                 "type": "link",
                 "label": "Dropdown",
-                "href": "/ja/docs/components/desktop/dropdown",
+                "href": "/docusaurus/ja/docs/components/desktop/dropdown",
                 "docId": "components/desktop/dropdown"
               },
               {
                 "type": "link",
                 "label": "FieldGroup",
-                "href": "/ja/docs/components/desktop/field-group",
+                "href": "/docusaurus/ja/docs/components/desktop/field-group",
                 "docId": "components/desktop/field-group"
               },
               {
                 "type": "link",
                 "label": "MultiChoice",
-                "href": "/ja/docs/components/desktop/multichoice",
+                "href": "/docusaurus/ja/docs/components/desktop/multichoice",
                 "docId": "components/desktop/multichoice"
               },
               {
                 "type": "link",
                 "label": "Notification",
-                "href": "/ja/docs/components/desktop/notification",
+                "href": "/docusaurus/ja/docs/components/desktop/notification",
                 "docId": "components/desktop/notification"
               },
               {
                 "type": "link",
                 "label": "RadioButton",
-                "href": "/ja/docs/components/desktop/radio-button",
+                "href": "/docusaurus/ja/docs/components/desktop/radio-button",
                 "docId": "components/desktop/radio-button"
               },
               {
                 "type": "link",
                 "label": "ReadOnlyTable",
-                "href": "/ja/docs/components/desktop/readonly-table",
+                "href": "/docusaurus/ja/docs/components/desktop/readonly-table",
                 "docId": "components/desktop/readonly-table"
               },
               {
                 "type": "link",
                 "label": "Spinner",
-                "href": "/ja/docs/components/desktop/spinner",
+                "href": "/docusaurus/ja/docs/components/desktop/spinner",
                 "docId": "components/desktop/spinner"
               },
               {
                 "type": "link",
                 "label": "Table",
-                "href": "/ja/docs/components/desktop/table",
+                "href": "/docusaurus/ja/docs/components/desktop/table",
                 "docId": "components/desktop/table"
               },
               {
                 "type": "link",
                 "label": "Tabs",
-                "href": "/ja/docs/components/desktop/tabs",
+                "href": "/docusaurus/ja/docs/components/desktop/tabs",
                 "docId": "components/desktop/tabs"
               },
               {
                 "type": "link",
                 "label": "Text",
-                "href": "/ja/docs/components/desktop/text",
+                "href": "/docusaurus/ja/docs/components/desktop/text",
                 "docId": "components/desktop/text"
               },
               {
                 "type": "link",
                 "label": "TextArea",
-                "href": "/ja/docs/components/desktop/textarea",
+                "href": "/docusaurus/ja/docs/components/desktop/textarea",
                 "docId": "components/desktop/textarea"
               },
               {
                 "type": "link",
                 "label": "TimePicker",
-                "href": "/ja/docs/components/desktop/time-picker",
+                "href": "/docusaurus/ja/docs/components/desktop/time-picker",
                 "docId": "components/desktop/time-picker"
               }
             ]
@@ -170,67 +170,67 @@
               {
                 "type": "link",
                 "label": "MobileButton",
-                "href": "/ja/docs/components/mobile/mobile-button",
+                "href": "/docusaurus/ja/docs/components/mobile/mobile-button",
                 "docId": "components/mobile/mobile-button"
               },
               {
                 "type": "link",
                 "label": "MobileCheckbox",
-                "href": "/ja/docs/components/mobile/mobile-checkbox",
+                "href": "/docusaurus/ja/docs/components/mobile/mobile-checkbox",
                 "docId": "components/mobile/mobile-checkbox"
               },
               {
                 "type": "link",
                 "label": "MobileDatePicker",
-                "href": "/ja/docs/components/mobile/mobile-date-picker",
+                "href": "/docusaurus/ja/docs/components/mobile/mobile-date-picker",
                 "docId": "components/mobile/mobile-date-picker"
               },
               {
                 "type": "link",
                 "label": "MobileDateTimePicker",
-                "href": "/ja/docs/components/mobile/mobile-datetime-picker",
+                "href": "/docusaurus/ja/docs/components/mobile/mobile-datetime-picker",
                 "docId": "components/mobile/mobile-datetime-picker"
               },
               {
                 "type": "link",
                 "label": "MobileDropdown",
-                "href": "/ja/docs/components/mobile/mobile-dropdown",
+                "href": "/docusaurus/ja/docs/components/mobile/mobile-dropdown",
                 "docId": "components/mobile/mobile-dropdown"
               },
               {
                 "type": "link",
                 "label": "MobileMultiChoice",
-                "href": "/ja/docs/components/mobile/mobile-multichoice",
+                "href": "/docusaurus/ja/docs/components/mobile/mobile-multichoice",
                 "docId": "components/mobile/mobile-multichoice"
               },
               {
                 "type": "link",
                 "label": "MobileNotification",
-                "href": "/ja/docs/components/mobile/mobile-notification",
+                "href": "/docusaurus/ja/docs/components/mobile/mobile-notification",
                 "docId": "components/mobile/mobile-notification"
               },
               {
                 "type": "link",
                 "label": "MobileRadioButton",
-                "href": "/ja/docs/components/mobile/mobile-radio-button",
+                "href": "/docusaurus/ja/docs/components/mobile/mobile-radio-button",
                 "docId": "components/mobile/mobile-radio-button"
               },
               {
                 "type": "link",
                 "label": "MobileText",
-                "href": "/ja/docs/components/mobile/mobile-text",
+                "href": "/docusaurus/ja/docs/components/mobile/mobile-text",
                 "docId": "components/mobile/mobile-text"
               },
               {
                 "type": "link",
                 "label": "MobileTextArea",
-                "href": "/ja/docs/components/mobile/mobile-textarea",
+                "href": "/docusaurus/ja/docs/components/mobile/mobile-textarea",
                 "docId": "components/mobile/mobile-textarea"
               },
               {
                 "type": "link",
                 "label": "MobileTimePicker",
-                "href": "/ja/docs/components/mobile/mobile-time-picker",
+                "href": "/docusaurus/ja/docs/components/mobile/mobile-time-picker",
                 "docId": "components/mobile/mobile-time-picker"
               }
             ]
@@ -246,7 +246,7 @@
           {
             "type": "link",
             "label": "version",
-            "href": "/ja/docs/utilities/version",
+            "href": "/docusaurus/ja/docs/utilities/version",
             "docId": "utilities/version"
           }
         ],
@@ -260,61 +260,61 @@
           {
             "type": "link",
             "label": "A commentary on the difference between v0 and v1",
-            "href": "/ja/docs/guides/comparison-v0-v1",
+            "href": "/docusaurus/ja/docs/guides/comparison-v0-v1",
             "docId": "guides/comparison-v0-v1"
           },
           {
             "type": "link",
             "label": "Search box customization",
-            "href": "/ja/docs/guides/search-box-customization",
+            "href": "/docusaurus/ja/docs/guides/search-box-customization",
             "docId": "guides/search-box-customization"
           },
           {
             "type": "link",
             "label": "Mobile timecard customization",
-            "href": "/ja/docs/guides/mobile-timecard-customization",
+            "href": "/docusaurus/ja/docs/guides/mobile-timecard-customization",
             "docId": "guides/mobile-timecard-customization"
           },
           {
             "type": "link",
             "label": "Cleaning check list customization",
-            "href": "/ja/docs/guides/cleaning-check-list-customization",
+            "href": "/docusaurus/ja/docs/guides/cleaning-check-list-customization",
             "docId": "guides/cleaning-check-list-customization"
           },
           {
             "type": "link",
             "label": "Bulk update customization",
-            "href": "/ja/docs/guides/bulk-update-customization",
+            "href": "/docusaurus/ja/docs/guides/bulk-update-customization",
             "docId": "guides/bulk-update-customization"
           },
           {
             "type": "link",
             "label": "Format setting plug-in",
-            "href": "/ja/docs/guides/format-setting-plugin",
+            "href": "/docusaurus/ja/docs/guides/format-setting-plugin",
             "docId": "guides/format-setting-plugin"
           },
           {
             "type": "link",
             "label": "Version conflicts issue and solution",
-            "href": "/ja/docs/guides/version-conflicts-issue-solution",
+            "href": "/docusaurus/ja/docs/guides/version-conflicts-issue-solution",
             "docId": "guides/version-conflicts-issue-solution"
           },
           {
             "type": "link",
             "label": "Attachment customization",
-            "href": "/ja/docs/guides/attachment-customization",
+            "href": "/docusaurus/ja/docs/guides/attachment-customization",
             "docId": "guides/attachment-customization"
           },
           {
             "type": "link",
             "label": "Table and ReadOnlyTable customization",
-            "href": "/ja/docs/guides/table-readonly-table-customization",
+            "href": "/docusaurus/ja/docs/guides/table-readonly-table-customization",
             "docId": "guides/table-readonly-table-customization"
           },
           {
             "type": "link",
             "label": "Tabs customization",
-            "href": "/ja/docs/guides/tabs-customization",
+            "href": "/docusaurus/ja/docs/guides/tabs-customization",
             "docId": "guides/tabs-customization"
           }
         ],
@@ -330,85 +330,85 @@
           {
             "type": "link",
             "label": "Release Notes",
-            "href": "/ja/docs/releases/release-notes",
+            "href": "/docusaurus/ja/docs/releases/release-notes",
             "docId": "releases/release-notes"
           },
           {
             "type": "link",
             "label": "v1.4.0 Release Notes",
-            "href": "/ja/docs/releases/release-notes-v1.4.0",
+            "href": "/docusaurus/ja/docs/releases/release-notes-v1.4.0",
             "docId": "releases/release-notes-v1.4.0"
           },
           {
             "type": "link",
             "label": "v1.3.2 Release Notes",
-            "href": "/ja/docs/releases/release-notes-v1.3.2",
+            "href": "/docusaurus/ja/docs/releases/release-notes-v1.3.2",
             "docId": "releases/release-notes-v1.3.2"
           },
           {
             "type": "link",
             "label": "v1.3.1 Release Notes",
-            "href": "/ja/docs/releases/release-notes-v1.3.1",
+            "href": "/docusaurus/ja/docs/releases/release-notes-v1.3.1",
             "docId": "releases/release-notes-v1.3.1"
           },
           {
             "type": "link",
             "label": "v1.3.0 Release Notes",
-            "href": "/ja/docs/releases/release-notes-v1.3.0",
+            "href": "/docusaurus/ja/docs/releases/release-notes-v1.3.0",
             "docId": "releases/release-notes-v1.3.0"
           },
           {
             "type": "link",
             "label": "v1.2.0 Release Notes",
-            "href": "/ja/docs/releases/release-notes-v1.2.0",
+            "href": "/docusaurus/ja/docs/releases/release-notes-v1.2.0",
             "docId": "releases/release-notes-v1.2.0"
           },
           {
             "type": "link",
             "label": "v1.1.1 Release Notes",
-            "href": "/ja/docs/releases/release-notes-v1.1.1",
+            "href": "/docusaurus/ja/docs/releases/release-notes-v1.1.1",
             "docId": "releases/release-notes-v1.1.1"
           },
           {
             "type": "link",
             "label": "v1.1.0 Release Notes",
-            "href": "/ja/docs/releases/release-notes-v1.1.0",
+            "href": "/docusaurus/ja/docs/releases/release-notes-v1.1.0",
             "docId": "releases/release-notes-v1.1.0"
           },
           {
             "type": "link",
             "label": "v1.0.5 Release Notes",
-            "href": "/ja/docs/releases/release-notes-v1.0.5",
+            "href": "/docusaurus/ja/docs/releases/release-notes-v1.0.5",
             "docId": "releases/release-notes-v1.0.5"
           },
           {
             "type": "link",
             "label": "v1.0.4 Release Notes",
-            "href": "/ja/docs/releases/release-notes-v1.0.4",
+            "href": "/docusaurus/ja/docs/releases/release-notes-v1.0.4",
             "docId": "releases/release-notes-v1.0.4"
           },
           {
             "type": "link",
             "label": "v1.0.3 Release Notes",
-            "href": "/ja/docs/releases/release-notes-v1.0.3",
+            "href": "/docusaurus/ja/docs/releases/release-notes-v1.0.3",
             "docId": "releases/release-notes-v1.0.3"
           },
           {
             "type": "link",
             "label": "v1.0.2 Release Notes",
-            "href": "/ja/docs/releases/release-notes-v1.0.2",
+            "href": "/docusaurus/ja/docs/releases/release-notes-v1.0.2",
             "docId": "releases/release-notes-v1.0.2"
           },
           {
             "type": "link",
             "label": "v1.0.1 Release Notes",
-            "href": "/ja/docs/releases/release-notes-v1.0.1",
+            "href": "/docusaurus/ja/docs/releases/release-notes-v1.0.1",
             "docId": "releases/release-notes-v1.0.1"
           },
           {
             "type": "link",
             "label": "v1.0.0 Release Notes",
-            "href": "/ja/docs/releases/release-notes-v1.0.0",
+            "href": "/docusaurus/ja/docs/releases/release-notes-v1.0.0",
             "docId": "releases/release-notes-v1.0.0"
           }
         ],

@@ -6,7 +6,7 @@
   "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/spinner.md",
   "sourceDirName": "components/desktop",
   "slug": "/components/desktop/spinner",
-  "permalink": "/ja/docs/components/desktop/spinner",
+  "permalink": "/docusaurus/ja/docs/components/desktop/spinner",
   "draft": false,
   "tags": [],
   "version": "1.11.0",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "ReadOnlyTable",
-    "permalink": "/ja/docs/components/desktop/readonly-table"
+    "permalink": "/docusaurus/ja/docs/components/desktop/readonly-table"
   },
   "next": {
     "title": "Table",
-    "permalink": "/ja/docs/components/desktop/table"
+    "permalink": "/docusaurus/ja/docs/components/desktop/table"
   }
 }

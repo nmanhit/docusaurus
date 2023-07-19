@@ -6,7 +6,7 @@
   "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/guides/attachment-customization.md",
   "sourceDirName": "guides",
   "slug": "/guides/attachment-customization",
-  "permalink": "/ja/docs/guides/attachment-customization",
+  "permalink": "/docusaurus/ja/docs/guides/attachment-customization",
   "draft": false,
   "tags": [],
   "version": "1.11.0",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Version conflicts issue and solution",
-    "permalink": "/ja/docs/guides/version-conflicts-issue-solution"
+    "permalink": "/docusaurus/ja/docs/guides/version-conflicts-issue-solution"
   },
   "next": {
     "title": "Table and ReadOnlyTable customization",
-    "permalink": "/ja/docs/guides/table-readonly-table-customization"
+    "permalink": "/docusaurus/ja/docs/guides/table-readonly-table-customization"
   }
 }

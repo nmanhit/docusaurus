@@ -6,7 +6,7 @@
   "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/readonly-table.md",
   "sourceDirName": "components/desktop",
   "slug": "/components/desktop/readonly-table",
-  "permalink": "/ja/docs/next/components/desktop/readonly-table",
+  "permalink": "/docusaurus/ja/docs/next/components/desktop/readonly-table",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "RadioButton",
-    "permalink": "/ja/docs/next/components/desktop/radio-button"
+    "permalink": "/docusaurus/ja/docs/next/components/desktop/radio-button"
   },
   "next": {
     "title": "Spinner",
-    "permalink": "/ja/docs/next/components/desktop/spinner"
+    "permalink": "/docusaurus/ja/docs/next/components/desktop/spinner"
   }
 }

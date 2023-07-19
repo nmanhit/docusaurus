@@ -6,7 +6,7 @@
   "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/guides/search-box-customization.md",
   "sourceDirName": "guides",
   "slug": "/guides/search-box-customization",
-  "permalink": "/ja/docs/guides/search-box-customization",
+  "permalink": "/docusaurus/ja/docs/guides/search-box-customization",
   "draft": false,
   "tags": [],
   "version": "1.11.0",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "A commentary on the difference between v0 and v1",
-    "permalink": "/ja/docs/guides/comparison-v0-v1"
+    "permalink": "/docusaurus/ja/docs/guides/comparison-v0-v1"
   },
   "next": {
     "title": "Mobile timecard customization",
-    "permalink": "/ja/docs/guides/mobile-timecard-customization"
+    "permalink": "/docusaurus/ja/docs/guides/mobile-timecard-customization"
   }
 }

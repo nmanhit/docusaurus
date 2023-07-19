@@ -1,0 +1,3761 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": "unreleased",
+          "badge": true,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docusaurus/ja/docs/next",
+          "tagsPath": "/docusaurus/ja/docs/next/tags",
+          "isLast": false,
+          "sidebarFilePath": "/Users/a001860/Desktop/my/docusaurus/docusaurus/sidebars.js",
+          "contentPath": "/Users/a001860/Desktop/my/docusaurus/docusaurus/docs",
+          "contentPathLocalized": "/Users/a001860/Desktop/my/docusaurus/docusaurus/i18n/ja/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "components/desktop/attachment",
+              "id": "components/desktop/attachment",
+              "title": "Attachment",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/attachment.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/attachment",
+              "permalink": "/docusaurus/ja/docs/next/components/desktop/attachment",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "attachment",
+                "title": "Attachment",
+                "sidebar_label": "Attachment"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Usage with TypeScript",
+                "permalink": "/docusaurus/ja/docs/next/getting-started/usage-with-typescript"
+              },
+              "next": {
+                "title": "Button",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/button"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/button",
+              "id": "components/desktop/button",
+              "title": "Button",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/button.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/button",
+              "permalink": "/docusaurus/ja/docs/next/components/desktop/button",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "button",
+                "title": "Button",
+                "sidebar_label": "Button"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Attachment",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/attachment"
+              },
+              "next": {
+                "title": "Checkbox",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/checkbox"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/checkbox",
+              "id": "components/desktop/checkbox",
+              "title": "Checkbox",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/checkbox.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/checkbox",
+              "permalink": "/docusaurus/ja/docs/next/components/desktop/checkbox",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "checkbox",
+                "title": "Checkbox",
+                "sidebar_label": "Checkbox"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Button",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/button"
+              },
+              "next": {
+                "title": "Combobox",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/combobox"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/combobox",
+              "id": "components/desktop/combobox",
+              "title": "Combobox",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/combobox.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/combobox",
+              "permalink": "/docusaurus/ja/docs/next/components/desktop/combobox",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "combobox",
+                "title": "Combobox",
+                "sidebar_label": "Combobox"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Checkbox",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/checkbox"
+              },
+              "next": {
+                "title": "DatePicker",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/date-picker"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/date-picker",
+              "id": "components/desktop/date-picker",
+              "title": "DatePicker",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/date-picker.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/date-picker",
+              "permalink": "/docusaurus/ja/docs/next/components/desktop/date-picker",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "date-picker",
+                "title": "DatePicker",
+                "sidebar_label": "DatePicker"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Combobox",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/combobox"
+              },
+              "next": {
+                "title": "DateTimePicker",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/datetime-picker"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/datetime-picker",
+              "id": "components/desktop/datetime-picker",
+              "title": "DateTimePicker",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/datetime-picker.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/datetime-picker",
+              "permalink": "/docusaurus/ja/docs/next/components/desktop/datetime-picker",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "datetime-picker",
+                "title": "DateTimePicker",
+                "sidebar_label": "DateTimePicker"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "DatePicker",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/date-picker"
+              },
+              "next": {
+                "title": "Dialog",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/dialog"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/dialog",
+              "id": "components/desktop/dialog",
+              "title": "Dialog",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/dialog.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/dialog",
+              "permalink": "/docusaurus/ja/docs/next/components/desktop/dialog",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "dialog",
+                "title": "Dialog",
+                "sidebar_label": "Dialog"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "DateTimePicker",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/datetime-picker"
+              },
+              "next": {
+                "title": "Dropdown",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/dropdown"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/dropdown",
+              "id": "components/desktop/dropdown",
+              "title": "Dropdown",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/dropdown.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/dropdown",
+              "permalink": "/docusaurus/ja/docs/next/components/desktop/dropdown",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "dropdown",
+                "title": "Dropdown",
+                "sidebar_label": "Dropdown"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Dialog",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/dialog"
+              },
+              "next": {
+                "title": "FieldGroup",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/field-group"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/field-group",
+              "id": "components/desktop/field-group",
+              "title": "FieldGroup",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/field-group.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/field-group",
+              "permalink": "/docusaurus/ja/docs/next/components/desktop/field-group",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "field-group",
+                "title": "FieldGroup",
+                "sidebar_label": "FieldGroup"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Dropdown",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/dropdown"
+              },
+              "next": {
+                "title": "MultiChoice",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/multichoice"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/multichoice",
+              "id": "components/desktop/multichoice",
+              "title": "MultiChoice",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/multichoice.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/multichoice",
+              "permalink": "/docusaurus/ja/docs/next/components/desktop/multichoice",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "multichoice",
+                "title": "MultiChoice",
+                "sidebar_label": "MultiChoice"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "FieldGroup",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/field-group"
+              },
+              "next": {
+                "title": "Notification",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/notification"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/notification",
+              "id": "components/desktop/notification",
+              "title": "Notification",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/notification.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/notification",
+              "permalink": "/docusaurus/ja/docs/next/components/desktop/notification",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "notification",
+                "title": "Notification",
+                "sidebar_label": "Notification"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MultiChoice",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/multichoice"
+              },
+              "next": {
+                "title": "RadioButton",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/radio-button"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/radio-button",
+              "id": "components/desktop/radio-button",
+              "title": "RadioButton",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/radio-button.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/radio-button",
+              "permalink": "/docusaurus/ja/docs/next/components/desktop/radio-button",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "radio-button",
+                "title": "RadioButton",
+                "sidebar_label": "RadioButton"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Notification",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/notification"
+              },
+              "next": {
+                "title": "ReadOnlyTable",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/readonly-table"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/readonly-table",
+              "id": "components/desktop/readonly-table",
+              "title": "ReadOnlyTable",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/readonly-table.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/readonly-table",
+              "permalink": "/docusaurus/ja/docs/next/components/desktop/readonly-table",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "readonly-table",
+                "title": "ReadOnlyTable",
+                "sidebar_label": "ReadOnlyTable"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "RadioButton",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/radio-button"
+              },
+              "next": {
+                "title": "Spinner",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/spinner"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/spinner",
+              "id": "components/desktop/spinner",
+              "title": "Spinner",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/spinner.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/spinner",
+              "permalink": "/docusaurus/ja/docs/next/components/desktop/spinner",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "spinner",
+                "title": "Spinner",
+                "sidebar_label": "Spinner"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "ReadOnlyTable",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/readonly-table"
+              },
+              "next": {
+                "title": "Table",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/table"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/table",
+              "id": "components/desktop/table",
+              "title": "Table",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/table.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/table",
+              "permalink": "/docusaurus/ja/docs/next/components/desktop/table",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "table",
+                "title": "Table",
+                "sidebar_label": "Table"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Spinner",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/spinner"
+              },
+              "next": {
+                "title": "Tabs",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/tabs"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/tabs",
+              "id": "components/desktop/tabs",
+              "title": "Tabs",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/tabs.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/tabs",
+              "permalink": "/docusaurus/ja/docs/next/components/desktop/tabs",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "tabs",
+                "title": "Tabs",
+                "sidebar_label": "Tabs"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Table",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/table"
+              },
+              "next": {
+                "title": "Text",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/text"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/text",
+              "id": "components/desktop/text",
+              "title": "Text",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/text.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/text",
+              "permalink": "/docusaurus/ja/docs/next/components/desktop/text",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "text",
+                "title": "Text",
+                "sidebar_label": "Text"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Tabs",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/tabs"
+              },
+              "next": {
+                "title": "TextArea",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/textarea"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/textarea",
+              "id": "components/desktop/textarea",
+              "title": "TextArea",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/textarea.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/textarea",
+              "permalink": "/docusaurus/ja/docs/next/components/desktop/textarea",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "textarea",
+                "title": "TextArea",
+                "sidebar_label": "TextArea"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Text",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/text"
+              },
+              "next": {
+                "title": "TimePicker",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/time-picker"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/time-picker",
+              "id": "components/desktop/time-picker",
+              "title": "TimePicker",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/time-picker.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/time-picker",
+              "permalink": "/docusaurus/ja/docs/next/components/desktop/time-picker",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "time-picker",
+                "title": "TimePicker",
+                "sidebar_label": "TimePicker"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "TextArea",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/textarea"
+              },
+              "next": {
+                "title": "MobileButton",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-button"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-button",
+              "id": "components/mobile/mobile-button",
+              "title": "MobileButton",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/mobile/mobile-button.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-button",
+              "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-button",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "mobile-button",
+                "title": "MobileButton",
+                "sidebar_label": "MobileButton"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "TimePicker",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/time-picker"
+              },
+              "next": {
+                "title": "MobileCheckbox",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-checkbox"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-checkbox",
+              "id": "components/mobile/mobile-checkbox",
+              "title": "MobileCheckbox",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/mobile/mobile-checkbox.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-checkbox",
+              "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-checkbox",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "mobile-checkbox",
+                "title": "MobileCheckbox",
+                "sidebar_label": "MobileCheckbox"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileButton",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-button"
+              },
+              "next": {
+                "title": "MobileDatePicker",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-date-picker"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-date-picker",
+              "id": "components/mobile/mobile-date-picker",
+              "title": "MobileDatePicker",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/mobile/mobile-date-picker.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-date-picker",
+              "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-date-picker",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "mobile-date-picker",
+                "title": "MobileDatePicker",
+                "sidebar_label": "MobileDatePicker"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileCheckbox",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-checkbox"
+              },
+              "next": {
+                "title": "MobileDateTimePicker",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-datetime-picker"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-datetime-picker",
+              "id": "components/mobile/mobile-datetime-picker",
+              "title": "MobileDateTimePicker",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/mobile/mobile-datetime-picker.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-datetime-picker",
+              "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-datetime-picker",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "mobile-datetime-picker",
+                "title": "MobileDateTimePicker",
+                "sidebar_label": "MobileDateTimePicker"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileDatePicker",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-date-picker"
+              },
+              "next": {
+                "title": "MobileDropdown",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-dropdown"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-dropdown",
+              "id": "components/mobile/mobile-dropdown",
+              "title": "MobileDropdown",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/mobile/mobile-dropdown.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-dropdown",
+              "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-dropdown",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "mobile-dropdown",
+                "title": "MobileDropdown",
+                "sidebar_label": "MobileDropdown"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileDateTimePicker",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-datetime-picker"
+              },
+              "next": {
+                "title": "MobileMultiChoice",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-multichoice"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-multichoice",
+              "id": "components/mobile/mobile-multichoice",
+              "title": "MobileMultiChoice",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/mobile/mobile-multichoice.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-multichoice",
+              "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-multichoice",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "mobile-multichoice",
+                "title": "MobileMultiChoice",
+                "sidebar_label": "MobileMultiChoice"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileDropdown",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-dropdown"
+              },
+              "next": {
+                "title": "MobileNotification",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-notification"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-notification",
+              "id": "components/mobile/mobile-notification",
+              "title": "MobileNotification",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/mobile/mobile-notification.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-notification",
+              "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-notification",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "mobile-notification",
+                "title": "MobileNotification",
+                "sidebar_label": "MobileNotification"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileMultiChoice",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-multichoice"
+              },
+              "next": {
+                "title": "MobileRadioButton",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-radio-button"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-radio-button",
+              "id": "components/mobile/mobile-radio-button",
+              "title": "MobileRadioButton",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/mobile/mobile-radio-button.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-radio-button",
+              "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-radio-button",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "mobile-radio-button",
+                "title": "MobileRadioButton",
+                "sidebar_label": "MobileRadioButton"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileNotification",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-notification"
+              },
+              "next": {
+                "title": "MobileText",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-text"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-text",
+              "id": "components/mobile/mobile-text",
+              "title": "MobileText",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/mobile/mobile-text.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-text",
+              "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-text",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "mobile-text",
+                "title": "MobileText",
+                "sidebar_label": "MobileText"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileRadioButton",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-radio-button"
+              },
+              "next": {
+                "title": "MobileTextArea",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-textarea"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-textarea",
+              "id": "components/mobile/mobile-textarea",
+              "title": "MobileTextArea",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/mobile/mobile-textarea.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-textarea",
+              "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-textarea",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "mobile-textarea",
+                "title": "MobileTextArea",
+                "sidebar_label": "MobileTextArea"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileText",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-text"
+              },
+              "next": {
+                "title": "MobileTimePicker",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-time-picker"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-time-picker",
+              "id": "components/mobile/mobile-time-picker",
+              "title": "MobileTimePicker",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/mobile/mobile-time-picker.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-time-picker",
+              "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-time-picker",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "mobile-time-picker",
+                "title": "MobileTimePicker",
+                "sidebar_label": "MobileTimePicker"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileTextArea",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-textarea"
+              },
+              "next": {
+                "title": "version",
+                "permalink": "/docusaurus/ja/docs/next/utilities/version"
+              }
+            },
+            {
+              "unversionedId": "getting-started/custom-css",
+              "id": "getting-started/custom-css",
+              "title": "Custom CSS",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/getting-started/custom-css.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/custom-css",
+              "permalink": "/docusaurus/ja/docs/next/getting-started/custom-css",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "custom-css",
+                "title": "Custom CSS",
+                "sidebar_label": "Custom CSS"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Quick Start",
+                "permalink": "/docusaurus/ja/docs/next/getting-started/quick-start"
+              },
+              "next": {
+                "title": "Usage with TypeScript",
+                "permalink": "/docusaurus/ja/docs/next/getting-started/usage-with-typescript"
+              }
+            },
+            {
+              "unversionedId": "getting-started/quick-start",
+              "id": "getting-started/quick-start",
+              "title": "Quick Start",
+              "description": "kintone UI Component とは？",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/getting-started/quick-start.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/quick-start",
+              "permalink": "/docusaurus/ja/docs/next/getting-started/quick-start",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "quick-start",
+                "title": "Quick Start",
+                "sidebar_label": "Quick Start"
+              },
+              "sidebar": "docs",
+              "next": {
+                "title": "Custom CSS",
+                "permalink": "/docusaurus/ja/docs/next/getting-started/custom-css"
+              }
+            },
+            {
+              "unversionedId": "getting-started/usage-with-typescript",
+              "id": "getting-started/usage-with-typescript",
+              "title": "Usage with TypeScript",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/getting-started/usage-with-typescript.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/usage-with-typescript",
+              "permalink": "/docusaurus/ja/docs/next/getting-started/usage-with-typescript",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "usage-with-typescript",
+                "title": "Usage with TypeScript",
+                "sidebar_label": "Usage with TypeScript"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Custom CSS",
+                "permalink": "/docusaurus/ja/docs/next/getting-started/custom-css"
+              },
+              "next": {
+                "title": "Attachment",
+                "permalink": "/docusaurus/ja/docs/next/components/desktop/attachment"
+              }
+            },
+            {
+              "unversionedId": "guides/attachment-customization",
+              "id": "guides/attachment-customization",
+              "title": "Attachment customization",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/guides/attachment-customization.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/attachment-customization",
+              "permalink": "/docusaurus/ja/docs/next/guides/attachment-customization",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "attachment-customization",
+                "title": "Attachment customization",
+                "sidebar_label": "Attachment customization"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Version conflicts issue and solution",
+                "permalink": "/docusaurus/ja/docs/next/guides/version-conflicts-issue-solution"
+              },
+              "next": {
+                "title": "Table and ReadOnlyTable customization",
+                "permalink": "/docusaurus/ja/docs/next/guides/table-readonly-table-customization"
+              }
+            },
+            {
+              "unversionedId": "guides/bulk-update-customization",
+              "id": "guides/bulk-update-customization",
+              "title": "Bulk update customization",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/guides/bulk-update-customization.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/bulk-update-customization",
+              "permalink": "/docusaurus/ja/docs/next/guides/bulk-update-customization",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "bulk-update-customization",
+                "title": "Bulk update customization",
+                "sidebar_label": "Bulk update customization"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Cleaning check list customization",
+                "permalink": "/docusaurus/ja/docs/next/guides/cleaning-check-list-customization"
+              },
+              "next": {
+                "title": "Format setting plug-in",
+                "permalink": "/docusaurus/ja/docs/next/guides/format-setting-plugin"
+              }
+            },
+            {
+              "unversionedId": "guides/cleaning-check-list-customization",
+              "id": "guides/cleaning-check-list-customization",
+              "title": "Cleaning check list customization",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/guides/cleaning-check-list-customization.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/cleaning-check-list-customization",
+              "permalink": "/docusaurus/ja/docs/next/guides/cleaning-check-list-customization",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "cleaning-check-list-customization",
+                "title": "Cleaning check list customization",
+                "sidebar_label": "Cleaning check list customization"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Mobile timecard customization",
+                "permalink": "/docusaurus/ja/docs/next/guides/mobile-timecard-customization"
+              },
+              "next": {
+                "title": "Bulk update customization",
+                "permalink": "/docusaurus/ja/docs/next/guides/bulk-update-customization"
+              }
+            },
+            {
+              "unversionedId": "guides/comparison-v0-v1",
+              "id": "guides/comparison-v0-v1",
+              "title": "A commentary on the difference between v0 and v1",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/guides/comparison-v0-v1.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/comparison-v0-v1",
+              "permalink": "/docusaurus/ja/docs/next/guides/comparison-v0-v1",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "comparison-v0-v1",
+                "title": "A commentary on the difference between v0 and v1",
+                "sidebar_label": "A commentary on the difference between v0 and v1"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "version",
+                "permalink": "/docusaurus/ja/docs/next/utilities/version"
+              },
+              "next": {
+                "title": "Search box customization",
+                "permalink": "/docusaurus/ja/docs/next/guides/search-box-customization"
+              }
+            },
+            {
+              "unversionedId": "guides/format-setting-plugin",
+              "id": "guides/format-setting-plugin",
+              "title": "Format setting plug-in",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/guides/format-setting-plugin.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/format-setting-plugin",
+              "permalink": "/docusaurus/ja/docs/next/guides/format-setting-plugin",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "format-setting-plugin",
+                "title": "Format setting plug-in",
+                "sidebar_label": "Format setting plug-in"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Bulk update customization",
+                "permalink": "/docusaurus/ja/docs/next/guides/bulk-update-customization"
+              },
+              "next": {
+                "title": "Version conflicts issue and solution",
+                "permalink": "/docusaurus/ja/docs/next/guides/version-conflicts-issue-solution"
+              }
+            },
+            {
+              "unversionedId": "guides/mobile-timecard-customization",
+              "id": "guides/mobile-timecard-customization",
+              "title": "Mobile timecard customization",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/guides/mobile-timecard-customization.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/mobile-timecard-customization",
+              "permalink": "/docusaurus/ja/docs/next/guides/mobile-timecard-customization",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "mobile-timecard-customization",
+                "title": "Mobile timecard customization",
+                "sidebar_label": "Mobile timecard customization"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Search box customization",
+                "permalink": "/docusaurus/ja/docs/next/guides/search-box-customization"
+              },
+              "next": {
+                "title": "Cleaning check list customization",
+                "permalink": "/docusaurus/ja/docs/next/guides/cleaning-check-list-customization"
+              }
+            },
+            {
+              "unversionedId": "guides/search-box-customization",
+              "id": "guides/search-box-customization",
+              "title": "Search box customization",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/guides/search-box-customization.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/search-box-customization",
+              "permalink": "/docusaurus/ja/docs/next/guides/search-box-customization",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "search-box-customization",
+                "title": "Search box customization",
+                "sidebar_label": "Search box customization"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "A commentary on the difference between v0 and v1",
+                "permalink": "/docusaurus/ja/docs/next/guides/comparison-v0-v1"
+              },
+              "next": {
+                "title": "Mobile timecard customization",
+                "permalink": "/docusaurus/ja/docs/next/guides/mobile-timecard-customization"
+              }
+            },
+            {
+              "unversionedId": "guides/table-readonly-table-customization",
+              "id": "guides/table-readonly-table-customization",
+              "title": "Table and ReadOnlyTable customization",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/guides/table-readonly-table-customization.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/table-readonly-table-customization",
+              "permalink": "/docusaurus/ja/docs/next/guides/table-readonly-table-customization",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "table-readonly-table-customization",
+                "title": "Table and ReadOnlyTable customization",
+                "sidebar_label": "Table and ReadOnlyTable customization"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Attachment customization",
+                "permalink": "/docusaurus/ja/docs/next/guides/attachment-customization"
+              },
+              "next": {
+                "title": "Tabs customization",
+                "permalink": "/docusaurus/ja/docs/next/guides/tabs-customization"
+              }
+            },
+            {
+              "unversionedId": "guides/tabs-customization",
+              "id": "guides/tabs-customization",
+              "title": "Tabs customization",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/guides/tabs-customization.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/tabs-customization",
+              "permalink": "/docusaurus/ja/docs/next/guides/tabs-customization",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "tabs-customization",
+                "title": "Tabs customization",
+                "sidebar_label": "Tabs customization"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Table and ReadOnlyTable customization",
+                "permalink": "/docusaurus/ja/docs/next/guides/table-readonly-table-customization"
+              }
+            },
+            {
+              "unversionedId": "guides/version-conflicts-issue-solution",
+              "id": "guides/version-conflicts-issue-solution",
+              "title": "Version conflicts issue and solution",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/guides/version-conflicts-issue-solution.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/version-conflicts-issue-solution",
+              "permalink": "/docusaurus/ja/docs/next/guides/version-conflicts-issue-solution",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "version-conflicts-issue-solution",
+                "title": "Version conflicts issue and solution",
+                "sidebar_label": "Version conflicts issue and solution"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Format setting plug-in",
+                "permalink": "/docusaurus/ja/docs/next/guides/format-setting-plugin"
+              },
+              "next": {
+                "title": "Attachment customization",
+                "permalink": "/docusaurus/ja/docs/next/guides/attachment-customization"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes",
+              "id": "releases/release-notes",
+              "title": "Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/releases/release-notes.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes",
+              "permalink": "/docusaurus/ja/docs/next/releases/release-notes",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "release-notes",
+                "title": "Release Notes",
+                "sidebar_label": "Release Notes"
+              },
+              "sidebar": "release-notes",
+              "next": {
+                "title": "v1.4.0 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.4.0"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.0.0",
+              "id": "releases/release-notes-v1.0.0",
+              "title": "v1.0.0 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/releases/release-notes-v1.0.0.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.0.0",
+              "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.0",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "release-notes-v1.0.0",
+                "title": "v1.0.0 Release Notes",
+                "sidebar_label": "v1.0.0 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.0.1 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.1"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.0.1",
+              "id": "releases/release-notes-v1.0.1",
+              "title": "v1.0.1 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/releases/release-notes-v1.0.1.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.0.1",
+              "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.1",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "release-notes-v1.0.1",
+                "title": "v1.0.1 Release Notes",
+                "sidebar_label": "v1.0.1 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.0.2 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.2"
+              },
+              "next": {
+                "title": "v1.0.0 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.0"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.0.2",
+              "id": "releases/release-notes-v1.0.2",
+              "title": "v1.0.2 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/releases/release-notes-v1.0.2.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.0.2",
+              "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.2",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "release-notes-v1.0.2",
+                "title": "v1.0.2 Release Notes",
+                "sidebar_label": "v1.0.2 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.0.3 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.3"
+              },
+              "next": {
+                "title": "v1.0.1 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.1"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.0.3",
+              "id": "releases/release-notes-v1.0.3",
+              "title": "v1.0.3 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/releases/release-notes-v1.0.3.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.0.3",
+              "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.3",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "release-notes-v1.0.3",
+                "title": "v1.0.3 Release Notes",
+                "sidebar_label": "v1.0.3 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.0.4 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.4"
+              },
+              "next": {
+                "title": "v1.0.2 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.2"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.0.4",
+              "id": "releases/release-notes-v1.0.4",
+              "title": "v1.0.4 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/releases/release-notes-v1.0.4.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.0.4",
+              "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.4",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "release-notes-v1.0.4",
+                "title": "v1.0.4 Release Notes",
+                "sidebar_label": "v1.0.4 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.0.5 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.5"
+              },
+              "next": {
+                "title": "v1.0.3 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.3"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.0.5",
+              "id": "releases/release-notes-v1.0.5",
+              "title": "v1.0.5 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/releases/release-notes-v1.0.5.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.0.5",
+              "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.5",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "release-notes-v1.0.5",
+                "title": "v1.0.5 Release Notes",
+                "sidebar_label": "v1.0.5 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.1.0 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.1.0"
+              },
+              "next": {
+                "title": "v1.0.4 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.4"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.1.0",
+              "id": "releases/release-notes-v1.1.0",
+              "title": "v1.1.0 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/releases/release-notes-v1.1.0.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.1.0",
+              "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.1.0",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "release-notes-v1.1.0",
+                "title": "v1.1.0 Release Notes",
+                "sidebar_label": "v1.1.0 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.1.1 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.1.1"
+              },
+              "next": {
+                "title": "v1.0.5 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.5"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.1.1",
+              "id": "releases/release-notes-v1.1.1",
+              "title": "v1.1.1 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/releases/release-notes-v1.1.1.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.1.1",
+              "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.1.1",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "release-notes-v1.1.1",
+                "title": "v1.1.1 Release Notes",
+                "sidebar_label": "v1.1.1 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.2.0 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.2.0"
+              },
+              "next": {
+                "title": "v1.1.0 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.1.0"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.2.0",
+              "id": "releases/release-notes-v1.2.0",
+              "title": "v1.2.0 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/releases/release-notes-v1.2.0.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.2.0",
+              "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.2.0",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "release-notes-v1.2.0",
+                "title": "v1.2.0 Release Notes",
+                "sidebar_label": "v1.2.0 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.3.0 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.3.0"
+              },
+              "next": {
+                "title": "v1.1.1 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.1.1"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.3.0",
+              "id": "releases/release-notes-v1.3.0",
+              "title": "v1.3.0 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/releases/release-notes-v1.3.0.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.3.0",
+              "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.3.0",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "release-notes-v1.3.0",
+                "title": "v1.3.0 Release Notes",
+                "sidebar_label": "v1.3.0 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.3.1 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.3.1"
+              },
+              "next": {
+                "title": "v1.2.0 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.2.0"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.3.1",
+              "id": "releases/release-notes-v1.3.1",
+              "title": "v1.3.1 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/releases/release-notes-v1.3.1.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.3.1",
+              "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.3.1",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "release-notes-v1.3.1",
+                "title": "v1.3.1 Release Notes",
+                "sidebar_label": "v1.3.1 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.3.2 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.3.2"
+              },
+              "next": {
+                "title": "v1.3.0 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.3.0"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.3.2",
+              "id": "releases/release-notes-v1.3.2",
+              "title": "v1.3.2 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/releases/release-notes-v1.3.2.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.3.2",
+              "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.3.2",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "release-notes-v1.3.2",
+                "title": "v1.3.2 Release Notes",
+                "sidebar_label": "v1.3.2 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.4.0 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.4.0"
+              },
+              "next": {
+                "title": "v1.3.1 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.3.1"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.4.0",
+              "id": "releases/release-notes-v1.4.0",
+              "title": "v1.4.0 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/releases/release-notes-v1.4.0.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.4.0",
+              "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.4.0",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "release-notes-v1.4.0",
+                "title": "v1.4.0 Release Notes",
+                "sidebar_label": "v1.4.0 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes"
+              },
+              "next": {
+                "title": "v1.3.2 Release Notes",
+                "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.3.2"
+              }
+            },
+            {
+              "unversionedId": "utilities/version",
+              "id": "utilities/version",
+              "title": "version",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/utilities/version.md",
+              "sourceDirName": "utilities",
+              "slug": "/utilities/version",
+              "permalink": "/docusaurus/ja/docs/next/utilities/version",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "version",
+                "title": "version",
+                "sidebar_label": "version"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileTimePicker",
+                "permalink": "/docusaurus/ja/docs/next/components/mobile/mobile-time-picker"
+              },
+              "next": {
+                "title": "A commentary on the difference between v0 and v1",
+                "permalink": "/docusaurus/ja/docs/next/guides/comparison-v0-v1"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "docs": [
+              {
+                "type": "category",
+                "label": "Getting Started",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "getting-started/quick-start"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/custom-css"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/usage-with-typescript"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Components",
+                "items": [
+                  {
+                    "type": "category",
+                    "collapsible": true,
+                    "collapsed": false,
+                    "label": "Desktop",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/attachment"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/button"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/checkbox"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/combobox"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/date-picker"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/datetime-picker"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/dialog"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/dropdown"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/field-group"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/multichoice"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/notification"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/radio-button"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/readonly-table"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/spinner"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/table"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/tabs"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/text"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/textarea"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/time-picker"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "collapsible": true,
+                    "collapsed": false,
+                    "label": "Mobile",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-button"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-checkbox"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-date-picker"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-datetime-picker"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-dropdown"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-multichoice"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-notification"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-radio-button"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-text"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-textarea"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-time-picker"
+                      }
+                    ]
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Utilities",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "utilities/version"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Guides",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "guides/comparison-v0-v1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/search-box-customization"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/mobile-timecard-customization"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/cleaning-check-list-customization"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/bulk-update-customization"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/format-setting-plugin"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/version-conflicts-issue-solution"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/attachment-customization"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/table-readonly-table-customization"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/tabs-customization"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ],
+            "release-notes": [
+              {
+                "type": "category",
+                "label": "Releases",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.4.0"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.3.2"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.3.1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.3.0"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.2.0"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.1.1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.1.0"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.0.5"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.0.4"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.0.3"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.0.2"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.0.1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.0.0"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        },
+        {
+          "versionName": "1.11.0",
+          "label": "1.11.0",
+          "banner": null,
+          "badge": true,
+          "noIndex": false,
+          "className": "docs-version-1.11.0",
+          "path": "/docusaurus/ja/docs",
+          "tagsPath": "/docusaurus/ja/docs/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/a001860/Desktop/my/docusaurus/docusaurus/versioned_sidebars/version-1.11.0-sidebars.json",
+          "contentPath": "/Users/a001860/Desktop/my/docusaurus/docusaurus/versioned_docs/version-1.11.0",
+          "contentPathLocalized": "/Users/a001860/Desktop/my/docusaurus/docusaurus/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0",
+          "docs": [
+            {
+              "unversionedId": "components/desktop/attachment",
+              "id": "version-1.11.0/components/desktop/attachment",
+              "title": "Attachment",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/attachment.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/attachment",
+              "permalink": "/docusaurus/ja/docs/components/desktop/attachment",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "attachment",
+                "title": "Attachment",
+                "sidebar_label": "Attachment"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Usage with TypeScript",
+                "permalink": "/docusaurus/ja/docs/getting-started/usage-with-typescript"
+              },
+              "next": {
+                "title": "Button",
+                "permalink": "/docusaurus/ja/docs/components/desktop/button"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/button",
+              "id": "version-1.11.0/components/desktop/button",
+              "title": "Button",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/button.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/button",
+              "permalink": "/docusaurus/ja/docs/components/desktop/button",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "button",
+                "title": "Button",
+                "sidebar_label": "Button"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Attachment",
+                "permalink": "/docusaurus/ja/docs/components/desktop/attachment"
+              },
+              "next": {
+                "title": "Checkbox",
+                "permalink": "/docusaurus/ja/docs/components/desktop/checkbox"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/checkbox",
+              "id": "version-1.11.0/components/desktop/checkbox",
+              "title": "Checkbox",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/checkbox.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/checkbox",
+              "permalink": "/docusaurus/ja/docs/components/desktop/checkbox",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "checkbox",
+                "title": "Checkbox",
+                "sidebar_label": "Checkbox"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Button",
+                "permalink": "/docusaurus/ja/docs/components/desktop/button"
+              },
+              "next": {
+                "title": "Combobox",
+                "permalink": "/docusaurus/ja/docs/components/desktop/combobox"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/combobox",
+              "id": "version-1.11.0/components/desktop/combobox",
+              "title": "Combobox",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/combobox.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/combobox",
+              "permalink": "/docusaurus/ja/docs/components/desktop/combobox",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "combobox",
+                "title": "Combobox",
+                "sidebar_label": "Combobox"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Checkbox",
+                "permalink": "/docusaurus/ja/docs/components/desktop/checkbox"
+              },
+              "next": {
+                "title": "DatePicker",
+                "permalink": "/docusaurus/ja/docs/components/desktop/date-picker"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/date-picker",
+              "id": "version-1.11.0/components/desktop/date-picker",
+              "title": "DatePicker",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/date-picker.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/date-picker",
+              "permalink": "/docusaurus/ja/docs/components/desktop/date-picker",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "date-picker",
+                "title": "DatePicker",
+                "sidebar_label": "DatePicker"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Combobox",
+                "permalink": "/docusaurus/ja/docs/components/desktop/combobox"
+              },
+              "next": {
+                "title": "DateTimePicker",
+                "permalink": "/docusaurus/ja/docs/components/desktop/datetime-picker"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/datetime-picker",
+              "id": "version-1.11.0/components/desktop/datetime-picker",
+              "title": "DateTimePicker",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/datetime-picker.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/datetime-picker",
+              "permalink": "/docusaurus/ja/docs/components/desktop/datetime-picker",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "datetime-picker",
+                "title": "DateTimePicker",
+                "sidebar_label": "DateTimePicker"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "DatePicker",
+                "permalink": "/docusaurus/ja/docs/components/desktop/date-picker"
+              },
+              "next": {
+                "title": "Dialog",
+                "permalink": "/docusaurus/ja/docs/components/desktop/dialog"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/dialog",
+              "id": "version-1.11.0/components/desktop/dialog",
+              "title": "Dialog",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/dialog.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/dialog",
+              "permalink": "/docusaurus/ja/docs/components/desktop/dialog",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "dialog",
+                "title": "Dialog",
+                "sidebar_label": "Dialog"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "DateTimePicker",
+                "permalink": "/docusaurus/ja/docs/components/desktop/datetime-picker"
+              },
+              "next": {
+                "title": "Dropdown",
+                "permalink": "/docusaurus/ja/docs/components/desktop/dropdown"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/dropdown",
+              "id": "version-1.11.0/components/desktop/dropdown",
+              "title": "Dropdown",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/dropdown.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/dropdown",
+              "permalink": "/docusaurus/ja/docs/components/desktop/dropdown",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "dropdown",
+                "title": "Dropdown",
+                "sidebar_label": "Dropdown"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Dialog",
+                "permalink": "/docusaurus/ja/docs/components/desktop/dialog"
+              },
+              "next": {
+                "title": "FieldGroup",
+                "permalink": "/docusaurus/ja/docs/components/desktop/field-group"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/field-group",
+              "id": "version-1.11.0/components/desktop/field-group",
+              "title": "FieldGroup",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/field-group.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/field-group",
+              "permalink": "/docusaurus/ja/docs/components/desktop/field-group",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "field-group",
+                "title": "FieldGroup",
+                "sidebar_label": "FieldGroup"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Dropdown",
+                "permalink": "/docusaurus/ja/docs/components/desktop/dropdown"
+              },
+              "next": {
+                "title": "MultiChoice",
+                "permalink": "/docusaurus/ja/docs/components/desktop/multichoice"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/multichoice",
+              "id": "version-1.11.0/components/desktop/multichoice",
+              "title": "MultiChoice",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/multichoice.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/multichoice",
+              "permalink": "/docusaurus/ja/docs/components/desktop/multichoice",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "multichoice",
+                "title": "MultiChoice",
+                "sidebar_label": "MultiChoice"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "FieldGroup",
+                "permalink": "/docusaurus/ja/docs/components/desktop/field-group"
+              },
+              "next": {
+                "title": "Notification",
+                "permalink": "/docusaurus/ja/docs/components/desktop/notification"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/notification",
+              "id": "version-1.11.0/components/desktop/notification",
+              "title": "Notification",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/notification.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/notification",
+              "permalink": "/docusaurus/ja/docs/components/desktop/notification",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "notification",
+                "title": "Notification",
+                "sidebar_label": "Notification"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MultiChoice",
+                "permalink": "/docusaurus/ja/docs/components/desktop/multichoice"
+              },
+              "next": {
+                "title": "RadioButton",
+                "permalink": "/docusaurus/ja/docs/components/desktop/radio-button"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/radio-button",
+              "id": "version-1.11.0/components/desktop/radio-button",
+              "title": "RadioButton",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/radio-button.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/radio-button",
+              "permalink": "/docusaurus/ja/docs/components/desktop/radio-button",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "radio-button",
+                "title": "RadioButton",
+                "sidebar_label": "RadioButton"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Notification",
+                "permalink": "/docusaurus/ja/docs/components/desktop/notification"
+              },
+              "next": {
+                "title": "ReadOnlyTable",
+                "permalink": "/docusaurus/ja/docs/components/desktop/readonly-table"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/readonly-table",
+              "id": "version-1.11.0/components/desktop/readonly-table",
+              "title": "ReadOnlyTable",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/readonly-table.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/readonly-table",
+              "permalink": "/docusaurus/ja/docs/components/desktop/readonly-table",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "readonly-table",
+                "title": "ReadOnlyTable",
+                "sidebar_label": "ReadOnlyTable"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "RadioButton",
+                "permalink": "/docusaurus/ja/docs/components/desktop/radio-button"
+              },
+              "next": {
+                "title": "Spinner",
+                "permalink": "/docusaurus/ja/docs/components/desktop/spinner"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/spinner",
+              "id": "version-1.11.0/components/desktop/spinner",
+              "title": "Spinner",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/spinner.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/spinner",
+              "permalink": "/docusaurus/ja/docs/components/desktop/spinner",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "spinner",
+                "title": "Spinner",
+                "sidebar_label": "Spinner"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "ReadOnlyTable",
+                "permalink": "/docusaurus/ja/docs/components/desktop/readonly-table"
+              },
+              "next": {
+                "title": "Table",
+                "permalink": "/docusaurus/ja/docs/components/desktop/table"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/table",
+              "id": "version-1.11.0/components/desktop/table",
+              "title": "Table",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/table.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/table",
+              "permalink": "/docusaurus/ja/docs/components/desktop/table",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "table",
+                "title": "Table",
+                "sidebar_label": "Table"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Spinner",
+                "permalink": "/docusaurus/ja/docs/components/desktop/spinner"
+              },
+              "next": {
+                "title": "Tabs",
+                "permalink": "/docusaurus/ja/docs/components/desktop/tabs"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/tabs",
+              "id": "version-1.11.0/components/desktop/tabs",
+              "title": "Tabs",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/tabs.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/tabs",
+              "permalink": "/docusaurus/ja/docs/components/desktop/tabs",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "tabs",
+                "title": "Tabs",
+                "sidebar_label": "Tabs"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Table",
+                "permalink": "/docusaurus/ja/docs/components/desktop/table"
+              },
+              "next": {
+                "title": "Text",
+                "permalink": "/docusaurus/ja/docs/components/desktop/text"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/text",
+              "id": "version-1.11.0/components/desktop/text",
+              "title": "Text",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/text.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/text",
+              "permalink": "/docusaurus/ja/docs/components/desktop/text",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "text",
+                "title": "Text",
+                "sidebar_label": "Text"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Tabs",
+                "permalink": "/docusaurus/ja/docs/components/desktop/tabs"
+              },
+              "next": {
+                "title": "TextArea",
+                "permalink": "/docusaurus/ja/docs/components/desktop/textarea"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/textarea",
+              "id": "version-1.11.0/components/desktop/textarea",
+              "title": "TextArea",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/textarea.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/textarea",
+              "permalink": "/docusaurus/ja/docs/components/desktop/textarea",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "textarea",
+                "title": "TextArea",
+                "sidebar_label": "TextArea"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Text",
+                "permalink": "/docusaurus/ja/docs/components/desktop/text"
+              },
+              "next": {
+                "title": "TimePicker",
+                "permalink": "/docusaurus/ja/docs/components/desktop/time-picker"
+              }
+            },
+            {
+              "unversionedId": "components/desktop/time-picker",
+              "id": "version-1.11.0/components/desktop/time-picker",
+              "title": "TimePicker",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/desktop/time-picker.md",
+              "sourceDirName": "components/desktop",
+              "slug": "/components/desktop/time-picker",
+              "permalink": "/docusaurus/ja/docs/components/desktop/time-picker",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "time-picker",
+                "title": "TimePicker",
+                "sidebar_label": "TimePicker"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "TextArea",
+                "permalink": "/docusaurus/ja/docs/components/desktop/textarea"
+              },
+              "next": {
+                "title": "MobileButton",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-button"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-button",
+              "id": "version-1.11.0/components/mobile/mobile-button",
+              "title": "MobileButton",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/mobile/mobile-button.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-button",
+              "permalink": "/docusaurus/ja/docs/components/mobile/mobile-button",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "mobile-button",
+                "title": "MobileButton",
+                "sidebar_label": "MobileButton"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "TimePicker",
+                "permalink": "/docusaurus/ja/docs/components/desktop/time-picker"
+              },
+              "next": {
+                "title": "MobileCheckbox",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-checkbox"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-checkbox",
+              "id": "version-1.11.0/components/mobile/mobile-checkbox",
+              "title": "MobileCheckbox",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/mobile/mobile-checkbox.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-checkbox",
+              "permalink": "/docusaurus/ja/docs/components/mobile/mobile-checkbox",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "mobile-checkbox",
+                "title": "MobileCheckbox",
+                "sidebar_label": "MobileCheckbox"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileButton",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-button"
+              },
+              "next": {
+                "title": "MobileDatePicker",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-date-picker"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-date-picker",
+              "id": "version-1.11.0/components/mobile/mobile-date-picker",
+              "title": "MobileDatePicker",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/mobile/mobile-date-picker.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-date-picker",
+              "permalink": "/docusaurus/ja/docs/components/mobile/mobile-date-picker",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "mobile-date-picker",
+                "title": "MobileDatePicker",
+                "sidebar_label": "MobileDatePicker"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileCheckbox",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-checkbox"
+              },
+              "next": {
+                "title": "MobileDateTimePicker",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-datetime-picker"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-datetime-picker",
+              "id": "version-1.11.0/components/mobile/mobile-datetime-picker",
+              "title": "MobileDateTimePicker",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/mobile/mobile-datetime-picker.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-datetime-picker",
+              "permalink": "/docusaurus/ja/docs/components/mobile/mobile-datetime-picker",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "mobile-datetime-picker",
+                "title": "MobileDateTimePicker",
+                "sidebar_label": "MobileDateTimePicker"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileDatePicker",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-date-picker"
+              },
+              "next": {
+                "title": "MobileDropdown",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-dropdown"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-dropdown",
+              "id": "version-1.11.0/components/mobile/mobile-dropdown",
+              "title": "MobileDropdown",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/mobile/mobile-dropdown.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-dropdown",
+              "permalink": "/docusaurus/ja/docs/components/mobile/mobile-dropdown",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "mobile-dropdown",
+                "title": "MobileDropdown",
+                "sidebar_label": "MobileDropdown"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileDateTimePicker",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-datetime-picker"
+              },
+              "next": {
+                "title": "MobileMultiChoice",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-multichoice"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-multichoice",
+              "id": "version-1.11.0/components/mobile/mobile-multichoice",
+              "title": "MobileMultiChoice",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/mobile/mobile-multichoice.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-multichoice",
+              "permalink": "/docusaurus/ja/docs/components/mobile/mobile-multichoice",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "mobile-multichoice",
+                "title": "MobileMultiChoice",
+                "sidebar_label": "MobileMultiChoice"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileDropdown",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-dropdown"
+              },
+              "next": {
+                "title": "MobileNotification",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-notification"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-notification",
+              "id": "version-1.11.0/components/mobile/mobile-notification",
+              "title": "MobileNotification",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/mobile/mobile-notification.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-notification",
+              "permalink": "/docusaurus/ja/docs/components/mobile/mobile-notification",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "mobile-notification",
+                "title": "MobileNotification",
+                "sidebar_label": "MobileNotification"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileMultiChoice",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-multichoice"
+              },
+              "next": {
+                "title": "MobileRadioButton",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-radio-button"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-radio-button",
+              "id": "version-1.11.0/components/mobile/mobile-radio-button",
+              "title": "MobileRadioButton",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/mobile/mobile-radio-button.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-radio-button",
+              "permalink": "/docusaurus/ja/docs/components/mobile/mobile-radio-button",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "mobile-radio-button",
+                "title": "MobileRadioButton",
+                "sidebar_label": "MobileRadioButton"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileNotification",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-notification"
+              },
+              "next": {
+                "title": "MobileText",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-text"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-text",
+              "id": "version-1.11.0/components/mobile/mobile-text",
+              "title": "MobileText",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/mobile/mobile-text.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-text",
+              "permalink": "/docusaurus/ja/docs/components/mobile/mobile-text",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "mobile-text",
+                "title": "MobileText",
+                "sidebar_label": "MobileText"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileRadioButton",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-radio-button"
+              },
+              "next": {
+                "title": "MobileTextArea",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-textarea"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-textarea",
+              "id": "version-1.11.0/components/mobile/mobile-textarea",
+              "title": "MobileTextArea",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/mobile/mobile-textarea.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-textarea",
+              "permalink": "/docusaurus/ja/docs/components/mobile/mobile-textarea",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "mobile-textarea",
+                "title": "MobileTextArea",
+                "sidebar_label": "MobileTextArea"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileText",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-text"
+              },
+              "next": {
+                "title": "MobileTimePicker",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-time-picker"
+              }
+            },
+            {
+              "unversionedId": "components/mobile/mobile-time-picker",
+              "id": "version-1.11.0/components/mobile/mobile-time-picker",
+              "title": "MobileTimePicker",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/components/mobile/mobile-time-picker.md",
+              "sourceDirName": "components/mobile",
+              "slug": "/components/mobile/mobile-time-picker",
+              "permalink": "/docusaurus/ja/docs/components/mobile/mobile-time-picker",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "mobile-time-picker",
+                "title": "MobileTimePicker",
+                "sidebar_label": "MobileTimePicker"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileTextArea",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-textarea"
+              },
+              "next": {
+                "title": "version",
+                "permalink": "/docusaurus/ja/docs/utilities/version"
+              }
+            },
+            {
+              "unversionedId": "getting-started/custom-css",
+              "id": "version-1.11.0/getting-started/custom-css",
+              "title": "Custom CSS",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/getting-started/custom-css.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/custom-css",
+              "permalink": "/docusaurus/ja/docs/getting-started/custom-css",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "custom-css",
+                "title": "Custom CSS",
+                "sidebar_label": "Custom CSS"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Quick Start",
+                "permalink": "/docusaurus/ja/docs/getting-started/quick-start"
+              },
+              "next": {
+                "title": "Usage with TypeScript",
+                "permalink": "/docusaurus/ja/docs/getting-started/usage-with-typescript"
+              }
+            },
+            {
+              "unversionedId": "getting-started/quick-start",
+              "id": "version-1.11.0/getting-started/quick-start",
+              "title": "Quick Start",
+              "description": "kintone UI Component とは？",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/getting-started/quick-start.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/quick-start",
+              "permalink": "/docusaurus/ja/docs/getting-started/quick-start",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "quick-start",
+                "title": "Quick Start",
+                "sidebar_label": "Quick Start"
+              },
+              "sidebar": "docs",
+              "next": {
+                "title": "Custom CSS",
+                "permalink": "/docusaurus/ja/docs/getting-started/custom-css"
+              }
+            },
+            {
+              "unversionedId": "getting-started/usage-with-typescript",
+              "id": "version-1.11.0/getting-started/usage-with-typescript",
+              "title": "Usage with TypeScript",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/getting-started/usage-with-typescript.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/usage-with-typescript",
+              "permalink": "/docusaurus/ja/docs/getting-started/usage-with-typescript",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "usage-with-typescript",
+                "title": "Usage with TypeScript",
+                "sidebar_label": "Usage with TypeScript"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Custom CSS",
+                "permalink": "/docusaurus/ja/docs/getting-started/custom-css"
+              },
+              "next": {
+                "title": "Attachment",
+                "permalink": "/docusaurus/ja/docs/components/desktop/attachment"
+              }
+            },
+            {
+              "unversionedId": "guides/attachment-customization",
+              "id": "version-1.11.0/guides/attachment-customization",
+              "title": "Attachment customization",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/guides/attachment-customization.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/attachment-customization",
+              "permalink": "/docusaurus/ja/docs/guides/attachment-customization",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "attachment-customization",
+                "title": "Attachment customization",
+                "sidebar_label": "Attachment customization"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Version conflicts issue and solution",
+                "permalink": "/docusaurus/ja/docs/guides/version-conflicts-issue-solution"
+              },
+              "next": {
+                "title": "Table and ReadOnlyTable customization",
+                "permalink": "/docusaurus/ja/docs/guides/table-readonly-table-customization"
+              }
+            },
+            {
+              "unversionedId": "guides/bulk-update-customization",
+              "id": "version-1.11.0/guides/bulk-update-customization",
+              "title": "Bulk update customization",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/guides/bulk-update-customization.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/bulk-update-customization",
+              "permalink": "/docusaurus/ja/docs/guides/bulk-update-customization",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "bulk-update-customization",
+                "title": "Bulk update customization",
+                "sidebar_label": "Bulk update customization"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Cleaning check list customization",
+                "permalink": "/docusaurus/ja/docs/guides/cleaning-check-list-customization"
+              },
+              "next": {
+                "title": "Format setting plug-in",
+                "permalink": "/docusaurus/ja/docs/guides/format-setting-plugin"
+              }
+            },
+            {
+              "unversionedId": "guides/cleaning-check-list-customization",
+              "id": "version-1.11.0/guides/cleaning-check-list-customization",
+              "title": "Cleaning check list customization",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/guides/cleaning-check-list-customization.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/cleaning-check-list-customization",
+              "permalink": "/docusaurus/ja/docs/guides/cleaning-check-list-customization",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "cleaning-check-list-customization",
+                "title": "Cleaning check list customization",
+                "sidebar_label": "Cleaning check list customization"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Mobile timecard customization",
+                "permalink": "/docusaurus/ja/docs/guides/mobile-timecard-customization"
+              },
+              "next": {
+                "title": "Bulk update customization",
+                "permalink": "/docusaurus/ja/docs/guides/bulk-update-customization"
+              }
+            },
+            {
+              "unversionedId": "guides/comparison-v0-v1",
+              "id": "version-1.11.0/guides/comparison-v0-v1",
+              "title": "A commentary on the difference between v0 and v1",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/guides/comparison-v0-v1.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/comparison-v0-v1",
+              "permalink": "/docusaurus/ja/docs/guides/comparison-v0-v1",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "comparison-v0-v1",
+                "title": "A commentary on the difference between v0 and v1",
+                "sidebar_label": "A commentary on the difference between v0 and v1"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "version",
+                "permalink": "/docusaurus/ja/docs/utilities/version"
+              },
+              "next": {
+                "title": "Search box customization",
+                "permalink": "/docusaurus/ja/docs/guides/search-box-customization"
+              }
+            },
+            {
+              "unversionedId": "guides/format-setting-plugin",
+              "id": "version-1.11.0/guides/format-setting-plugin",
+              "title": "Format setting plug-in",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/guides/format-setting-plugin.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/format-setting-plugin",
+              "permalink": "/docusaurus/ja/docs/guides/format-setting-plugin",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "format-setting-plugin",
+                "title": "Format setting plug-in",
+                "sidebar_label": "Format setting plug-in"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Bulk update customization",
+                "permalink": "/docusaurus/ja/docs/guides/bulk-update-customization"
+              },
+              "next": {
+                "title": "Version conflicts issue and solution",
+                "permalink": "/docusaurus/ja/docs/guides/version-conflicts-issue-solution"
+              }
+            },
+            {
+              "unversionedId": "guides/mobile-timecard-customization",
+              "id": "version-1.11.0/guides/mobile-timecard-customization",
+              "title": "Mobile timecard customization",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/guides/mobile-timecard-customization.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/mobile-timecard-customization",
+              "permalink": "/docusaurus/ja/docs/guides/mobile-timecard-customization",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "mobile-timecard-customization",
+                "title": "Mobile timecard customization",
+                "sidebar_label": "Mobile timecard customization"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Search box customization",
+                "permalink": "/docusaurus/ja/docs/guides/search-box-customization"
+              },
+              "next": {
+                "title": "Cleaning check list customization",
+                "permalink": "/docusaurus/ja/docs/guides/cleaning-check-list-customization"
+              }
+            },
+            {
+              "unversionedId": "guides/search-box-customization",
+              "id": "version-1.11.0/guides/search-box-customization",
+              "title": "Search box customization",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/guides/search-box-customization.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/search-box-customization",
+              "permalink": "/docusaurus/ja/docs/guides/search-box-customization",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "search-box-customization",
+                "title": "Search box customization",
+                "sidebar_label": "Search box customization"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "A commentary on the difference between v0 and v1",
+                "permalink": "/docusaurus/ja/docs/guides/comparison-v0-v1"
+              },
+              "next": {
+                "title": "Mobile timecard customization",
+                "permalink": "/docusaurus/ja/docs/guides/mobile-timecard-customization"
+              }
+            },
+            {
+              "unversionedId": "guides/table-readonly-table-customization",
+              "id": "version-1.11.0/guides/table-readonly-table-customization",
+              "title": "Table and ReadOnlyTable customization",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/guides/table-readonly-table-customization.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/table-readonly-table-customization",
+              "permalink": "/docusaurus/ja/docs/guides/table-readonly-table-customization",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "table-readonly-table-customization",
+                "title": "Table and ReadOnlyTable customization",
+                "sidebar_label": "Table and ReadOnlyTable customization"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Attachment customization",
+                "permalink": "/docusaurus/ja/docs/guides/attachment-customization"
+              },
+              "next": {
+                "title": "Tabs customization",
+                "permalink": "/docusaurus/ja/docs/guides/tabs-customization"
+              }
+            },
+            {
+              "unversionedId": "guides/tabs-customization",
+              "id": "version-1.11.0/guides/tabs-customization",
+              "title": "Tabs customization",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/guides/tabs-customization.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/tabs-customization",
+              "permalink": "/docusaurus/ja/docs/guides/tabs-customization",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "tabs-customization",
+                "title": "Tabs customization",
+                "sidebar_label": "Tabs customization"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Table and ReadOnlyTable customization",
+                "permalink": "/docusaurus/ja/docs/guides/table-readonly-table-customization"
+              }
+            },
+            {
+              "unversionedId": "guides/version-conflicts-issue-solution",
+              "id": "version-1.11.0/guides/version-conflicts-issue-solution",
+              "title": "Version conflicts issue and solution",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/guides/version-conflicts-issue-solution.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/version-conflicts-issue-solution",
+              "permalink": "/docusaurus/ja/docs/guides/version-conflicts-issue-solution",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "version-conflicts-issue-solution",
+                "title": "Version conflicts issue and solution",
+                "sidebar_label": "Version conflicts issue and solution"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Format setting plug-in",
+                "permalink": "/docusaurus/ja/docs/guides/format-setting-plugin"
+              },
+              "next": {
+                "title": "Attachment customization",
+                "permalink": "/docusaurus/ja/docs/guides/attachment-customization"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes",
+              "id": "version-1.11.0/releases/release-notes",
+              "title": "Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/releases/release-notes.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes",
+              "permalink": "/docusaurus/ja/docs/releases/release-notes",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "release-notes",
+                "title": "Release Notes",
+                "sidebar_label": "Release Notes"
+              },
+              "sidebar": "release-notes",
+              "next": {
+                "title": "v1.4.0 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.4.0"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.0.0",
+              "id": "version-1.11.0/releases/release-notes-v1.0.0",
+              "title": "v1.0.0 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/releases/release-notes-v1.0.0.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.0.0",
+              "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.0.0",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "release-notes-v1.0.0",
+                "title": "v1.0.0 Release Notes",
+                "sidebar_label": "v1.0.0 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.0.1 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.0.1"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.0.1",
+              "id": "version-1.11.0/releases/release-notes-v1.0.1",
+              "title": "v1.0.1 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/releases/release-notes-v1.0.1.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.0.1",
+              "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.0.1",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "release-notes-v1.0.1",
+                "title": "v1.0.1 Release Notes",
+                "sidebar_label": "v1.0.1 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.0.2 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.0.2"
+              },
+              "next": {
+                "title": "v1.0.0 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.0.0"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.0.2",
+              "id": "version-1.11.0/releases/release-notes-v1.0.2",
+              "title": "v1.0.2 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/releases/release-notes-v1.0.2.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.0.2",
+              "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.0.2",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "release-notes-v1.0.2",
+                "title": "v1.0.2 Release Notes",
+                "sidebar_label": "v1.0.2 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.0.3 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.0.3"
+              },
+              "next": {
+                "title": "v1.0.1 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.0.1"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.0.3",
+              "id": "version-1.11.0/releases/release-notes-v1.0.3",
+              "title": "v1.0.3 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/releases/release-notes-v1.0.3.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.0.3",
+              "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.0.3",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "release-notes-v1.0.3",
+                "title": "v1.0.3 Release Notes",
+                "sidebar_label": "v1.0.3 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.0.4 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.0.4"
+              },
+              "next": {
+                "title": "v1.0.2 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.0.2"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.0.4",
+              "id": "version-1.11.0/releases/release-notes-v1.0.4",
+              "title": "v1.0.4 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/releases/release-notes-v1.0.4.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.0.4",
+              "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.0.4",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "release-notes-v1.0.4",
+                "title": "v1.0.4 Release Notes",
+                "sidebar_label": "v1.0.4 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.0.5 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.0.5"
+              },
+              "next": {
+                "title": "v1.0.3 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.0.3"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.0.5",
+              "id": "version-1.11.0/releases/release-notes-v1.0.5",
+              "title": "v1.0.5 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/releases/release-notes-v1.0.5.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.0.5",
+              "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.0.5",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "release-notes-v1.0.5",
+                "title": "v1.0.5 Release Notes",
+                "sidebar_label": "v1.0.5 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.1.0 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.1.0"
+              },
+              "next": {
+                "title": "v1.0.4 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.0.4"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.1.0",
+              "id": "version-1.11.0/releases/release-notes-v1.1.0",
+              "title": "v1.1.0 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/releases/release-notes-v1.1.0.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.1.0",
+              "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.1.0",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "release-notes-v1.1.0",
+                "title": "v1.1.0 Release Notes",
+                "sidebar_label": "v1.1.0 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.1.1 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.1.1"
+              },
+              "next": {
+                "title": "v1.0.5 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.0.5"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.1.1",
+              "id": "version-1.11.0/releases/release-notes-v1.1.1",
+              "title": "v1.1.1 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/releases/release-notes-v1.1.1.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.1.1",
+              "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.1.1",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "release-notes-v1.1.1",
+                "title": "v1.1.1 Release Notes",
+                "sidebar_label": "v1.1.1 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.2.0 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.2.0"
+              },
+              "next": {
+                "title": "v1.1.0 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.1.0"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.2.0",
+              "id": "version-1.11.0/releases/release-notes-v1.2.0",
+              "title": "v1.2.0 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/releases/release-notes-v1.2.0.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.2.0",
+              "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.2.0",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "release-notes-v1.2.0",
+                "title": "v1.2.0 Release Notes",
+                "sidebar_label": "v1.2.0 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.3.0 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.3.0"
+              },
+              "next": {
+                "title": "v1.1.1 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.1.1"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.3.0",
+              "id": "version-1.11.0/releases/release-notes-v1.3.0",
+              "title": "v1.3.0 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/releases/release-notes-v1.3.0.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.3.0",
+              "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.3.0",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "release-notes-v1.3.0",
+                "title": "v1.3.0 Release Notes",
+                "sidebar_label": "v1.3.0 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.3.1 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.3.1"
+              },
+              "next": {
+                "title": "v1.2.0 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.2.0"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.3.1",
+              "id": "version-1.11.0/releases/release-notes-v1.3.1",
+              "title": "v1.3.1 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/releases/release-notes-v1.3.1.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.3.1",
+              "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.3.1",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "release-notes-v1.3.1",
+                "title": "v1.3.1 Release Notes",
+                "sidebar_label": "v1.3.1 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.3.2 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.3.2"
+              },
+              "next": {
+                "title": "v1.3.0 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.3.0"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.3.2",
+              "id": "version-1.11.0/releases/release-notes-v1.3.2",
+              "title": "v1.3.2 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/releases/release-notes-v1.3.2.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.3.2",
+              "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.3.2",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "release-notes-v1.3.2",
+                "title": "v1.3.2 Release Notes",
+                "sidebar_label": "v1.3.2 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "v1.4.0 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.4.0"
+              },
+              "next": {
+                "title": "v1.3.1 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.3.1"
+              }
+            },
+            {
+              "unversionedId": "releases/release-notes-v1.4.0",
+              "id": "version-1.11.0/releases/release-notes-v1.4.0",
+              "title": "v1.4.0 Release Notes",
+              "description": "概要",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/releases/release-notes-v1.4.0.md",
+              "sourceDirName": "releases",
+              "slug": "/releases/release-notes-v1.4.0",
+              "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.4.0",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "release-notes-v1.4.0",
+                "title": "v1.4.0 Release Notes",
+                "sidebar_label": "v1.4.0 Release Notes"
+              },
+              "sidebar": "release-notes",
+              "previous": {
+                "title": "Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes"
+              },
+              "next": {
+                "title": "v1.3.2 Release Notes",
+                "permalink": "/docusaurus/ja/docs/releases/release-notes-v1.3.2"
+              }
+            },
+            {
+              "unversionedId": "utilities/version",
+              "id": "version-1.11.0/utilities/version",
+              "title": "version",
+              "description": "Overview",
+              "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/utilities/version.md",
+              "sourceDirName": "utilities",
+              "slug": "/utilities/version",
+              "permalink": "/docusaurus/ja/docs/utilities/version",
+              "draft": false,
+              "tags": [],
+              "version": "1.11.0",
+              "frontMatter": {
+                "id": "version",
+                "title": "version",
+                "sidebar_label": "version"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "MobileTimePicker",
+                "permalink": "/docusaurus/ja/docs/components/mobile/mobile-time-picker"
+              },
+              "next": {
+                "title": "A commentary on the difference between v0 and v1",
+                "permalink": "/docusaurus/ja/docs/guides/comparison-v0-v1"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "docs": [
+              {
+                "type": "category",
+                "label": "Getting Started",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "getting-started/quick-start"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/custom-css"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/usage-with-typescript"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Components",
+                "items": [
+                  {
+                    "type": "category",
+                    "collapsible": true,
+                    "collapsed": false,
+                    "label": "Desktop",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/attachment"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/button"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/checkbox"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/combobox"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/date-picker"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/datetime-picker"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/dialog"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/dropdown"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/field-group"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/multichoice"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/notification"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/radio-button"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/readonly-table"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/spinner"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/table"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/tabs"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/text"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/textarea"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/desktop/time-picker"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "collapsible": true,
+                    "collapsed": false,
+                    "label": "Mobile",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-button"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-checkbox"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-date-picker"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-datetime-picker"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-dropdown"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-multichoice"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-notification"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-radio-button"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-text"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-textarea"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "components/mobile/mobile-time-picker"
+                      }
+                    ]
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Utilities",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "utilities/version"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Guides",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "guides/comparison-v0-v1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/search-box-customization"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/mobile-timecard-customization"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/cleaning-check-list-customization"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/bulk-update-customization"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/format-setting-plugin"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/version-conflicts-issue-solution"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/attachment-customization"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/table-readonly-table-customization"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "guides/tabs-customization"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ],
+            "release-notes": [
+              {
+                "type": "category",
+                "label": "Releases",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.4.0"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.3.2"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.3.1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.3.0"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.2.0"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.1.1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.1.0"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.0.5"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.0.4"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.0.3"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.0.2"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.0.1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "releases/release-notes-v1.0.0"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/docusaurus/ja/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/docusaurus/ja/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/docusaurus/ja/versions",
+        "source": "@site/src/pages/versions.tsx"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-plugin-google-tag-manager": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-theme-search-algolia": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

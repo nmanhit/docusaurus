@@ -6,7 +6,7 @@
   "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/attachment.md",
   "sourceDirName": "components/desktop",
   "slug": "/components/desktop/attachment",
-  "permalink": "/ja/docs/next/components/desktop/attachment",
+  "permalink": "/docusaurus/ja/docs/next/components/desktop/attachment",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Usage with TypeScript",
-    "permalink": "/ja/docs/next/getting-started/usage-with-typescript"
+    "permalink": "/docusaurus/ja/docs/next/getting-started/usage-with-typescript"
   },
   "next": {
     "title": "Button",
-    "permalink": "/ja/docs/next/components/desktop/button"
+    "permalink": "/docusaurus/ja/docs/next/components/desktop/button"
   }
 }

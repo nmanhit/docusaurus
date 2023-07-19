@@ -3,726 +3,761 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/ja/search',
-    component: ComponentCreator('/ja/search', '375'),
+    path: '/docusaurus/ja/__docusaurus/debug',
+    component: ComponentCreator('/docusaurus/ja/__docusaurus/debug', '51b'),
     exact: true
   },
   {
-    path: '/ja/versions',
-    component: ComponentCreator('/ja/versions', 'c1b'),
+    path: '/docusaurus/ja/__docusaurus/debug/config',
+    component: ComponentCreator('/docusaurus/ja/__docusaurus/debug/config', '132'),
     exact: true
   },
   {
-    path: '/ja/docs/next',
-    component: ComponentCreator('/ja/docs/next', 'a91'),
+    path: '/docusaurus/ja/__docusaurus/debug/content',
+    component: ComponentCreator('/docusaurus/ja/__docusaurus/debug/content', '02d'),
+    exact: true
+  },
+  {
+    path: '/docusaurus/ja/__docusaurus/debug/globalData',
+    component: ComponentCreator('/docusaurus/ja/__docusaurus/debug/globalData', 'ec2'),
+    exact: true
+  },
+  {
+    path: '/docusaurus/ja/__docusaurus/debug/metadata',
+    component: ComponentCreator('/docusaurus/ja/__docusaurus/debug/metadata', 'c81'),
+    exact: true
+  },
+  {
+    path: '/docusaurus/ja/__docusaurus/debug/registry',
+    component: ComponentCreator('/docusaurus/ja/__docusaurus/debug/registry', 'd6d'),
+    exact: true
+  },
+  {
+    path: '/docusaurus/ja/__docusaurus/debug/routes',
+    component: ComponentCreator('/docusaurus/ja/__docusaurus/debug/routes', 'ec0'),
+    exact: true
+  },
+  {
+    path: '/docusaurus/ja/search',
+    component: ComponentCreator('/docusaurus/ja/search', 'a99'),
+    exact: true
+  },
+  {
+    path: '/docusaurus/ja/versions',
+    component: ComponentCreator('/docusaurus/ja/versions', 'ae3'),
+    exact: true
+  },
+  {
+    path: '/docusaurus/ja/docs/next',
+    component: ComponentCreator('/docusaurus/ja/docs/next', 'ca4'),
     routes: [
       {
-        path: '/ja/docs/next/components/desktop/attachment',
-        component: ComponentCreator('/ja/docs/next/components/desktop/attachment', '7e1'),
+        path: '/docusaurus/ja/docs/next/components/desktop/attachment',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/desktop/attachment', '6da'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/desktop/button',
-        component: ComponentCreator('/ja/docs/next/components/desktop/button', '55a'),
+        path: '/docusaurus/ja/docs/next/components/desktop/button',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/desktop/button', 'a0c'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/desktop/checkbox',
-        component: ComponentCreator('/ja/docs/next/components/desktop/checkbox', 'd31'),
+        path: '/docusaurus/ja/docs/next/components/desktop/checkbox',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/desktop/checkbox', 'd32'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/desktop/combobox',
-        component: ComponentCreator('/ja/docs/next/components/desktop/combobox', '542'),
+        path: '/docusaurus/ja/docs/next/components/desktop/combobox',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/desktop/combobox', '929'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/desktop/date-picker',
-        component: ComponentCreator('/ja/docs/next/components/desktop/date-picker', 'e27'),
+        path: '/docusaurus/ja/docs/next/components/desktop/date-picker',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/desktop/date-picker', 'a11'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/desktop/datetime-picker',
-        component: ComponentCreator('/ja/docs/next/components/desktop/datetime-picker', '73c'),
+        path: '/docusaurus/ja/docs/next/components/desktop/datetime-picker',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/desktop/datetime-picker', '497'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/desktop/dialog',
-        component: ComponentCreator('/ja/docs/next/components/desktop/dialog', '33f'),
+        path: '/docusaurus/ja/docs/next/components/desktop/dialog',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/desktop/dialog', '252'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/desktop/dropdown',
-        component: ComponentCreator('/ja/docs/next/components/desktop/dropdown', '9f8'),
+        path: '/docusaurus/ja/docs/next/components/desktop/dropdown',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/desktop/dropdown', '71b'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/desktop/field-group',
-        component: ComponentCreator('/ja/docs/next/components/desktop/field-group', 'b71'),
+        path: '/docusaurus/ja/docs/next/components/desktop/field-group',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/desktop/field-group', '999'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/desktop/multichoice',
-        component: ComponentCreator('/ja/docs/next/components/desktop/multichoice', '4c1'),
+        path: '/docusaurus/ja/docs/next/components/desktop/multichoice',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/desktop/multichoice', 'dfe'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/desktop/notification',
-        component: ComponentCreator('/ja/docs/next/components/desktop/notification', 'd8c'),
+        path: '/docusaurus/ja/docs/next/components/desktop/notification',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/desktop/notification', 'c4c'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/desktop/radio-button',
-        component: ComponentCreator('/ja/docs/next/components/desktop/radio-button', 'e14'),
+        path: '/docusaurus/ja/docs/next/components/desktop/radio-button',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/desktop/radio-button', '602'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/desktop/readonly-table',
-        component: ComponentCreator('/ja/docs/next/components/desktop/readonly-table', 'e7c'),
+        path: '/docusaurus/ja/docs/next/components/desktop/readonly-table',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/desktop/readonly-table', '36a'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/desktop/spinner',
-        component: ComponentCreator('/ja/docs/next/components/desktop/spinner', '9eb'),
+        path: '/docusaurus/ja/docs/next/components/desktop/spinner',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/desktop/spinner', '473'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/desktop/table',
-        component: ComponentCreator('/ja/docs/next/components/desktop/table', 'f65'),
+        path: '/docusaurus/ja/docs/next/components/desktop/table',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/desktop/table', '1f6'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/desktop/tabs',
-        component: ComponentCreator('/ja/docs/next/components/desktop/tabs', '4a5'),
+        path: '/docusaurus/ja/docs/next/components/desktop/tabs',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/desktop/tabs', '23b'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/desktop/text',
-        component: ComponentCreator('/ja/docs/next/components/desktop/text', '2d6'),
+        path: '/docusaurus/ja/docs/next/components/desktop/text',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/desktop/text', 'db7'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/desktop/textarea',
-        component: ComponentCreator('/ja/docs/next/components/desktop/textarea', '15d'),
+        path: '/docusaurus/ja/docs/next/components/desktop/textarea',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/desktop/textarea', '467'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/desktop/time-picker',
-        component: ComponentCreator('/ja/docs/next/components/desktop/time-picker', 'ab2'),
+        path: '/docusaurus/ja/docs/next/components/desktop/time-picker',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/desktop/time-picker', '8ac'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/mobile/mobile-button',
-        component: ComponentCreator('/ja/docs/next/components/mobile/mobile-button', 'e2c'),
+        path: '/docusaurus/ja/docs/next/components/mobile/mobile-button',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/mobile/mobile-button', '156'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/mobile/mobile-checkbox',
-        component: ComponentCreator('/ja/docs/next/components/mobile/mobile-checkbox', '3ee'),
+        path: '/docusaurus/ja/docs/next/components/mobile/mobile-checkbox',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/mobile/mobile-checkbox', '5de'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/mobile/mobile-date-picker',
-        component: ComponentCreator('/ja/docs/next/components/mobile/mobile-date-picker', 'e76'),
+        path: '/docusaurus/ja/docs/next/components/mobile/mobile-date-picker',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/mobile/mobile-date-picker', 'b48'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/mobile/mobile-datetime-picker',
-        component: ComponentCreator('/ja/docs/next/components/mobile/mobile-datetime-picker', '57d'),
+        path: '/docusaurus/ja/docs/next/components/mobile/mobile-datetime-picker',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/mobile/mobile-datetime-picker', 'a71'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/mobile/mobile-dropdown',
-        component: ComponentCreator('/ja/docs/next/components/mobile/mobile-dropdown', 'ad7'),
+        path: '/docusaurus/ja/docs/next/components/mobile/mobile-dropdown',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/mobile/mobile-dropdown', '1dc'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/mobile/mobile-multichoice',
-        component: ComponentCreator('/ja/docs/next/components/mobile/mobile-multichoice', '57c'),
+        path: '/docusaurus/ja/docs/next/components/mobile/mobile-multichoice',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/mobile/mobile-multichoice', '791'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/mobile/mobile-notification',
-        component: ComponentCreator('/ja/docs/next/components/mobile/mobile-notification', '5c0'),
+        path: '/docusaurus/ja/docs/next/components/mobile/mobile-notification',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/mobile/mobile-notification', '1c9'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/mobile/mobile-radio-button',
-        component: ComponentCreator('/ja/docs/next/components/mobile/mobile-radio-button', '543'),
+        path: '/docusaurus/ja/docs/next/components/mobile/mobile-radio-button',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/mobile/mobile-radio-button', '7b3'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/mobile/mobile-text',
-        component: ComponentCreator('/ja/docs/next/components/mobile/mobile-text', '8b1'),
+        path: '/docusaurus/ja/docs/next/components/mobile/mobile-text',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/mobile/mobile-text', '831'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/mobile/mobile-textarea',
-        component: ComponentCreator('/ja/docs/next/components/mobile/mobile-textarea', '4c3'),
+        path: '/docusaurus/ja/docs/next/components/mobile/mobile-textarea',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/mobile/mobile-textarea', 'c6e'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/components/mobile/mobile-time-picker',
-        component: ComponentCreator('/ja/docs/next/components/mobile/mobile-time-picker', '916'),
+        path: '/docusaurus/ja/docs/next/components/mobile/mobile-time-picker',
+        component: ComponentCreator('/docusaurus/ja/docs/next/components/mobile/mobile-time-picker', '6d7'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/getting-started/custom-css',
-        component: ComponentCreator('/ja/docs/next/getting-started/custom-css', 'f64'),
+        path: '/docusaurus/ja/docs/next/getting-started/custom-css',
+        component: ComponentCreator('/docusaurus/ja/docs/next/getting-started/custom-css', '102'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/getting-started/quick-start',
-        component: ComponentCreator('/ja/docs/next/getting-started/quick-start', 'b05'),
+        path: '/docusaurus/ja/docs/next/getting-started/quick-start',
+        component: ComponentCreator('/docusaurus/ja/docs/next/getting-started/quick-start', '520'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/getting-started/usage-with-typescript',
-        component: ComponentCreator('/ja/docs/next/getting-started/usage-with-typescript', 'fb2'),
+        path: '/docusaurus/ja/docs/next/getting-started/usage-with-typescript',
+        component: ComponentCreator('/docusaurus/ja/docs/next/getting-started/usage-with-typescript', '4db'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/guides/attachment-customization',
-        component: ComponentCreator('/ja/docs/next/guides/attachment-customization', '196'),
+        path: '/docusaurus/ja/docs/next/guides/attachment-customization',
+        component: ComponentCreator('/docusaurus/ja/docs/next/guides/attachment-customization', 'bd9'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/guides/bulk-update-customization',
-        component: ComponentCreator('/ja/docs/next/guides/bulk-update-customization', 'e6e'),
+        path: '/docusaurus/ja/docs/next/guides/bulk-update-customization',
+        component: ComponentCreator('/docusaurus/ja/docs/next/guides/bulk-update-customization', 'c96'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/guides/cleaning-check-list-customization',
-        component: ComponentCreator('/ja/docs/next/guides/cleaning-check-list-customization', '4d3'),
+        path: '/docusaurus/ja/docs/next/guides/cleaning-check-list-customization',
+        component: ComponentCreator('/docusaurus/ja/docs/next/guides/cleaning-check-list-customization', '549'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/guides/comparison-v0-v1',
-        component: ComponentCreator('/ja/docs/next/guides/comparison-v0-v1', '796'),
+        path: '/docusaurus/ja/docs/next/guides/comparison-v0-v1',
+        component: ComponentCreator('/docusaurus/ja/docs/next/guides/comparison-v0-v1', '6ff'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/guides/format-setting-plugin',
-        component: ComponentCreator('/ja/docs/next/guides/format-setting-plugin', '1da'),
+        path: '/docusaurus/ja/docs/next/guides/format-setting-plugin',
+        component: ComponentCreator('/docusaurus/ja/docs/next/guides/format-setting-plugin', 'f6e'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/guides/mobile-timecard-customization',
-        component: ComponentCreator('/ja/docs/next/guides/mobile-timecard-customization', '4b9'),
+        path: '/docusaurus/ja/docs/next/guides/mobile-timecard-customization',
+        component: ComponentCreator('/docusaurus/ja/docs/next/guides/mobile-timecard-customization', '3a5'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/guides/search-box-customization',
-        component: ComponentCreator('/ja/docs/next/guides/search-box-customization', '9ed'),
+        path: '/docusaurus/ja/docs/next/guides/search-box-customization',
+        component: ComponentCreator('/docusaurus/ja/docs/next/guides/search-box-customization', '141'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/guides/table-readonly-table-customization',
-        component: ComponentCreator('/ja/docs/next/guides/table-readonly-table-customization', '94f'),
+        path: '/docusaurus/ja/docs/next/guides/table-readonly-table-customization',
+        component: ComponentCreator('/docusaurus/ja/docs/next/guides/table-readonly-table-customization', '5c5'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/guides/tabs-customization',
-        component: ComponentCreator('/ja/docs/next/guides/tabs-customization', '4b8'),
+        path: '/docusaurus/ja/docs/next/guides/tabs-customization',
+        component: ComponentCreator('/docusaurus/ja/docs/next/guides/tabs-customization', 'eaf'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/guides/version-conflicts-issue-solution',
-        component: ComponentCreator('/ja/docs/next/guides/version-conflicts-issue-solution', '205'),
+        path: '/docusaurus/ja/docs/next/guides/version-conflicts-issue-solution',
+        component: ComponentCreator('/docusaurus/ja/docs/next/guides/version-conflicts-issue-solution', '6e1'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/next/releases/release-notes',
-        component: ComponentCreator('/ja/docs/next/releases/release-notes', 'f24'),
+        path: '/docusaurus/ja/docs/next/releases/release-notes',
+        component: ComponentCreator('/docusaurus/ja/docs/next/releases/release-notes', '5ac'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/next/releases/release-notes-v1.0.0',
-        component: ComponentCreator('/ja/docs/next/releases/release-notes-v1.0.0', 'a6e'),
+        path: '/docusaurus/ja/docs/next/releases/release-notes-v1.0.0',
+        component: ComponentCreator('/docusaurus/ja/docs/next/releases/release-notes-v1.0.0', '2f8'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/next/releases/release-notes-v1.0.1',
-        component: ComponentCreator('/ja/docs/next/releases/release-notes-v1.0.1', '62b'),
+        path: '/docusaurus/ja/docs/next/releases/release-notes-v1.0.1',
+        component: ComponentCreator('/docusaurus/ja/docs/next/releases/release-notes-v1.0.1', '4aa'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/next/releases/release-notes-v1.0.2',
-        component: ComponentCreator('/ja/docs/next/releases/release-notes-v1.0.2', '163'),
+        path: '/docusaurus/ja/docs/next/releases/release-notes-v1.0.2',
+        component: ComponentCreator('/docusaurus/ja/docs/next/releases/release-notes-v1.0.2', 'c4d'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/next/releases/release-notes-v1.0.3',
-        component: ComponentCreator('/ja/docs/next/releases/release-notes-v1.0.3', '9fd'),
+        path: '/docusaurus/ja/docs/next/releases/release-notes-v1.0.3',
+        component: ComponentCreator('/docusaurus/ja/docs/next/releases/release-notes-v1.0.3', '894'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/next/releases/release-notes-v1.0.4',
-        component: ComponentCreator('/ja/docs/next/releases/release-notes-v1.0.4', 'b9e'),
+        path: '/docusaurus/ja/docs/next/releases/release-notes-v1.0.4',
+        component: ComponentCreator('/docusaurus/ja/docs/next/releases/release-notes-v1.0.4', '1c3'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/next/releases/release-notes-v1.0.5',
-        component: ComponentCreator('/ja/docs/next/releases/release-notes-v1.0.5', '814'),
+        path: '/docusaurus/ja/docs/next/releases/release-notes-v1.0.5',
+        component: ComponentCreator('/docusaurus/ja/docs/next/releases/release-notes-v1.0.5', '0b3'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/next/releases/release-notes-v1.1.0',
-        component: ComponentCreator('/ja/docs/next/releases/release-notes-v1.1.0', '4ae'),
+        path: '/docusaurus/ja/docs/next/releases/release-notes-v1.1.0',
+        component: ComponentCreator('/docusaurus/ja/docs/next/releases/release-notes-v1.1.0', '50e'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/next/releases/release-notes-v1.1.1',
-        component: ComponentCreator('/ja/docs/next/releases/release-notes-v1.1.1', 'bf6'),
+        path: '/docusaurus/ja/docs/next/releases/release-notes-v1.1.1',
+        component: ComponentCreator('/docusaurus/ja/docs/next/releases/release-notes-v1.1.1', '187'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/next/releases/release-notes-v1.2.0',
-        component: ComponentCreator('/ja/docs/next/releases/release-notes-v1.2.0', '91f'),
+        path: '/docusaurus/ja/docs/next/releases/release-notes-v1.2.0',
+        component: ComponentCreator('/docusaurus/ja/docs/next/releases/release-notes-v1.2.0', 'f77'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/next/releases/release-notes-v1.3.0',
-        component: ComponentCreator('/ja/docs/next/releases/release-notes-v1.3.0', '48e'),
+        path: '/docusaurus/ja/docs/next/releases/release-notes-v1.3.0',
+        component: ComponentCreator('/docusaurus/ja/docs/next/releases/release-notes-v1.3.0', 'd05'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/next/releases/release-notes-v1.3.1',
-        component: ComponentCreator('/ja/docs/next/releases/release-notes-v1.3.1', '73a'),
+        path: '/docusaurus/ja/docs/next/releases/release-notes-v1.3.1',
+        component: ComponentCreator('/docusaurus/ja/docs/next/releases/release-notes-v1.3.1', 'cb4'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/next/releases/release-notes-v1.3.2',
-        component: ComponentCreator('/ja/docs/next/releases/release-notes-v1.3.2', '7e7'),
+        path: '/docusaurus/ja/docs/next/releases/release-notes-v1.3.2',
+        component: ComponentCreator('/docusaurus/ja/docs/next/releases/release-notes-v1.3.2', '7c9'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/next/releases/release-notes-v1.4.0',
-        component: ComponentCreator('/ja/docs/next/releases/release-notes-v1.4.0', '300'),
+        path: '/docusaurus/ja/docs/next/releases/release-notes-v1.4.0',
+        component: ComponentCreator('/docusaurus/ja/docs/next/releases/release-notes-v1.4.0', '714'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/next/utilities/version',
-        component: ComponentCreator('/ja/docs/next/utilities/version', '836'),
+        path: '/docusaurus/ja/docs/next/utilities/version',
+        component: ComponentCreator('/docusaurus/ja/docs/next/utilities/version', '95d'),
         exact: true,
         sidebar: "docs"
       }
     ]
   },
   {
-    path: '/ja/docs',
-    component: ComponentCreator('/ja/docs', '115'),
+    path: '/docusaurus/ja/docs',
+    component: ComponentCreator('/docusaurus/ja/docs', '390'),
     routes: [
       {
-        path: '/ja/docs/components/desktop/attachment',
-        component: ComponentCreator('/ja/docs/components/desktop/attachment', '449'),
+        path: '/docusaurus/ja/docs/components/desktop/attachment',
+        component: ComponentCreator('/docusaurus/ja/docs/components/desktop/attachment', 'c6f'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/desktop/button',
-        component: ComponentCreator('/ja/docs/components/desktop/button', '6a0'),
+        path: '/docusaurus/ja/docs/components/desktop/button',
+        component: ComponentCreator('/docusaurus/ja/docs/components/desktop/button', '2f6'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/desktop/checkbox',
-        component: ComponentCreator('/ja/docs/components/desktop/checkbox', '6e0'),
+        path: '/docusaurus/ja/docs/components/desktop/checkbox',
+        component: ComponentCreator('/docusaurus/ja/docs/components/desktop/checkbox', '571'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/desktop/combobox',
-        component: ComponentCreator('/ja/docs/components/desktop/combobox', '466'),
+        path: '/docusaurus/ja/docs/components/desktop/combobox',
+        component: ComponentCreator('/docusaurus/ja/docs/components/desktop/combobox', 'b10'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/desktop/date-picker',
-        component: ComponentCreator('/ja/docs/components/desktop/date-picker', '7ca'),
+        path: '/docusaurus/ja/docs/components/desktop/date-picker',
+        component: ComponentCreator('/docusaurus/ja/docs/components/desktop/date-picker', 'c44'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/desktop/datetime-picker',
-        component: ComponentCreator('/ja/docs/components/desktop/datetime-picker', '391'),
+        path: '/docusaurus/ja/docs/components/desktop/datetime-picker',
+        component: ComponentCreator('/docusaurus/ja/docs/components/desktop/datetime-picker', '942'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/desktop/dialog',
-        component: ComponentCreator('/ja/docs/components/desktop/dialog', 'cc8'),
+        path: '/docusaurus/ja/docs/components/desktop/dialog',
+        component: ComponentCreator('/docusaurus/ja/docs/components/desktop/dialog', '4f2'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/desktop/dropdown',
-        component: ComponentCreator('/ja/docs/components/desktop/dropdown', 'b24'),
+        path: '/docusaurus/ja/docs/components/desktop/dropdown',
+        component: ComponentCreator('/docusaurus/ja/docs/components/desktop/dropdown', 'a5a'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/desktop/field-group',
-        component: ComponentCreator('/ja/docs/components/desktop/field-group', '8e2'),
+        path: '/docusaurus/ja/docs/components/desktop/field-group',
+        component: ComponentCreator('/docusaurus/ja/docs/components/desktop/field-group', '757'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/desktop/multichoice',
-        component: ComponentCreator('/ja/docs/components/desktop/multichoice', '326'),
+        path: '/docusaurus/ja/docs/components/desktop/multichoice',
+        component: ComponentCreator('/docusaurus/ja/docs/components/desktop/multichoice', 'e70'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/desktop/notification',
-        component: ComponentCreator('/ja/docs/components/desktop/notification', 'f60'),
+        path: '/docusaurus/ja/docs/components/desktop/notification',
+        component: ComponentCreator('/docusaurus/ja/docs/components/desktop/notification', 'ad8'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/desktop/radio-button',
-        component: ComponentCreator('/ja/docs/components/desktop/radio-button', '023'),
+        path: '/docusaurus/ja/docs/components/desktop/radio-button',
+        component: ComponentCreator('/docusaurus/ja/docs/components/desktop/radio-button', 'fc8'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/desktop/readonly-table',
-        component: ComponentCreator('/ja/docs/components/desktop/readonly-table', '14d'),
+        path: '/docusaurus/ja/docs/components/desktop/readonly-table',
+        component: ComponentCreator('/docusaurus/ja/docs/components/desktop/readonly-table', 'e31'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/desktop/spinner',
-        component: ComponentCreator('/ja/docs/components/desktop/spinner', '004'),
+        path: '/docusaurus/ja/docs/components/desktop/spinner',
+        component: ComponentCreator('/docusaurus/ja/docs/components/desktop/spinner', '5be'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/desktop/table',
-        component: ComponentCreator('/ja/docs/components/desktop/table', '4e7'),
+        path: '/docusaurus/ja/docs/components/desktop/table',
+        component: ComponentCreator('/docusaurus/ja/docs/components/desktop/table', 'f07'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/desktop/tabs',
-        component: ComponentCreator('/ja/docs/components/desktop/tabs', 'c36'),
+        path: '/docusaurus/ja/docs/components/desktop/tabs',
+        component: ComponentCreator('/docusaurus/ja/docs/components/desktop/tabs', '716'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/desktop/text',
-        component: ComponentCreator('/ja/docs/components/desktop/text', 'b31'),
+        path: '/docusaurus/ja/docs/components/desktop/text',
+        component: ComponentCreator('/docusaurus/ja/docs/components/desktop/text', 'e08'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/desktop/textarea',
-        component: ComponentCreator('/ja/docs/components/desktop/textarea', 'a73'),
+        path: '/docusaurus/ja/docs/components/desktop/textarea',
+        component: ComponentCreator('/docusaurus/ja/docs/components/desktop/textarea', '978'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/desktop/time-picker',
-        component: ComponentCreator('/ja/docs/components/desktop/time-picker', '162'),
+        path: '/docusaurus/ja/docs/components/desktop/time-picker',
+        component: ComponentCreator('/docusaurus/ja/docs/components/desktop/time-picker', 'f46'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/mobile/mobile-button',
-        component: ComponentCreator('/ja/docs/components/mobile/mobile-button', '52c'),
+        path: '/docusaurus/ja/docs/components/mobile/mobile-button',
+        component: ComponentCreator('/docusaurus/ja/docs/components/mobile/mobile-button', 'a42'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/mobile/mobile-checkbox',
-        component: ComponentCreator('/ja/docs/components/mobile/mobile-checkbox', '73e'),
+        path: '/docusaurus/ja/docs/components/mobile/mobile-checkbox',
+        component: ComponentCreator('/docusaurus/ja/docs/components/mobile/mobile-checkbox', '20b'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/mobile/mobile-date-picker',
-        component: ComponentCreator('/ja/docs/components/mobile/mobile-date-picker', 'b39'),
+        path: '/docusaurus/ja/docs/components/mobile/mobile-date-picker',
+        component: ComponentCreator('/docusaurus/ja/docs/components/mobile/mobile-date-picker', 'cd8'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/mobile/mobile-datetime-picker',
-        component: ComponentCreator('/ja/docs/components/mobile/mobile-datetime-picker', '981'),
+        path: '/docusaurus/ja/docs/components/mobile/mobile-datetime-picker',
+        component: ComponentCreator('/docusaurus/ja/docs/components/mobile/mobile-datetime-picker', 'd67'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/mobile/mobile-dropdown',
-        component: ComponentCreator('/ja/docs/components/mobile/mobile-dropdown', '170'),
+        path: '/docusaurus/ja/docs/components/mobile/mobile-dropdown',
+        component: ComponentCreator('/docusaurus/ja/docs/components/mobile/mobile-dropdown', 'bb0'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/mobile/mobile-multichoice',
-        component: ComponentCreator('/ja/docs/components/mobile/mobile-multichoice', '1d9'),
+        path: '/docusaurus/ja/docs/components/mobile/mobile-multichoice',
+        component: ComponentCreator('/docusaurus/ja/docs/components/mobile/mobile-multichoice', 'b44'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/mobile/mobile-notification',
-        component: ComponentCreator('/ja/docs/components/mobile/mobile-notification', '422'),
+        path: '/docusaurus/ja/docs/components/mobile/mobile-notification',
+        component: ComponentCreator('/docusaurus/ja/docs/components/mobile/mobile-notification', 'e78'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/mobile/mobile-radio-button',
-        component: ComponentCreator('/ja/docs/components/mobile/mobile-radio-button', 'a9b'),
+        path: '/docusaurus/ja/docs/components/mobile/mobile-radio-button',
+        component: ComponentCreator('/docusaurus/ja/docs/components/mobile/mobile-radio-button', '8bb'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/mobile/mobile-text',
-        component: ComponentCreator('/ja/docs/components/mobile/mobile-text', '77b'),
+        path: '/docusaurus/ja/docs/components/mobile/mobile-text',
+        component: ComponentCreator('/docusaurus/ja/docs/components/mobile/mobile-text', '14d'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/mobile/mobile-textarea',
-        component: ComponentCreator('/ja/docs/components/mobile/mobile-textarea', '37b'),
+        path: '/docusaurus/ja/docs/components/mobile/mobile-textarea',
+        component: ComponentCreator('/docusaurus/ja/docs/components/mobile/mobile-textarea', '437'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/components/mobile/mobile-time-picker',
-        component: ComponentCreator('/ja/docs/components/mobile/mobile-time-picker', '68b'),
+        path: '/docusaurus/ja/docs/components/mobile/mobile-time-picker',
+        component: ComponentCreator('/docusaurus/ja/docs/components/mobile/mobile-time-picker', '9f1'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/getting-started/custom-css',
-        component: ComponentCreator('/ja/docs/getting-started/custom-css', 'b57'),
+        path: '/docusaurus/ja/docs/getting-started/custom-css',
+        component: ComponentCreator('/docusaurus/ja/docs/getting-started/custom-css', 'bbc'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/getting-started/quick-start',
-        component: ComponentCreator('/ja/docs/getting-started/quick-start', '536'),
+        path: '/docusaurus/ja/docs/getting-started/quick-start',
+        component: ComponentCreator('/docusaurus/ja/docs/getting-started/quick-start', '14d'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/getting-started/usage-with-typescript',
-        component: ComponentCreator('/ja/docs/getting-started/usage-with-typescript', '7e4'),
+        path: '/docusaurus/ja/docs/getting-started/usage-with-typescript',
+        component: ComponentCreator('/docusaurus/ja/docs/getting-started/usage-with-typescript', '906'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/guides/attachment-customization',
-        component: ComponentCreator('/ja/docs/guides/attachment-customization', 'd36'),
+        path: '/docusaurus/ja/docs/guides/attachment-customization',
+        component: ComponentCreator('/docusaurus/ja/docs/guides/attachment-customization', 'c64'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/guides/bulk-update-customization',
-        component: ComponentCreator('/ja/docs/guides/bulk-update-customization', '6a1'),
+        path: '/docusaurus/ja/docs/guides/bulk-update-customization',
+        component: ComponentCreator('/docusaurus/ja/docs/guides/bulk-update-customization', 'bd5'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/guides/cleaning-check-list-customization',
-        component: ComponentCreator('/ja/docs/guides/cleaning-check-list-customization', 'ea8'),
+        path: '/docusaurus/ja/docs/guides/cleaning-check-list-customization',
+        component: ComponentCreator('/docusaurus/ja/docs/guides/cleaning-check-list-customization', '92a'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/guides/comparison-v0-v1',
-        component: ComponentCreator('/ja/docs/guides/comparison-v0-v1', 'c7e'),
+        path: '/docusaurus/ja/docs/guides/comparison-v0-v1',
+        component: ComponentCreator('/docusaurus/ja/docs/guides/comparison-v0-v1', 'fa8'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/guides/format-setting-plugin',
-        component: ComponentCreator('/ja/docs/guides/format-setting-plugin', 'a6c'),
+        path: '/docusaurus/ja/docs/guides/format-setting-plugin',
+        component: ComponentCreator('/docusaurus/ja/docs/guides/format-setting-plugin', 'f2d'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/guides/mobile-timecard-customization',
-        component: ComponentCreator('/ja/docs/guides/mobile-timecard-customization', '5bf'),
+        path: '/docusaurus/ja/docs/guides/mobile-timecard-customization',
+        component: ComponentCreator('/docusaurus/ja/docs/guides/mobile-timecard-customization', 'f90'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/guides/search-box-customization',
-        component: ComponentCreator('/ja/docs/guides/search-box-customization', '641'),
+        path: '/docusaurus/ja/docs/guides/search-box-customization',
+        component: ComponentCreator('/docusaurus/ja/docs/guides/search-box-customization', '331'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/guides/table-readonly-table-customization',
-        component: ComponentCreator('/ja/docs/guides/table-readonly-table-customization', '989'),
+        path: '/docusaurus/ja/docs/guides/table-readonly-table-customization',
+        component: ComponentCreator('/docusaurus/ja/docs/guides/table-readonly-table-customization', '825'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/guides/tabs-customization',
-        component: ComponentCreator('/ja/docs/guides/tabs-customization', '13b'),
+        path: '/docusaurus/ja/docs/guides/tabs-customization',
+        component: ComponentCreator('/docusaurus/ja/docs/guides/tabs-customization', '884'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/guides/version-conflicts-issue-solution',
-        component: ComponentCreator('/ja/docs/guides/version-conflicts-issue-solution', 'd29'),
+        path: '/docusaurus/ja/docs/guides/version-conflicts-issue-solution',
+        component: ComponentCreator('/docusaurus/ja/docs/guides/version-conflicts-issue-solution', '93e'),
         exact: true,
         sidebar: "docs"
       },
       {
-        path: '/ja/docs/releases/release-notes',
-        component: ComponentCreator('/ja/docs/releases/release-notes', '724'),
+        path: '/docusaurus/ja/docs/releases/release-notes',
+        component: ComponentCreator('/docusaurus/ja/docs/releases/release-notes', 'bf9'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/releases/release-notes-v1.0.0',
-        component: ComponentCreator('/ja/docs/releases/release-notes-v1.0.0', 'b79'),
+        path: '/docusaurus/ja/docs/releases/release-notes-v1.0.0',
+        component: ComponentCreator('/docusaurus/ja/docs/releases/release-notes-v1.0.0', '96a'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/releases/release-notes-v1.0.1',
-        component: ComponentCreator('/ja/docs/releases/release-notes-v1.0.1', 'ebd'),
+        path: '/docusaurus/ja/docs/releases/release-notes-v1.0.1',
+        component: ComponentCreator('/docusaurus/ja/docs/releases/release-notes-v1.0.1', '993'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/releases/release-notes-v1.0.2',
-        component: ComponentCreator('/ja/docs/releases/release-notes-v1.0.2', 'c47'),
+        path: '/docusaurus/ja/docs/releases/release-notes-v1.0.2',
+        component: ComponentCreator('/docusaurus/ja/docs/releases/release-notes-v1.0.2', '24f'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/releases/release-notes-v1.0.3',
-        component: ComponentCreator('/ja/docs/releases/release-notes-v1.0.3', '0b4'),
+        path: '/docusaurus/ja/docs/releases/release-notes-v1.0.3',
+        component: ComponentCreator('/docusaurus/ja/docs/releases/release-notes-v1.0.3', '098'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/releases/release-notes-v1.0.4',
-        component: ComponentCreator('/ja/docs/releases/release-notes-v1.0.4', '8ff'),
+        path: '/docusaurus/ja/docs/releases/release-notes-v1.0.4',
+        component: ComponentCreator('/docusaurus/ja/docs/releases/release-notes-v1.0.4', '2a0'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/releases/release-notes-v1.0.5',
-        component: ComponentCreator('/ja/docs/releases/release-notes-v1.0.5', 'fe7'),
+        path: '/docusaurus/ja/docs/releases/release-notes-v1.0.5',
+        component: ComponentCreator('/docusaurus/ja/docs/releases/release-notes-v1.0.5', 'caa'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/releases/release-notes-v1.1.0',
-        component: ComponentCreator('/ja/docs/releases/release-notes-v1.1.0', '8cd'),
+        path: '/docusaurus/ja/docs/releases/release-notes-v1.1.0',
+        component: ComponentCreator('/docusaurus/ja/docs/releases/release-notes-v1.1.0', '10a'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/releases/release-notes-v1.1.1',
-        component: ComponentCreator('/ja/docs/releases/release-notes-v1.1.1', 'a87'),
+        path: '/docusaurus/ja/docs/releases/release-notes-v1.1.1',
+        component: ComponentCreator('/docusaurus/ja/docs/releases/release-notes-v1.1.1', '554'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/releases/release-notes-v1.2.0',
-        component: ComponentCreator('/ja/docs/releases/release-notes-v1.2.0', '242'),
+        path: '/docusaurus/ja/docs/releases/release-notes-v1.2.0',
+        component: ComponentCreator('/docusaurus/ja/docs/releases/release-notes-v1.2.0', '0fa'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/releases/release-notes-v1.3.0',
-        component: ComponentCreator('/ja/docs/releases/release-notes-v1.3.0', '86a'),
+        path: '/docusaurus/ja/docs/releases/release-notes-v1.3.0',
+        component: ComponentCreator('/docusaurus/ja/docs/releases/release-notes-v1.3.0', 'a85'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/releases/release-notes-v1.3.1',
-        component: ComponentCreator('/ja/docs/releases/release-notes-v1.3.1', '655'),
+        path: '/docusaurus/ja/docs/releases/release-notes-v1.3.1',
+        component: ComponentCreator('/docusaurus/ja/docs/releases/release-notes-v1.3.1', 'ec7'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/releases/release-notes-v1.3.2',
-        component: ComponentCreator('/ja/docs/releases/release-notes-v1.3.2', '370'),
+        path: '/docusaurus/ja/docs/releases/release-notes-v1.3.2',
+        component: ComponentCreator('/docusaurus/ja/docs/releases/release-notes-v1.3.2', '0c6'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/releases/release-notes-v1.4.0',
-        component: ComponentCreator('/ja/docs/releases/release-notes-v1.4.0', 'd5f'),
+        path: '/docusaurus/ja/docs/releases/release-notes-v1.4.0',
+        component: ComponentCreator('/docusaurus/ja/docs/releases/release-notes-v1.4.0', 'da7'),
         exact: true,
         sidebar: "release-notes"
       },
       {
-        path: '/ja/docs/utilities/version',
-        component: ComponentCreator('/ja/docs/utilities/version', '6d7'),
+        path: '/docusaurus/ja/docs/utilities/version',
+        component: ComponentCreator('/docusaurus/ja/docs/utilities/version', '586'),
         exact: true,
         sidebar: "docs"
       }
     ]
   },
   {
-    path: '/ja/',
-    component: ComponentCreator('/ja/', 'a09'),
+    path: '/docusaurus/ja/',
+    component: ComponentCreator('/docusaurus/ja/', 'e33'),
     exact: true
   },
   {

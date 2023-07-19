@@ -6,7 +6,7 @@
   "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/checkbox.md",
   "sourceDirName": "components/desktop",
   "slug": "/components/desktop/checkbox",
-  "permalink": "/ja/docs/next/components/desktop/checkbox",
+  "permalink": "/docusaurus/ja/docs/next/components/desktop/checkbox",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Button",
-    "permalink": "/ja/docs/next/components/desktop/button"
+    "permalink": "/docusaurus/ja/docs/next/components/desktop/button"
   },
   "next": {
     "title": "Combobox",
-    "permalink": "/ja/docs/next/components/desktop/combobox"
+    "permalink": "/docusaurus/ja/docs/next/components/desktop/combobox"
   }
 }

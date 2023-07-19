@@ -6,7 +6,7 @@
   "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/field-group.md",
   "sourceDirName": "components/desktop",
   "slug": "/components/desktop/field-group",
-  "permalink": "/ja/docs/next/components/desktop/field-group",
+  "permalink": "/docusaurus/ja/docs/next/components/desktop/field-group",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Dropdown",
-    "permalink": "/ja/docs/next/components/desktop/dropdown"
+    "permalink": "/docusaurus/ja/docs/next/components/desktop/dropdown"
   },
   "next": {
     "title": "MultiChoice",
-    "permalink": "/ja/docs/next/components/desktop/multichoice"
+    "permalink": "/docusaurus/ja/docs/next/components/desktop/multichoice"
   }
 }

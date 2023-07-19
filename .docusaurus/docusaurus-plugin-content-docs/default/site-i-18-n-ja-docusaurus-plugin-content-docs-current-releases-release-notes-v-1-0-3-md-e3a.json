@@ -6,7 +6,7 @@
   "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/releases/release-notes-v1.0.3.md",
   "sourceDirName": "releases",
   "slug": "/releases/release-notes-v1.0.3",
-  "permalink": "/ja/docs/next/releases/release-notes-v1.0.3",
+  "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.3",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "release-notes",
   "previous": {
     "title": "v1.0.4 Release Notes",
-    "permalink": "/ja/docs/next/releases/release-notes-v1.0.4"
+    "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.4"
   },
   "next": {
     "title": "v1.0.2 Release Notes",
-    "permalink": "/ja/docs/next/releases/release-notes-v1.0.2"
+    "permalink": "/docusaurus/ja/docs/next/releases/release-notes-v1.0.2"
   }
 }

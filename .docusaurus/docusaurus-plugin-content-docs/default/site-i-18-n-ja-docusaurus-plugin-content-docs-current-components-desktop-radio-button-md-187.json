@@ -6,7 +6,7 @@
   "source": "@site/i18n/ja/docusaurus-plugin-content-docs/current/components/desktop/radio-button.md",
   "sourceDirName": "components/desktop",
   "slug": "/components/desktop/radio-button",
-  "permalink": "/ja/docs/next/components/desktop/radio-button",
+  "permalink": "/docusaurus/ja/docs/next/components/desktop/radio-button",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Notification",
-    "permalink": "/ja/docs/next/components/desktop/notification"
+    "permalink": "/docusaurus/ja/docs/next/components/desktop/notification"
   },
   "next": {
     "title": "ReadOnlyTable",
-    "permalink": "/ja/docs/next/components/desktop/readonly-table"
+    "permalink": "/docusaurus/ja/docs/next/components/desktop/readonly-table"
   }
 }

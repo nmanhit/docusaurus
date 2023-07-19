@@ -6,7 +6,7 @@
   "source": "@site/i18n/ja/docusaurus-plugin-content-docs/version-1.11.0/guides/format-setting-plugin.md",
   "sourceDirName": "guides",
   "slug": "/guides/format-setting-plugin",
-  "permalink": "/ja/docs/guides/format-setting-plugin",
+  "permalink": "/docusaurus/ja/docs/guides/format-setting-plugin",
   "draft": false,
   "tags": [],
   "version": "1.11.0",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Bulk update customization",
-    "permalink": "/ja/docs/guides/bulk-update-customization"
+    "permalink": "/docusaurus/ja/docs/guides/bulk-update-customization"
   },
   "next": {
     "title": "Version conflicts issue and solution",
-    "permalink": "/ja/docs/guides/version-conflicts-issue-solution"
+    "permalink": "/docusaurus/ja/docs/guides/version-conflicts-issue-solution"
   }
 }

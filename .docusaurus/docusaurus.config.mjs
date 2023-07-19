@@ -15,13 +15,13 @@ export default {
     }
   ],
   "tagline": "It will support your UI customization project.",
-  "url": "https://kintone-ui-component.netlify.app",
-  "baseUrl": "/ja/",
+  "url": "https://nmanhit.github.io",
+  "baseUrl": "/docusaurus/ja/",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/kuc_box_yellow.png",
-  "organizationName": "kintone-labs",
-  "projectName": "kintone-ui-component",
+  "organizationName": "nmanhit",
+  "projectName": "docusaurus",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
