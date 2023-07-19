@@ -22,8 +22,8 @@ const config = {
     },
   ],
   tagline: 'It will support your UI customization project.',
-  url: 'https://nmanhit.github.io',
-  baseUrl: '/docusaurus/',
+  url: 'https://kuc-docusaurus-v2.netlify.app',
+  baseUrl: '/',
   onBrokenLinks: 'warn', // throw
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/kuc_box_yellow.png',
